@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F6B2FA10-BFC9-4A2D-9896-C4392A22C81E}" SchemaVersion="94">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{F6B2FA10-BFC9-4A2D-9896-C4392A22C81E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F6B2FA10-BFC9-4A2D-9896-C4392A22C81E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Mix" ID="{751913AB-E935-4DED-BD08-CA3D69615C99}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Ambience_BathRoom" ID="{96E48E0A-5BC4-4DEF-9DA4-6F7ADD01BE15}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ambience_BedRoom" ID="{0B573BC2-1B56-49CE-9955-D632748214A4}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_SideChain_FX" ID="{01E1EC19-240B-4990-ACFF-B218849E8CFB}"/>
+							<Value>-3</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Wood" ID="{88EA7DDB-493E-40EB-BDCB-7083BA549AAD}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

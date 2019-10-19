@@ -3,41 +3,183 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Main_Menu" ID="{8AEBA901-18D7-4ECD-8C12-150022F89682}">
-					<ChildrenList>
-						<Action Name="" ID="{11A15330-1B9E-4545-B236-CA49E2DF3988}" ShortID="638131692">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Test" ID="{3A666848-79C8-4664-8FDA-D6946936E1F5}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				<Event Name="Main_Menu" ID="{8AEBA901-18D7-4ECD-8C12-150022F89682}"/>
 				<Event Name="Ambience_LivingRoom" ID="{F00614AF-E33E-4E74-A927-C5AB88DBA437}">
 					<ChildrenList>
-						<Action Name="" ID="{DEC0B19F-F299-4243-8F77-BC844C9DAA4C}" ShortID="580153843">
+						<Action Name="" ID="{5988DFF0-332A-4D6C-B8BC-0413C5FEA5C4}" ShortID="875014759">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Test_01" ID="{BD7D2A07-9297-4F2E-9596-B01F671449BC}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+									<ObjectRef Name="Ambience_LivingRoom" ID="{F636065E-BDCB-483F-BEF1-E0454A903E63}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Ambience_Kitchen" ID="{76456A55-4583-46BB-A9F5-3CCD66A2D191}"/>
-				<Event Name="Ambience_BedRoom" ID="{0B573BC2-1B56-49CE-9955-D632748214A4}"/>
-				<Event Name="Ambience_BathRoom" ID="{96E48E0A-5BC4-4DEF-9DA4-6F7ADD01BE15}"/>
-				<Event Name="VO_PNJ_Laught" ID="{2E226DFD-FA88-41FC-AAE8-C49FE56F0F63}"/>
-				<Event Name="VO_PNJ_Embarrassed" ID="{4C6C0BAA-AAB7-4A26-8E3B-4BA51CFDA133}"/>
-				<Event Name="VO_Dancing" ID="{23AD3944-6A3A-489A-AEBB-A189185955CE}"/>
-				<Event Name="MC_Footsteps" ID="{A5F6CA2C-7476-4927-B30F-59D3056DED10}"/>
-				<Event Name="MC_CallPeople" ID="{79304E83-039C-4714-A5FF-1F30E28BB518}"/>
-				<Event Name="MC_Breath" ID="{5097DA1C-0D82-4671-8CA2-CE6AE6D75018}"/>
-				<Event Name="MC_HearthBeat" ID="{341B3389-C411-4583-A831-BD2B8721EB36}"/>
-				<Event Name="FX_PhoneRing" ID="{4F5BA3BF-A1F2-4DDD-9325-BE9FF50D47FC}"/>
-				<Event Name="FX_FeedBack" ID="{4293EE11-A58E-4FF2-95E2-E59B58CA644F}"/>
-				<Event Name="FX_PhoneOff" ID="{1CF5363F-EE29-4BAC-8B6B-6BAB94976AAA}"/>
+				<Event Name="Ambience_Kitchen" ID="{76456A55-4583-46BB-A9F5-3CCD66A2D191}">
+					<ChildrenList>
+						<Action Name="" ID="{07722C17-B4A4-4758-A75A-39D3AF2A7F9D}" ShortID="716205220">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_Kitchen" ID="{9F35C00C-8B6E-41D8-B11E-37574BA2407C}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambience_BedRoom" ID="{0B573BC2-1B56-49CE-9955-D632748214A4}">
+					<ChildrenList>
+						<Action Name="" ID="{7CD91F01-0BDE-4E5F-8692-6A083219E742}" ShortID="680184599">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_BedRoom" ID="{89822636-A87D-4BB7-9DC4-F74DB09AECE6}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2C9077A9-1588-4D3B-A4E9-66EABB1FB86C}" ShortID="30615491">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_BathRoom" ID="{4AF15DCF-E25A-494E-8CFB-5539D1B58CF9}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambience_BathRoom" ID="{96E48E0A-5BC4-4DEF-9DA4-6F7ADD01BE15}">
+					<ChildrenList>
+						<Action Name="" ID="{1DA66A29-0AE3-4A6B-AE3C-6D4435B30A0C}" ShortID="593352788">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_BathRoom" ID="{4AF15DCF-E25A-494E-8CFB-5539D1B58CF9}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7BF7009D-8B90-49AF-9403-67BDC88905D6}" ShortID="858160183">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_BedRoom" ID="{89822636-A87D-4BB7-9DC4-F74DB09AECE6}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_PNJ_Laught" ID="{2E226DFD-FA88-41FC-AAE8-C49FE56F0F63}">
+					<ChildrenList>
+						<Action Name="" ID="{AD8C2721-5A75-4AD6-A37C-3C8DE2828377}" ShortID="578604286">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_PNJ_Laught" ID="{EA76886D-7501-4D37-9935-388C5D3DB7F0}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_PNJ_Embarrassed" ID="{4C6C0BAA-AAB7-4A26-8E3B-4BA51CFDA133}">
+					<ChildrenList>
+						<Action Name="" ID="{42FFD8A0-A2CA-472B-9B76-844A8B68A5BA}" ShortID="6440048">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_PNJ_Embarrassed" ID="{6A741046-2D55-4F4C-9214-F912836A8221}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_Dancing" ID="{23AD3944-6A3A-489A-AEBB-A189185955CE}">
+					<ChildrenList>
+						<Action Name="" ID="{B59C318D-892E-4477-BEEB-E6D417B82112}" ShortID="393257546">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_Dancing" ID="{4FDEA711-1D82-46A5-964B-C2F5AE650BEE}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MC_Footsteps" ID="{A5F6CA2C-7476-4927-B30F-59D3056DED10}">
+					<ChildrenList>
+						<Action Name="" ID="{59D6FE53-090A-4288-96DB-D578EACC08B4}" ShortID="1071418381">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Foosteps" ID="{E587F1BF-DD75-4EBA-8A2E-08DBAA36D110}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MC_CallPeople" ID="{79304E83-039C-4714-A5FF-1F30E28BB518}">
+					<ChildrenList>
+						<Action Name="" ID="{72BC0061-E341-4239-83E7-2DB7360A8F92}" ShortID="32742140">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_CallPeople" ID="{8595D91A-F117-41E7-8BED-2E4112C1FF1F}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MC_Breath" ID="{5097DA1C-0D82-4671-8CA2-CE6AE6D75018}">
+					<ChildrenList>
+						<Action Name="" ID="{A558BD3E-46AB-4331-B0A1-03886317D97D}" ShortID="625673788">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Breath" ID="{2760E8FB-EF38-4C2C-808F-083FD892196E}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MC_HearthBeat" ID="{341B3389-C411-4583-A831-BD2B8721EB36}">
+					<ChildrenList>
+						<Action Name="" ID="{3A22D394-FD35-4027-A40B-89107CB3F6DD}" ShortID="669170060">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_HearthBeat" ID="{7F4E6425-18B5-4764-BC4E-EE99E3D4C7EB}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FX_PhoneRing" ID="{4F5BA3BF-A1F2-4DDD-9325-BE9FF50D47FC}">
+					<ChildrenList>
+						<Action Name="" ID="{6330DD1F-FA72-425F-9DA5-8C96891D4696}" ShortID="474858183">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FX_PhoneRing" ID="{D6DE6847-52A1-4843-8372-9405BB0C9F75}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FX_FeedBack" ID="{4293EE11-A58E-4FF2-95E2-E59B58CA644F}">
+					<ChildrenList>
+						<Action Name="" ID="{DE9C9BBC-0772-4347-AFB2-0F8D36CC04E8}" ShortID="995632076">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FX_FeedBack" ID="{C531D8AA-BB81-4A5C-A57F-0D15F3DE2C2F}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FX_PhoneOff" ID="{1CF5363F-EE29-4BAC-8B6B-6BAB94976AAA}">
+					<ChildrenList>
+						<Action Name="" ID="{7EB44BB5-CFC1-4AE9-BDE1-EB9463FE30FF}" ShortID="46316789">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FX_PhoneOff" ID="{1D652EDE-5E52-4129-B3E8-3BB12709D7F7}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

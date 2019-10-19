@@ -1,5 +1,15 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1038960886	RTPC_SideChain_FX			\Default Work Unit\RTPC_SideChain_FX	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
+	1534528548	VO			\Default Work Unit\Master Audio Bus\VO	
+	1685527061	MC			\Default Work Unit\Master Audio Bus\MC	
+	1802970371	FX			\Default Work Unit\Master Audio Bus\FX	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	623221272	Wwise_Meter_(Custom)	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
