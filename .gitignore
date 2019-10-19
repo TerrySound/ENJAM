@@ -4,7 +4,7 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
-ENJAM2019_WwiseProject/
+ENJAM2019_WwiseProject*
 
 # Visual Studio cache directory
 .vs/
