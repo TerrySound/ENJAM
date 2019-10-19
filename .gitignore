@@ -3,7 +3,7 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
-ENJAM2019_WwiseProject/
+
 Assets/AssetStoreTools*
 
 
@@ -37,3 +37,4 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+ENJAM2019_WwiseProject/
