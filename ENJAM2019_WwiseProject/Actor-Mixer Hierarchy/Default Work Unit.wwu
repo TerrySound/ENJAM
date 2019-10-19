@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="Test" ID="{3A666848-79C8-4664-8FDA-D6946936E1F5}" ShortID="697202430">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Audi A5 DRIVE Accelerate &amp; Brake Fast 02 EXHAUST" ID="{5C66EA84-98F2-4FD4-9582-490383C13CC6}" ShortID="79200875">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Audi A5 DRIVE Accelerate &amp; Brake Fast 02 EXHAUST" ID="{26E2F204-FCE1-450F-8E6A-459DEE276AA1}" ShortID="8048079">
+									<Language>SFX</Language>
+									<AudioFile>Audi A5 DRIVE Accelerate &amp; Brake Fast 02 EXHAUST.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Audi A5 DRIVE Accelerate &amp; Brake Fast 02 EXHAUST" ID="{26E2F204-FCE1-450F-8E6A-459DEE276AA1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

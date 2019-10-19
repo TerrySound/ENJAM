@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\ELE5d5ab19ee5329\Documents\GitHub\ENJAM2019\ENJAM2019_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ELE5d5ab19ee5329\Documents\GitHub\ENJAM2019\ENJAM2019_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ELE5d5ab19ee5329\Documents\GitHub\ENJAM2019\ENJAM2019_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\ELE5d5ab19ee5329\Documents\GitHub\ENJAM2019\ENJAM2019_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1286107594" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SOUNBANK_WWISE</ObjectPath>
+			<ShortName>SOUNBANK_WWISE</ShortName>
+			<Path>SOUNBANK_WWISE.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4258653052" Name="Test_Event" ObjectPath="\Events\Default Work Unit\Test_Event" DurationType="OneShot" DurationMin="27.000000" DurationMax="27.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="8048079" Language="SFX">
+					<ShortName>Audi A5 DRIVE Accelerate &amp; Brake Fast 02 EXHAUST.wav</ShortName>
+					<Path>SFX\Audi A5 DRIVE Accelerate &amp; Brake Fast 02 EXHAUST_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
