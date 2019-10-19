@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 5ed96920ed67014693a7f69b56896bd9
     GuidInternal: 
-    m_lastTime: -8586301353096834096
+    m_lastTime: -8586301297629050257
     List:
     - name: SOUNBANK_WWISE
       guid: c171a1cb6b9d9c4ba46616a43dc94eda
@@ -47,7 +47,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 296dcd70bed7cd4698e1de4ab13efed1
     GuidInternal: 
-    m_lastTime: -8586301353723635130
+    m_lastTime: -8586301297628949777
     List:
     - name: Test_Event
       guid: 01a9eb8ad718cd4e8c12150022f89682
@@ -58,6 +58,18 @@ MonoBehaviour:
       - ElementName: Test_Event
         ObjectType: 3
       Path: Default Work Unit\Test_Event
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Test_Event_2
+      guid: af1406f03ee3744ea927c5ab88dba437
+      id: 1897643075
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Test_Event_2
+        ObjectType: 3
+      Path: Default Work Unit\Test_Event_2
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

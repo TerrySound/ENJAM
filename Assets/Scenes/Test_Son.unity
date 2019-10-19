@@ -271,7 +271,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 83e28fd8a3908324ebca710aa433e66b,
+    WwiseObjectReference: {fileID: 11400000, guid: 13abfb03211e7e948b8045b75d8c5ff4,
       type: 2}
   useCallbacks: 0
   Callbacks: []

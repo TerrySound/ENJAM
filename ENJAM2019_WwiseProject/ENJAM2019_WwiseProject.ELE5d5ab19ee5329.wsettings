@@ -4,6 +4,7 @@
 		<UserProjectSettings Name="" ID="{5AA8CE40-2E76-471E-ABC0-686DDEFC75D3}">
 			<PropertyList>
 				<Property Name="Event Action List\{8AEBA901-18D7-4ECD-8C12-150022F89682}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F00614AF-E33E-4E74-A927-C5AB88DBA437}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>

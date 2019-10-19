@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1897643075	Test_Event_2			\Default Work Unit\Test_Event_2	
 	4258653052	Test_Event			\Default Work Unit\Test_Event	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	8048079	Audi A5 DRIVE Accelerate & Brake Fast 02 EXHAUST	C:\Users\ELE5d5ab19ee5329\Documents\GitHub\ENJAM2019\ENJAM2019_WwiseProject\.cache\Windows\SFX\Audi A5 DRIVE Accelerate & Brake Fast 02 EXHAUST_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Audi A5 DRIVE Accelerate & Brake Fast 02 EXHAUST		2592064
+	8048079	Audi A5 DRIVE Accelerate & Brake Fast 02 EXHAUST	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\Audi A5 DRIVE Accelerate & Brake Fast 02 EXHAUST_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Audi A5 DRIVE Accelerate & Brake Fast 02 EXHAUST		2592064
+	704757519	Audi A5 DRIVE Accelerate & Brake Fast 02 EXHAUST	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\Audi A5 DRIVE Accelerate & Brake Fast 02 EXHAUST_98591F9B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test_01\Audi A5 DRIVE Accelerate & Brake Fast 02 EXHAUST		557446
 
