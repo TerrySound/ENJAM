@@ -23,7 +23,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Amb1" ID="{1BF48B68-BB42-425B-A928-98694ACAC3FD}" ShortID="1072482095">
+								<Sound Name="03 Fall_Body-Dirt2" ID="{13A9FE06-977C-4FBD-8457-47CBBAC90C9E}" ShortID="150358010">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
@@ -33,12 +33,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="Wwise Sine" ID="{87A6016E-C6B1-4286-9734-10DED81146D3}" ShortID="954272376" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+										<AudioFileSource Name="03 Fall_Body-Dirt2" ID="{203B85C3-49D6-4C27-90EB-4BCB6D77692A}" ShortID="36888686">
 											<Language>SFX</Language>
-										</SourcePlugin>
+											<AudioFile>03 Fall_Body-Dirt2.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Wwise Sine" ID="{87A6016E-C6B1-4286-9734-10DED81146D3}" Platform="Linked"/>
+										<ActiveSource Name="03 Fall_Body-Dirt2" ID="{203B85C3-49D6-4C27-90EB-4BCB6D77692A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -241,11 +242,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-15</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

@@ -17,6 +17,11 @@
 										<Value>12546</Value>
 									</ValueList>
 								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>0</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{4CD0398D-4521-4562-8B6B-647B035645E3}" ShortID="957231709">
@@ -69,6 +74,11 @@
 										<Value>12546</Value>
 									</ValueList>
 								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>0</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0">
@@ -86,6 +96,11 @@
 								<Property Name="BusChannelConfig" Type="int32">
 									<ValueList>
 										<Value>12546</Value>
+									</ValueList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>0</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
@@ -130,6 +145,11 @@
 										<Value>12546</Value>
 									</ValueList>
 								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>0</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OutputBusVolume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{D784C72E-8B7F-409B-AA87-41C779572E6D}" ShortID="321718055">
@@ -165,6 +185,33 @@
 								</Property>
 							</PropertyList>
 						</Bus>
+						<AuxBus Name="Reverb_Bathroom" ID="{56F1242D-8301-45D3-857D-1B1FBA4A25C4}">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>0</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</AuxBus>
+						<AuxBus Name="Reverb_LivingRoom" ID="{D61F5E6B-CED2-4FF5-9841-FE56A4074F20}">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>0</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</AuxBus>
+						<AuxBus Name="Reverb_Bedroom" ID="{1E8AFE93-05AC-4741-8058-773B33ACAC79}">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>0</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

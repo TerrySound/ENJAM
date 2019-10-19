@@ -16,7 +16,7 @@
 			<ShortName>SOUNBANK_WWISE</ShortName>
 			<Path>SOUNBANK_WWISE.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2024055086" Name="Ambience_BathRoom" ObjectPath="\Events\Default Work Unit\Ambience_BathRoom" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
+				<Event Id="2024055086" Name="Ambience_BathRoom" ObjectPath="\Events\Default Work Unit\Ambience_BathRoom" DurationType="OneShot" DurationMin="10.519771" DurationMax="10.519771"/>
 				<Event Id="2510340756" Name="Ambience_BedRoom" ObjectPath="\Events\Default Work Unit\Ambience_BedRoom" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
 				<Event Id="1710825164" Name="Ambience_Kitchen" ObjectPath="\Events\Default Work Unit\Ambience_Kitchen" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3642974746" Name="Ambience_LivingRoom" ObjectPath="\Events\Default Work Unit\Ambience_LivingRoom" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -36,6 +36,10 @@
 				<File Id="14350048" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_02.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_02_66C02B12.wem</Path>
+				</File>
+				<File Id="36888686" Language="SFX">
+					<ShortName>03 Fall_Body-Dirt2.wav</ShortName>
+					<Path>SFX\03 Fall_Body-Dirt2_66C02B12.wem</Path>
 				</File>
 				<File Id="70509852" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_07.wav</ShortName>
