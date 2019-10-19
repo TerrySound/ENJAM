@@ -16,30 +16,31 @@
 			<ShortName>SOUNBANK_WWISE</ShortName>
 			<Path>SOUNBANK_WWISE.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2024055086" Name="Ambience_BathRoom" ObjectPath="\Events\Default Work Unit\Ambience_BathRoom" DurationType="OneShot" DurationMin="10.519771" DurationMax="10.519771"/>
-				<Event Id="2510340756" Name="Ambience_BedRoom" ObjectPath="\Events\Default Work Unit\Ambience_BedRoom" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
+				<Event Id="2024055086" Name="Ambience_BathRoom" ObjectPath="\Events\Default Work Unit\Ambience_BathRoom" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2510340756" Name="Ambience_BedRoom" ObjectPath="\Events\Default Work Unit\Ambience_BedRoom" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1710825164" Name="Ambience_Kitchen" ObjectPath="\Events\Default Work Unit\Ambience_Kitchen" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3642974746" Name="Ambience_LivingRoom" ObjectPath="\Events\Default Work Unit\Ambience_LivingRoom" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3205713061" Name="FX_Fridge" ObjectPath="\Events\Default Work Unit\FX_Fridge" MaxAttenuation="500.000000" DurationType="OneShot" DurationMin="12.339207" DurationMax="12.339207"/>
 				<Event Id="2490349429" Name="FX_PhoneOff" ObjectPath="\Events\Default Work Unit\FX_PhoneOff" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3011458840" Name="FX_PhoneRing" ObjectPath="\Events\Default Work Unit\FX_PhoneRing" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2005704188" Name="Main_Menu" ObjectPath="\Events\Default Work Unit\Main_Menu" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2014603798" Name="MC_Breath" ObjectPath="\Events\Default Work Unit\MC_Breath" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1692856769" Name="MC_CallPeople" ObjectPath="\Events\Default Work Unit\MC_CallPeople" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1648013973" Name="MC_Footsteps" ObjectPath="\Events\Default Work Unit\MC_Footsteps" DurationType="OneShot" DurationMin="0.628730" DurationMax="0.903537"/>
+				<Event Id="1648013973" Name="MC_Footsteps" ObjectPath="\Events\Default Work Unit\MC_Footsteps" DurationType="OneShot" DurationMin="0.339592" DurationMax="1.014186"/>
 				<Event Id="3065870848" Name="MC_HearthBeat" ObjectPath="\Events\Default Work Unit\MC_HearthBeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1577475545" Name="VO_Dancing" ObjectPath="\Events\Default Work Unit\VO_Dancing" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3796451867" Name="VO_PNJ_Embarrassed" ObjectPath="\Events\Default Work Unit\VO_PNJ_Embarrassed" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3673579421" Name="VO_PNJ_Laught" ObjectPath="\Events\Default Work Unit\VO_PNJ_Laught" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="9520817" Language="SFX">
+					<ShortName>MC_Floor_FS_03.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_03_66C02B12.wem</Path>
+				</File>
 				<File Id="14350048" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_02.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_02_66C02B12.wem</Path>
-				</File>
-				<File Id="36888686" Language="SFX">
-					<ShortName>03 Fall_Body-Dirt2.wav</ShortName>
-					<Path>SFX\03 Fall_Body-Dirt2_66C02B12.wem</Path>
 				</File>
 				<File Id="70509852" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_07.wav</ShortName>
@@ -56,6 +57,18 @@
 				<File Id="160356805" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_13.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_13_66C02B12.wem</Path>
+				</File>
+				<File Id="185827285" Language="SFX">
+					<ShortName>MC_Floor_FS_05.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_05_66C02B12.wem</Path>
+				</File>
+				<File Id="189186148" Language="SFX">
+					<ShortName>MC_Floor_FS_01.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_01_66C02B12.wem</Path>
+				</File>
+				<File Id="210591787" Language="SFX">
+					<ShortName>MC_Floor_FS_07.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_07_66C02B12.wem</Path>
 				</File>
 				<File Id="224776312" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_12.wav</ShortName>
@@ -77,9 +90,21 @@
 					<ShortName>MC_Wood_FS\MC_Wood_FS_05.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_05_66C02B12.wem</Path>
 				</File>
+				<File Id="555347811" Language="SFX">
+					<ShortName>FX_Fridge.wav</ShortName>
+					<Path>SFX\FX_Fridge_66C02B12.wem</Path>
+				</File>
+				<File Id="561983247" Language="SFX">
+					<ShortName>MC_Floor_FS_04.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_04_66C02B12.wem</Path>
+				</File>
 				<File Id="616251333" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_11.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_11_66C02B12.wem</Path>
+				</File>
+				<File Id="664329015" Language="SFX">
+					<ShortName>MC_Floor_FS_09.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_09_66C02B12.wem</Path>
 				</File>
 				<File Id="749355102" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_04.wav</ShortName>
@@ -89,9 +114,25 @@
 					<ShortName>MC_Wood_FS\MC_Wood_FS_08.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_08_66C02B12.wem</Path>
 				</File>
+				<File Id="869575825" Language="SFX">
+					<ShortName>MC_Floor_FS_08.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_08_66C02B12.wem</Path>
+				</File>
+				<File Id="884335589" Language="SFX">
+					<ShortName>MC_Floor_FS_06.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_06_66C02B12.wem</Path>
+				</File>
 				<File Id="887183314" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_01.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_01_66C02B12.wem</Path>
+				</File>
+				<File Id="896004742" Language="SFX">
+					<ShortName>MC_Floor_FS_02.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_02_66C02B12.wem</Path>
+				</File>
+				<File Id="946887884" Language="SFX">
+					<ShortName>MC_Floor_FS_10.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_10_66C02B12.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

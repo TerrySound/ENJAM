@@ -180,6 +180,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="FX_Fridge" ID="{484CEDEF-50B9-4C8D-80D0-E7128673DE74}">
+					<ChildrenList>
+						<Action Name="" ID="{139B55EB-5AA2-498C-AF3C-0A7CBA2FA462}" ShortID="404871486">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FX_Fridge" ID="{3CF7CB38-4711-47F8-8742-F20685A20848}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

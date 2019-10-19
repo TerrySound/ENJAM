@@ -11,6 +11,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2510340756	Ambience_BedRoom			\Default Work Unit\Ambience_BedRoom	
 	3011458840	FX_PhoneRing			\Default Work Unit\FX_PhoneRing	
 	3065870848	MC_HearthBeat			\Default Work Unit\MC_HearthBeat	
+	3205713061	FX_Fridge			\Default Work Unit\FX_Fridge	
 	3642974746	Ambience_LivingRoom			\Default Work Unit\Ambience_LivingRoom	
 	3673579421	VO_PNJ_Laught			\Default Work Unit\VO_PNJ_Laught	
 	3796451867	VO_PNJ_Embarrassed			\Default Work Unit\VO_PNJ_Embarrassed	
@@ -22,23 +23,30 @@ Switch	ID	Name	Switch Group			Notes
 	1088209313	Floor	Texture			
 	2058049674	Wood	Texture			
 
-Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	290155293	Wwise Sine	Wwise Sine		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience_BedRoom\Amb2\Wwise Sine	
-
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	9520817	MC_Floor_FS_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_03_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_03		11802
 	14350048	MC_Wood_FS_02	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_02_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_02		38700
-	36888686	03 Fall_Body-Dirt2	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\03 Fall_Body-Dirt2_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience_BathRoom\03 Fall_Body-Dirt2		221257
 	70509852	MC_Wood_FS_07	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_07_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_07		32281
 	136788477	MC_Wood_FS_14	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_14_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_14		26391
 	157910693	MC_Wood_FS_10	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_10_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_10		29939
 	160356805	MC_Wood_FS_13	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_13_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_13		36460
+	185827285	MC_Floor_FS_05	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_05_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_05		10890
+	189186148	MC_Floor_FS_01	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_01_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_01		19408
+	210591787	MC_Floor_FS_07	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_07_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_07		12560
 	224776312	MC_Wood_FS_12	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_12_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_12		36336
 	273541201	MC_Wood_FS_06	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_06_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_06		30931
 	443761236	MC_Wood_FS_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_03_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_03		35365
 	484190720	MC_Wood_FS_09	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_09_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_09		31790
 	536595270	MC_Wood_FS_05	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_05_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_05		33328
+	555347811	FX_Fridge	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\FX_Fridge_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Fridge\FX_Fridge		816807
+	561983247	MC_Floor_FS_04	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_04_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_04		11759
 	616251333	MC_Wood_FS_11	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_11_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_11		33183
+	664329015	MC_Floor_FS_09	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_09_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_09		11652
 	749355102	MC_Wood_FS_04	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_04_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_04		35607
 	798328390	MC_Wood_FS_08	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_08_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_08		34104
+	869575825	MC_Floor_FS_08	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_08_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_08		12378
+	884335589	MC_Floor_FS_06	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_06_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_06		11389
 	887183314	MC_Wood_FS_01	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_01_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_01		36735
+	896004742	MC_Floor_FS_02	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_02_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_02		11377
+	946887884	MC_Floor_FS_10	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_10_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_10		15413
 

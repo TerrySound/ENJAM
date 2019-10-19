@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 8773f664cf49ef40991e297458d41079
     GuidInternal: 
-    m_lastTime: -8586301027469402142
+    m_lastTime: -8586301019885342351
     List:
     - name: Reverb_Bathroom
       guid: 2d24f1560183d345857d1b1fba4a25c4
@@ -80,7 +80,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 296dcd70bed7cd4698e1de4ab13efed1
     GuidInternal: 
-    m_lastTime: -8586301113261038313
+    m_lastTime: -8586301012301882424
     List:
     - name: Ambience_BathRoom
       guid: 0a8ee496c45bef4d9da46f7add01be15
@@ -139,6 +139,18 @@ MonoBehaviour:
       - ElementName: FX_FeedBack
         ObjectType: 3
       Path: Default Work Unit\FX_FeedBack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FX_Fridge
+      guid: efed4c48b9508d4c80d0e7128673de74
+      id: 3205713061
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FX_Fridge
+        ObjectType: 3
+      Path: Default Work Unit\FX_Fridge
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -326,7 +338,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /ENJAM2019_WwiseProject
-  - /ENJAM2019_WwiseProject/Events
-  - /ENJAM2019_WwiseProject/Events/Default Work Unit
+  - /ENJAM2019_WwiseProject/Auxiliary Busses
+  - /ENJAM2019_WwiseProject/Auxiliary Busses/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
