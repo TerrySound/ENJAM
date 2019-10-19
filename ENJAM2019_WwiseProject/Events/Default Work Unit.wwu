@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Test_Event" ID="{8AEBA901-18D7-4ECD-8C12-150022F89682}">
+				<Event Name="Main_Menu" ID="{8AEBA901-18D7-4ECD-8C12-150022F89682}">
 					<ChildrenList>
 						<Action Name="" ID="{11A15330-1B9E-4545-B236-CA49E2DF3988}" ShortID="638131692">
 							<ReferenceList>
@@ -14,7 +14,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Test_Event_2" ID="{F00614AF-E33E-4E74-A927-C5AB88DBA437}">
+				<Event Name="Ambience_LivingRoom" ID="{F00614AF-E33E-4E74-A927-C5AB88DBA437}">
 					<ChildrenList>
 						<Action Name="" ID="{DEC0B19F-F299-4243-8F77-BC844C9DAA4C}" ShortID="580153843">
 							<ReferenceList>
@@ -25,6 +25,19 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Ambience_Kitchen" ID="{76456A55-4583-46BB-A9F5-3CCD66A2D191}"/>
+				<Event Name="Ambience_BedRoom" ID="{0B573BC2-1B56-49CE-9955-D632748214A4}"/>
+				<Event Name="Ambience_BathRoom" ID="{96E48E0A-5BC4-4DEF-9DA4-6F7ADD01BE15}"/>
+				<Event Name="VO_PNJ_Laught" ID="{2E226DFD-FA88-41FC-AAE8-C49FE56F0F63}"/>
+				<Event Name="VO_PNJ_Embarrassed" ID="{4C6C0BAA-AAB7-4A26-8E3B-4BA51CFDA133}"/>
+				<Event Name="VO_Dancing" ID="{23AD3944-6A3A-489A-AEBB-A189185955CE}"/>
+				<Event Name="MC_Footsteps" ID="{A5F6CA2C-7476-4927-B30F-59D3056DED10}"/>
+				<Event Name="MC_CallPeople" ID="{79304E83-039C-4714-A5FF-1F30E28BB518}"/>
+				<Event Name="MC_Breath" ID="{5097DA1C-0D82-4671-8CA2-CE6AE6D75018}"/>
+				<Event Name="MC_HearthBeat" ID="{341B3389-C411-4583-A831-BD2B8721EB36}"/>
+				<Event Name="FX_PhoneRing" ID="{4F5BA3BF-A1F2-4DDD-9325-BE9FF50D47FC}"/>
+				<Event Name="FX_FeedBack" ID="{4293EE11-A58E-4FF2-95E2-E59B58CA644F}"/>
+				<Event Name="FX_PhoneOff" ID="{1CF5363F-EE29-4BAC-8B6B-6BAB94976AAA}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

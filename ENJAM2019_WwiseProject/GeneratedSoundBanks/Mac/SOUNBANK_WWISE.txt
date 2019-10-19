@@ -1,6 +1,19 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1897643075	Test_Event_2			\Default Work Unit\Test_Event_2	
-	4258653052	Test_Event			\Default Work Unit\Test_Event	
+	1577475545	VO_Dancing			\Default Work Unit\VO_Dancing	
+	1648013973	MC_Footsteps			\Default Work Unit\MC_Footsteps	
+	1692856769	MC_CallPeople			\Default Work Unit\MC_CallPeople	
+	1710825164	Ambience_Kitchen			\Default Work Unit\Ambience_Kitchen	
+	2005704188	Main_Menu			\Default Work Unit\Main_Menu	
+	2014603798	MC_Breath			\Default Work Unit\MC_Breath	
+	2024055086	Ambience_BathRoom			\Default Work Unit\Ambience_BathRoom	
+	2442113491	FX_FeedBack			\Default Work Unit\FX_FeedBack	
+	2490349429	FX_PhoneOff			\Default Work Unit\FX_PhoneOff	
+	2510340756	Ambience_BedRoom			\Default Work Unit\Ambience_BedRoom	
+	3011458840	FX_PhoneRing			\Default Work Unit\FX_PhoneRing	
+	3065870848	MC_HearthBeat			\Default Work Unit\MC_HearthBeat	
+	3642974746	Ambience_LivingRoom			\Default Work Unit\Ambience_LivingRoom	
+	3673579421	VO_PNJ_Laught			\Default Work Unit\VO_PNJ_Laught	
+	3796451867	VO_PNJ_Embarrassed			\Default Work Unit\VO_PNJ_Embarrassed	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	8048079	Audi A5 DRIVE Accelerate & Brake Fast 02 EXHAUST	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\Audi A5 DRIVE Accelerate & Brake Fast 02 EXHAUST_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Audi A5 DRIVE Accelerate & Brake Fast 02 EXHAUST		2592064
