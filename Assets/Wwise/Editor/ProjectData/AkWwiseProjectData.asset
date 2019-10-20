@@ -80,7 +80,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 296dcd70bed7cd4698e1de4ab13efed1
     GuidInternal: 
-    m_lastTime: -8586299955622236304
+    m_lastTime: -8586299938864252597
     List:
     - name: Amb_Downstair
       guid: 68a13fd2ebda7f48a2e21fc0ec62c5ef
@@ -115,6 +115,18 @@ MonoBehaviour:
       - ElementName: FX_Aquarium
         ObjectType: 3
       Path: Default Work Unit\FX_Aquarium
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FX_Couple_Stop
+      guid: c53d453834cdf5498ff08fdb6b9fd425
+      id: 3523512105
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FX_Couple_Stop
+        ObjectType: 3
+      Path: Default Work Unit\FX_Couple_Stop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -202,6 +214,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Kiss
+      guid: 8ee236274e06604583f05f9ead3818bb
+      id: 2450280999
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Kiss
+        ObjectType: 3
+      Path: Default Work Unit\Kiss
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: MC_Footsteps
       guid: 2ccaf6a576742749b30f59d3056ded10
       id: 1648013973
@@ -235,42 +259,6 @@ MonoBehaviour:
       - ElementName: Stop_Groupe
         ObjectType: 3
       Path: Default Work Unit\Stop_Groupe
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: VO_Dancing
-      guid: 4439ad233a6a9a48aebba189185955ce
-      id: 1577475545
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: VO_Dancing
-        ObjectType: 3
-      Path: Default Work Unit\VO_Dancing
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: VO_PNJ_Embarrassed
-      guid: aa0b6c4cb7aa264a8e3b4ba51cfda133
-      id: 3796451867
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: VO_PNJ_Embarrassed
-        ObjectType: 3
-      Path: Default Work Unit\VO_PNJ_Embarrassed
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: VO_PNJ_Laught
-      guid: fd6d222e88fafc41aae8c49fe56f0f63
-      id: 3673579421
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: VO_PNJ_Laught
-        ObjectType: 3
-      Path: Default Work Unit\VO_PNJ_Laught
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
