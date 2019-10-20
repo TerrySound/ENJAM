@@ -13,9 +13,21 @@
 			<ShortName>Huge_Crowd.wav</ShortName>
 			<Path>SFX\Huge_Crowd_C42B8C3C.wem</Path>
 		</File>
+		<File Id="211680842" Language="SFX">
+			<ShortName>Medium_Crowd_Distant.wav</ShortName>
+			<Path>SFX\Medium_Crowd_Distant_C42B8C3C.wem</Path>
+		</File>
 		<File Id="562317555" Language="SFX">
 			<ShortName>Music Export.wav</ShortName>
 			<Path>SFX\Music Export_C42B8C3C.wem</Path>
+		</File>
+		<File Id="575849466" Language="SFX">
+			<ShortName>Medium_Crowd_Dynamic_Close.wav</ShortName>
+			<Path>SFX\Medium_Crowd_Dynamic_Close_C42B8C3C.wem</Path>
+		</File>
+		<File Id="665859498" Language="SFX">
+			<ShortName>Fridge.wav</ShortName>
+			<Path>SFX\Fridge_C42B8C3C.wem</Path>
 		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
@@ -25,19 +37,12 @@
 			<ShortName>SOUNBANK_WWISE</ShortName>
 			<Path>SOUNBANK_WWISE.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1695669757" Name="Amb_Huge_Crowd" ObjectPath="\Events\Default Work Unit\Amb_Huge_Crowd" DurationType="Infinite"/>
-				<Event Id="628060881" Name="Amb_Medium_Crowd" ObjectPath="\Events\Default Work Unit\Amb_Medium_Crowd" DurationType="OneShot" DurationMin="31.234852" DurationMax="31.234852"/>
-				<Event Id="3860820919" Name="Amb_Medium_Crowd_Distant" ObjectPath="\Events\Default Work Unit\Amb_Medium_Crowd_Distant" DurationType="OneShot" DurationMin="13.172268" DurationMax="13.172268"/>
-				<Event Id="1518284782" Name="Amb_Medium_Crowd_Dynamic_Close" ObjectPath="\Events\Default Work Unit\Amb_Medium_Crowd_Dynamic_Close" DurationType="OneShot" DurationMin="186.552353" DurationMax="186.552353"/>
-				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="50.000000" DurationType="Infinite"/>
-				<Event Id="2024055086" Name="Ambience_BathRoom" ObjectPath="\Events\Default Work Unit\Ambience_BathRoom" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2510340756" Name="Ambience_BedRoom" ObjectPath="\Events\Default Work Unit\Ambience_BedRoom" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1710825164" Name="Ambience_Kitchen" ObjectPath="\Events\Default Work Unit\Ambience_Kitchen" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3642974746" Name="Ambience_LivingRoom" ObjectPath="\Events\Default Work Unit\Ambience_LivingRoom" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2060891257" Name="Amb_Downstair" ObjectPath="\Events\Default Work Unit\Amb_Downstair" DurationType="Infinite"/>
+				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3205713061" Name="FX_Fridge" ObjectPath="\Events\Default Work Unit\FX_Fridge" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3205713061" Name="FX_Fridge" ObjectPath="\Events\Default Work Unit\FX_Fridge" DurationType="Infinite"/>
 				<Event Id="2490349429" Name="FX_PhoneOff" ObjectPath="\Events\Default Work Unit\FX_PhoneOff" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3011458840" Name="FX_PhoneRing" ObjectPath="\Events\Default Work Unit\FX_PhoneRing" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3011458840" Name="FX_PhoneRing" ObjectPath="\Events\Default Work Unit\FX_PhoneRing" DurationType="OneShot" DurationMin="2.163715" DurationMax="2.163715"/>
 				<Event Id="2005704188" Name="Main_Menu" ObjectPath="\Events\Default Work Unit\Main_Menu" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2014603798" Name="MC_Breath" ObjectPath="\Events\Default Work Unit\MC_Breath" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1692856769" Name="MC_CallPeople" ObjectPath="\Events\Default Work Unit\MC_CallPeople" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -49,7 +54,10 @@
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="153558715"/>
+				<File Id="211680842"/>
 				<File Id="562317555"/>
+				<File Id="575849466"/>
+				<File Id="665859498"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
 				<File Id="9520817" Language="SFX">
@@ -63,10 +71,6 @@
 				<File Id="70509852" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_07.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_07_66C02B12.wem</Path>
-				</File>
-				<File Id="106585426" Language="SFX">
-					<ShortName>Medium_Crowd_Close.wav</ShortName>
-					<Path>SFX\Medium_Crowd_Close_66C02B12.wem</Path>
 				</File>
 				<File Id="136788477" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_14.wav</ShortName>
@@ -92,10 +96,6 @@
 					<ShortName>MC_Floor_FS_07.wav</ShortName>
 					<Path>SFX\MC_Floor_FS_07_66C02B12.wem</Path>
 				</File>
-				<File Id="211680842" Language="SFX">
-					<ShortName>Medium_Crowd_Distant.wav</ShortName>
-					<Path>SFX\Medium_Crowd_Distant_66C02B12.wem</Path>
-				</File>
 				<File Id="224776312" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_12.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_12_66C02B12.wem</Path>
@@ -103,6 +103,14 @@
 				<File Id="273541201" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_06.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_06_66C02B12.wem</Path>
+				</File>
+				<File Id="328297850" Language="SFX">
+					<ShortName>PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close.wav</ShortName>
+					<Path>SFX\PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem</Path>
+				</File>
+				<File Id="366933411" Language="SFX">
+					<ShortName>PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close.wav</ShortName>
+					<Path>SFX\PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem</Path>
 				</File>
 				<File Id="443761236" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_03.wav</ShortName>
@@ -112,6 +120,10 @@
 					<ShortName>MC_Wood_FS\MC_Wood_FS_09.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_09_66C02B12.wem</Path>
 				</File>
+				<File Id="505863634" Language="SFX">
+					<ShortName>466217__harrisando__vibrating.wav</ShortName>
+					<Path>SFX\466217__harrisando__vibrating_1DA902F2.wem</Path>
+				</File>
 				<File Id="536595270" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_05.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_05_66C02B12.wem</Path>
@@ -119,10 +131,6 @@
 				<File Id="561983247" Language="SFX">
 					<ShortName>MC_Floor_FS_04.wav</ShortName>
 					<Path>SFX\MC_Floor_FS_04_66C02B12.wem</Path>
-				</File>
-				<File Id="575849466" Language="SFX">
-					<ShortName>Medium_Crowd_Dynamic_Close.wav</ShortName>
-					<Path>SFX\Medium_Crowd_Dynamic_Close_66C02B12.wem</Path>
 				</File>
 				<File Id="616251333" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_11.wav</ShortName>
@@ -132,9 +140,17 @@
 					<ShortName>MC_Floor_FS_09.wav</ShortName>
 					<Path>SFX\MC_Floor_FS_09_66C02B12.wem</Path>
 				</File>
+				<File Id="688350617" Language="SFX">
+					<ShortName>PM_KF_05 Pot, Panpot, Lid, Lift, Set Down, Open, Close.wav</ShortName>
+					<Path>SFX\PM_KF_05 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem</Path>
+				</File>
 				<File Id="749355102" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_04.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_04_66C02B12.wem</Path>
+				</File>
+				<File Id="777856750" Language="SFX">
+					<ShortName>PM_KF_101 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin.wav</ShortName>
+					<Path>SFX\PM_KF_101 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin_66C02B12.wem</Path>
 				</File>
 				<File Id="798328390" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_08.wav</ShortName>
@@ -156,9 +172,17 @@
 					<ShortName>MC_Floor_FS_02.wav</ShortName>
 					<Path>SFX\MC_Floor_FS_02_66C02B12.wem</Path>
 				</File>
+				<File Id="912256610" Language="SFX">
+					<ShortName>PM_KF_102 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin.wav</ShortName>
+					<Path>SFX\PM_KF_102 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin_66C02B12.wem</Path>
+				</File>
 				<File Id="946887884" Language="SFX">
 					<ShortName>MC_Floor_FS_10.wav</ShortName>
 					<Path>SFX\MC_Floor_FS_10_66C02B12.wem</Path>
+				</File>
+				<File Id="1058726748" Language="SFX">
+					<ShortName>PM_KF_103 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin.wav</ShortName>
+					<Path>SFX\PM_KF_103 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin_66C02B12.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

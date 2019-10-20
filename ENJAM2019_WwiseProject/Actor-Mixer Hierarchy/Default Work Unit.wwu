@@ -13,46 +13,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<BlendContainer Name="Ambience_BathRoom" ID="{4AF15DCF-E25A-494E-8CFB-5539D1B58CF9}" ShortID="796376618">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
-								</Reference>
-							</ReferenceList>
-						</BlendContainer>
-						<BlendContainer Name="Ambience_BedRoom" ID="{89822636-A87D-4BB7-9DC4-F74DB09AECE6}" ShortID="645154754">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
-								</Reference>
-							</ReferenceList>
-						</BlendContainer>
-						<BlendContainer Name="Ambience_Kitchen" ID="{9F35C00C-8B6E-41D8-B11E-37574BA2407C}" ShortID="700390298">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
-								</Reference>
-							</ReferenceList>
-						</BlendContainer>
-						<BlendContainer Name="Ambience_LivingRoom" ID="{F636065E-BDCB-483F-BEF1-E0454A903E63}" ShortID="1001065711">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
-								</Reference>
-							</ReferenceList>
-						</BlendContainer>
 						<BlendContainer Name="Main_Menu" ID="{13F5A2B8-D735-4EA0-8829-19FE23274A33}" ShortID="927921749">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -98,11 +58,7 @@
 								</Sound>
 							</ChildrenList>
 						</BlendContainer>
-						<BlendContainer Name="Amb_Medium_Crowd_Distant" ID="{CB9645BD-1FCA-4035-A36C-24C8C9373A23}" ShortID="572053017">
-							<PropertyList>
-								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
-								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
-							</PropertyList>
+						<BlendContainer Name="Amb_Downstair" ID="{3A6A8F97-0EAB-4BDE-AD71-C0F364D4AF3E}" ShortID="29813964">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
@@ -112,80 +68,64 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Medium_Crowd_Distant" ID="{036E89A6-56B4-49FC-8BCD-C580C2673A3F}" ShortID="645230562">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Ambience" ID="{B2C9C5A2-B8EC-4629-860A-46736AF53D38}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Medium_Crowd_Distant" ID="{78403523-734D-4A21-B921-5F31B00B744A}" ShortID="211680842">
-											<Language>SFX</Language>
-											<AudioFile>Medium_Crowd_Distant.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Medium_Crowd_Distant" ID="{78403523-734D-4A21-B921-5F31B00B744A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</BlendContainer>
-						<BlendContainer Name="Amb_Medium_Crowd_Dynamic_Close" ID="{BE821354-8AB0-4403-8E63-C0E7E75201FB}" ShortID="470807694">
-							<PropertyList>
-								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
-								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Medium_Crowd_Dynamic_Close" ID="{22B23E13-C317-40E6-8621-6E89586FB0A6}" ShortID="98183499">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Ambience" ID="{B2C9C5A2-B8EC-4629-860A-46736AF53D38}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Medium_Crowd_Dynamic_Close" ID="{4F5EC412-6435-4EBF-87C6-07C973D158CC}" ShortID="575849466">
-											<Language>SFX</Language>
-											<AudioFile>Medium_Crowd_Dynamic_Close.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Medium_Crowd_Dynamic_Close" ID="{4F5EC412-6435-4EBF-87C6-07C973D158CC}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</BlendContainer>
-						<BlendContainer Name="Amb_Huge_Crowd" ID="{8C0FAC0F-7583-4751-A4A2-28B2E4B2BDFF}" ShortID="31370698">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Huge_Crowd" ID="{17D6F892-101B-42A2-8B4A-32B37C818899}" ShortID="974694453">
+								<BlendContainer Name="Amb_Couloir" ID="{00469542-E458-40FC-B613-CB116049B296}" ShortID="86842290">
 									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Medium_Crowd_Distant" ID="{2CB862ED-374F-4CBE-ADBE-517B0144E701}" ShortID="996169058">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambience" ID="{B2C9C5A2-B8EC-4629-860A-46736AF53D38}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Medium_Crowd_Distant" ID="{B055B100-782C-40E3-B9FC-D2FF5995C161}" ShortID="749795174">
+													<Language>SFX</Language>
+													<AudioFile>Medium_Crowd_Distant.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="211680842"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{D5C08272-7E5A-4284-8B08-6B7BC89CF370}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="35.9351988217968"/>
+														<Property Name="PanY" Type="Real64" Value="-5.55111512312578E-17"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Medium_Crowd_Distant" ID="{B055B100-782C-40E3-B9FC-D2FF5995C161}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="Amb_LivingRoom" ID="{F636065E-BDCB-483F-BEF1-E0454A903E63}" ShortID="1001065711">
+									<PropertyList>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -196,16 +136,645 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Huge_Crowd" ID="{1BB542B5-5121-4EC1-9E51-F07D36E55520}" ShortID="153558715">
-											<Language>SFX</Language>
-											<AudioFile>Huge_Crowd.wav</AudioFile>
-										</AudioFileSource>
+										<Sound Name="Huge_Crowd" ID="{17D6F892-101B-42A2-8B4A-32B37C818899}" ShortID="974694453">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambience" ID="{B2C9C5A2-B8EC-4629-860A-46736AF53D38}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Huge_Crowd" ID="{1BB542B5-5121-4EC1-9E51-F07D36E55520}" ShortID="153558715">
+													<Language>SFX</Language>
+													<AudioFile>Huge_Crowd.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Huge_Crowd" ID="{1BB542B5-5121-4EC1-9E51-F07D36E55520}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Huge_Crowd" ID="{1BB542B5-5121-4EC1-9E51-F07D36E55520}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</BlendContainer>
+								<BlendContainer Name="Amb_Kitchen" ID="{9F35C00C-8B6E-41D8-B11E-37574BA2407C}" ShortID="700390298">
+									<PropertyList>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambience" ID="{B2C9C5A2-B8EC-4629-860A-46736AF53D38}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb_LivingRoom" ID="{D61F5E6B-CED2-4FF5-9841-FE56A4074F20}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Medium_Crowd_Dynamic_Close" ID="{22B23E13-C317-40E6-8621-6E89586FB0A6}" ShortID="98183499">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambience" ID="{B2C9C5A2-B8EC-4629-860A-46736AF53D38}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Medium_Crowd_Dynamic_Close" ID="{4F5EC412-6435-4EBF-87C6-07C973D158CC}" ShortID="575849466">
+													<Language>SFX</Language>
+													<AudioFile>Medium_Crowd_Dynamic_Close.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Medium_Crowd_Dynamic_Close" ID="{4F5EC412-6435-4EBF-87C6-07C973D158CC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="Kitchen_Object_01" ID="{5A5EC2C2-7DFF-4FB9-B415-04F6B88CB201}" ShortID="237888584">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="InitialDelay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8BB1D46C-164D-4E70-9C78-5B2DD4D2DF7F}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="8"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{638391FD-2A7E-4148-AFF3-1647D7548999}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close" ID="{BD171434-306A-40CD-AC52-62BAC1B6C42C}" ShortID="775228418">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close" ID="{18797ED6-CD6B-47BF-98BC-F2906172EDC5}" ShortID="328297850">
+															<Language>SFX</Language>
+															<AudioFile>PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close" ID="{18797ED6-CD6B-47BF-98BC-F2906172EDC5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PM_KF_05 Pot, Panpot, Lid, Lift, Set Down, Open, Close" ID="{EB478D2D-6FFC-4EE7-8828-4B9575B55EFE}" ShortID="189304125">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PM_KF_05 Pot, Panpot, Lid, Lift, Set Down, Open, Close" ID="{B42626B8-7D3B-4B64-A405-914EFE4396D2}" ShortID="688350617">
+															<Language>SFX</Language>
+															<AudioFile>PM_KF_05 Pot, Panpot, Lid, Lift, Set Down, Open, Close.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PM_KF_05 Pot, Panpot, Lid, Lift, Set Down, Open, Close" ID="{B42626B8-7D3B-4B64-A405-914EFE4396D2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close" ID="{8CBFBCF5-5E0A-4A05-8B74-BD408B05B0C2}" ShortID="870243230">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close" ID="{7024AB23-FC3D-4256-979C-0C949F6E035E}" ShortID="366933411">
+															<Language>SFX</Language>
+															<AudioFile>PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close" ID="{7024AB23-FC3D-4256-979C-0C949F6E035E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{5EA225C6-9A99-4FF3-A241-91C1D242189A}">
+													<PropertyList>
+														<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="Kitchen_Object_01_Path" ID="{740130FE-7BEA-4363-AF48-E522C55BEA83}">
+															<PointList>
+																<Point>
+																	<XPos>-70.43011</XPos>
+																	<YPos>57.16113</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Kitchen_Object_01_Path_01" ID="{F418FD3E-6EE0-4B22-8F4A-FCC143C6CE5B}">
+															<PointList>
+																<Point>
+																	<XPos>68.27957</XPos>
+																	<YPos>52.55755</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Kitchen_Object_01_Path_02" ID="{30E4D136-0999-4BB6-9702-E5922BD0AF9A}">
+															<PointList>
+																<Point>
+																	<XPos>77.41935</XPos>
+																	<YPos>-19.56522</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Kitchen_Object_01_Path_03" ID="{CB832D21-F3E3-4135-80F8-4C6933F84CAA}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="29"/>
+																<Property Name="RandomY" Type="Real64" Value="41"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-66.66667</XPos>
+																	<YPos>-55.37084</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Kitchen_Object_02" ID="{74D7ED93-B176-4B47-9B10-0BED41FC5FCE}" ShortID="735384325">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{84612A5B-E46B-42FB-BE08-9C222649D1D0}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="8"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{007D83FD-775F-42FA-B305-2C2BA4882A87}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PM_KF_101 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin" ID="{B7CD7C22-02BF-413F-9CCB-9828DB3FD362}" ShortID="449430483">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PM_KF_101 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin" ID="{59D5F348-9D32-462D-BDAD-C126B05BE97F}" ShortID="777856750">
+															<Language>SFX</Language>
+															<AudioFile>PM_KF_101 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PM_KF_101 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin" ID="{59D5F348-9D32-462D-BDAD-C126B05BE97F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PM_KF_102 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin" ID="{AE69FFED-DF48-4B9A-B444-7AD905086CBF}" ShortID="621608755">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PM_KF_102 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin" ID="{75A8D596-D578-4442-A952-0255C85D6D21}" ShortID="912256610">
+															<Language>SFX</Language>
+															<AudioFile>PM_KF_102 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PM_KF_102 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin" ID="{75A8D596-D578-4442-A952-0255C85D6D21}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PM_KF_103 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin" ID="{EA5D3007-A3CB-4457-8534-8EF0B8A4EA95}" ShortID="441427706">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PM_KF_103 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin" ID="{432BB434-1FF3-4F9B-88FC-017D7963F7C4}" ShortID="1058726748">
+															<Language>SFX</Language>
+															<AudioFile>PM_KF_103 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="PM_KF_103 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin" ID="{432BB434-1FF3-4F9B-88FC-017D7963F7C4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="Transition" ID="{0C18CE26-6557-4329-A89A-D3A63EC37FE1}" ShortID="71916418">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="RTPC_MC_Position" ID="{D2C4C473-BB04-4841-BE5A-271A1282CB4C}" WorkUnitID="{4C0C8184-3014-45C4-A472-0A7E648CD846}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Amb_Couloir" ID="{00469542-E458-40FC-B613-CB116049B296}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>359.59595959596</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Amb_LivingRoom" ID="{F636065E-BDCB-483F-BEF1-E0454A903E63}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>227.272727272727</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>706.060606060606</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Amb_Kitchen" ID="{9F35C00C-8B6E-41D8-B11E-37574BA2407C}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>588.888888888889</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>1000</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+						<BlendContainer Name="Amb_Upstair" ID="{0D03FF3C-A9BE-4576-BFD3-CB2BF2524403}" ShortID="221511205">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="Amb_BedRoom" ID="{89822636-A87D-4BB7-9DC4-F74DB09AECE6}" ShortID="645154754">
+									<PropertyList>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambience" ID="{B2C9C5A2-B8EC-4629-860A-46736AF53D38}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Bedroom_Tone" ID="{B9CE295E-CD02-438A-9444-8D25341BF5AD}" ShortID="601944225">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bedroom_Tone" ID="{4ACAEE21-1B44-470D-9E15-19E09E45E77C}" ShortID="195299223">
+													<Language>SFX</Language>
+													<AudioFile>Bedroom_Tone.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bedroom_Tone" ID="{4ACAEE21-1B44-470D-9E15-19E09E45E77C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="Amb_BathRoom" ID="{4AF15DCF-E25A-494E-8CFB-5539D1B58CF9}" ShortID="796376618">
+									<PropertyList>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambience" ID="{B2C9C5A2-B8EC-4629-860A-46736AF53D38}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb_Bathroom" ID="{56F1242D-8301-45D3-857D-1B1FBA4A25C4}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Bathroom_Fan" ID="{3A5E0FF8-3FFC-4C2E-9417-A118A86A0D06}" ShortID="731504605">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bathroom_Fan" ID="{A9BD6246-749B-49D8-90BF-F03D335C23D5}" ShortID="91340931">
+													<Language>SFX</Language>
+													<AudioFile>Bathroom_Fan.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bathroom_Fan" ID="{A9BD6246-749B-49D8-90BF-F03D335C23D5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bathroom_Water" ID="{9F9841EB-1B87-45DD-9C90-DB72EB535672}" ShortID="1068374588">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise_Parametric_EQ_(Custom)" ID="{37308D9F-105D-4458-9CC1-B3EE9DA1C615}" ShortID="471826248" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+															<PropertyList>
+																<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+																<Property Name="FrequencyBand1" Type="Real32" Value="6526"/>
+																<Property Name="GainBand1" Type="Real32" Value="-5.5"/>
+																<Property Name="QFactorBand1" Type="Real32" Value="36.6"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bathroom_Water" ID="{5AEBDF93-9E3F-45C6-ACC7-41951A9DBAD8}" ShortID="1044520065">
+													<Language>SFX</Language>
+													<AudioFile>Bathroom_Water.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bathroom_Water" ID="{5AEBDF93-9E3F-45C6-ACC7-41951A9DBAD8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="Amb_Couloir" ID="{53D5C68F-F681-4F2D-B489-897110CEF5A7}" ShortID="754802396">
+									<PropertyList>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Medium_Crowd_Distant" ID="{036E89A6-56B4-49FC-8BCD-C580C2673A3F}" ShortID="645230562">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambience" ID="{B2C9C5A2-B8EC-4629-860A-46736AF53D38}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Medium_Crowd_Distant" ID="{78403523-734D-4A21-B921-5F31B00B744A}" ShortID="211680842">
+													<Language>SFX</Language>
+													<AudioFile>Medium_Crowd_Distant.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{8CF86601-FDF0-4706-BC59-28797EA15884}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="35.9351988217968"/>
+														<Property Name="PanY" Type="Real64" Value="-5.55111512312578E-17"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Medium_Crowd_Distant" ID="{78403523-734D-4A21-B921-5F31B00B744A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="Transition" ID="{CF6AFDB1-1727-4177-B4D7-6299450D0F2D}" ShortID="1013557862">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="RTPC_MC_Position" ID="{D2C4C473-BB04-4841-BE5A-271A1282CB4C}" WorkUnitID="{4C0C8184-3014-45C4-A472-0A7E648CD846}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Amb_Couloir" ID="{53D5C68F-F681-4F2D-B489-897110CEF5A7}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>333.333333333333</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Amb_BedRoom" ID="{89822636-A87D-4BB7-9DC4-F74DB09AECE6}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>239.393939393939</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>666.666666666667</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Amb_BathRoom" ID="{4AF15DCF-E25A-494E-8CFB-5539D1B58CF9}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>586.868686868687</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>1000</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
 						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
@@ -248,6 +817,41 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FX_Phone_Ring" ID="{EFC46942-3BAC-4353-8E9F-6FFCBAAEA34D}" ShortID="344016701">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="466217__harrisando__vibrating" ID="{12579E54-28D7-4A2B-B33E-790CA9328FE7}" ShortID="505863634">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="9.02420931583663E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.208981689419373"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.983811096433289"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.14752637838384"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>466217__harrisando__vibrating.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="466217__harrisando__vibrating" ID="{12579E54-28D7-4A2B-B33E-790CA9328FE7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="FX_Fridge" ID="{3CF7CB38-4711-47F8-8742-F20685A20848}" ShortID="600044052">
 							<PropertyList>
@@ -267,6 +871,42 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Fridge" ID="{2C19931E-F12A-41D1-BB99-5A07F0436DB2}" ShortID="374281685">
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fridge" ID="{9A911D97-335E-43C2-AAE7-723966F4797F}" ShortID="665859498">
+											<Language>SFX</Language>
+											<AudioFile>Fridge.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fridge" ID="{9A911D97-335E-43C2-AAE7-723966F4797F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>

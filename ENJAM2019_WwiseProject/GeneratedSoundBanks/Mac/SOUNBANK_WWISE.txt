@@ -1,25 +1,18 @@
 Event	ID	Name			Wwise Object Path	Notes
-	628060881	Amb_Medium_Crowd			\Default Work Unit\Amb_Medium_Crowd	
 	1114231687	Amb_Music			\Default Work Unit\Amb_Music	
-	1518284782	Amb_Medium_Crowd_Dynamic_Close			\Default Work Unit\Amb_Medium_Crowd_Dynamic_Close	
 	1577475545	VO_Dancing			\Default Work Unit\VO_Dancing	
 	1648013973	MC_Footsteps			\Default Work Unit\MC_Footsteps	
 	1692856769	MC_CallPeople			\Default Work Unit\MC_CallPeople	
-	1695669757	Amb_Huge_Crowd			\Default Work Unit\Amb_Huge_Crowd	
-	1710825164	Ambience_Kitchen			\Default Work Unit\Ambience_Kitchen	
 	2005704188	Main_Menu			\Default Work Unit\Main_Menu	
 	2014603798	MC_Breath			\Default Work Unit\MC_Breath	
-	2024055086	Ambience_BathRoom			\Default Work Unit\Ambience_BathRoom	
+	2060891257	Amb_Downstair			\Default Work Unit\Amb_Downstair	
 	2442113491	FX_FeedBack			\Default Work Unit\FX_FeedBack	
 	2490349429	FX_PhoneOff			\Default Work Unit\FX_PhoneOff	
-	2510340756	Ambience_BedRoom			\Default Work Unit\Ambience_BedRoom	
 	3011458840	FX_PhoneRing			\Default Work Unit\FX_PhoneRing	
 	3065870848	MC_HearthBeat			\Default Work Unit\MC_HearthBeat	
 	3205713061	FX_Fridge			\Default Work Unit\FX_Fridge	
-	3642974746	Ambience_LivingRoom			\Default Work Unit\Ambience_LivingRoom	
 	3673579421	VO_PNJ_Laught			\Default Work Unit\VO_PNJ_Laught	
 	3796451867	VO_PNJ_Embarrassed			\Default Work Unit\VO_PNJ_Embarrassed	
-	3860820919	Amb_Medium_Crowd_Distant			\Default Work Unit\Amb_Medium_Crowd_Distant	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2460634474	Texture			\Default Work Unit\Texture	
@@ -28,36 +21,46 @@ Switch	ID	Name	Switch Group			Notes
 	1088209313	Floor	Texture			
 	2058049674	Wood	Texture			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3715171847	RTPC_MC_Position			\Default Work Unit\RTPC_MC_Position	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9520817	MC_Floor_FS_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_03_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_03		11802
 	14350048	MC_Wood_FS_02	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_02_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_02		38700
 	70509852	MC_Wood_FS_07	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_07_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_07		32281
-	106585426	Medium_Crowd_Close	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\Medium_Crowd_Close_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Medium_Crowd_Close\Medium_Crowd_Close		1753440
 	136788477	MC_Wood_FS_14	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_14_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_14		26391
 	157910693	MC_Wood_FS_10	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_10_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_10		29939
 	160356805	MC_Wood_FS_13	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_13_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_13		36460
 	185827285	MC_Floor_FS_05	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_05_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_05		10890
 	189186148	MC_Floor_FS_01	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_01_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_01		19408
 	210591787	MC_Floor_FS_07	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_07_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_07		12560
-	211680842	Medium_Crowd_Distant	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\Medium_Crowd_Distant_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Medium_Crowd_Distant\Medium_Crowd_Distant		560033
 	224776312	MC_Wood_FS_12	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_12_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_12		36336
 	273541201	MC_Wood_FS_06	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_06_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_06		30931
+	328297850	PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Downstair\Amb_Kitchen\Kitchen_Object_01\PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close		49808
+	366933411	PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Downstair\Amb_Kitchen\Kitchen_Object_01\PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close		45107
 	443761236	MC_Wood_FS_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_03_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_03		35365
 	484190720	MC_Wood_FS_09	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_09_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_09		31790
+	505863634	FX_Phone_Ring	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\466217__harrisando__vibrating_1DA902F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_PhoneRing\FX_Phone_Ring		120231
 	536595270	MC_Wood_FS_05	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_05_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_05		33328
 	561983247	MC_Floor_FS_04	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_04_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_04		11759
-	575849466	Medium_Crowd_Dynamic_Close	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\Medium_Crowd_Dynamic_Close_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Medium_Crowd_Dynamic_Close\Medium_Crowd_Dynamic_Close		10244590
 	616251333	MC_Wood_FS_11	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_11_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_11		33183
 	664329015	MC_Floor_FS_09	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_09_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_09		11652
+	688350617	PM_KF_05 Pot, Panpot, Lid, Lift, Set Down, Open, Close	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\PM_KF_05 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Downstair\Amb_Kitchen\Kitchen_Object_01\PM_KF_05 Pot, Panpot, Lid, Lift, Set Down, Open, Close		51750
 	749355102	MC_Wood_FS_04	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_04_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_04		35607
+	777856750	PM_KF_101 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\PM_KF_101 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Downstair\Amb_Kitchen\Kitchen_Object_02\PM_KF_101 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin		56621
 	798328390	MC_Wood_FS_08	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_08_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_08		34104
 	869575825	MC_Floor_FS_08	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_08_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_08		12378
 	884335589	MC_Floor_FS_06	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_06_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_06		11389
 	887183314	MC_Wood_FS_01	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_01_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_01		36735
 	896004742	MC_Floor_FS_02	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_02_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_02		11377
+	912256610	PM_KF_102 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\PM_KF_102 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Downstair\Amb_Kitchen\Kitchen_Object_02\PM_KF_102 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin		57901
 	946887884	MC_Floor_FS_10	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_10_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_10		15413
+	1058726748	PM_KF_103 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\PM_KF_103 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Downstair\Amb_Kitchen\Kitchen_Object_02\PM_KF_103 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin		50611
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	153558715	Huge_Crowd	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\Huge_Crowd_C42B8C3C.wem	153558715.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Huge_Crowd\Huge_Crowd	
+	153558715	Huge_Crowd	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\Huge_Crowd_C42B8C3C.wem	153558715.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Downstair\Amb_LivingRoom\Huge_Crowd	
+	211680842	Medium_Crowd_Distant	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\Medium_Crowd_Distant_C42B8C3C.wem	211680842.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Downstair\Amb_Couloir\Medium_Crowd_Distant	
 	562317555	Music_Intro	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\Music Export_C42B8C3C.wem	562317555.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Music_Intro\Music_Intro	
+	575849466	Medium_Crowd_Dynamic_Close	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\Medium_Crowd_Dynamic_Close_C42B8C3C.wem	575849466.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_Downstair\Amb_Kitchen\Medium_Crowd_Dynamic_Close	
+	665859498	Fridge	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\Fridge_C42B8C3C.wem	665859498.wem	\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Fridge\Fridge	
 
