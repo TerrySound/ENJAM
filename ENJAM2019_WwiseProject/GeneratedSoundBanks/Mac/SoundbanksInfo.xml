@@ -37,6 +37,10 @@
 			<ShortName>Fridge.wav</ShortName>
 			<Path>SFX\Fridge_C42B8C3C.wem</Path>
 		</File>
+		<File Id="830138180" Language="SFX">
+			<ShortName>Clock.wav</ShortName>
+			<Path>SFX\Clock_C42B8C3C.wem</Path>
+		</File>
 		<File Id="1044520065" Language="SFX">
 			<ShortName>Bathroom_Water.wav</ShortName>
 			<Path>SFX\Bathroom_Water_C42B8C3C.wem</Path>
@@ -51,10 +55,11 @@
 			<IncludedEvents>
 				<Event Id="2060891257" Name="Amb_Downstair" ObjectPath="\Events\Default Work Unit\Amb_Downstair" DurationType="Infinite"/>
 				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="5.000000" DurationType="Infinite"/>
-				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3205713061" Name="FX_Fridge" ObjectPath="\Events\Default Work Unit\FX_Fridge" MaxAttenuation="5.000000" DurationType="Infinite"/>
-				<Event Id="2490349429" Name="FX_PhoneOff" ObjectPath="\Events\Default Work Unit\FX_PhoneOff" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3011458840" Name="FX_PhoneRing" ObjectPath="\Events\Default Work Unit\FX_PhoneRing" DurationType="OneShot" DurationMin="0.737744" DurationMax="0.737744"/>
+				<Event Id="791491523" Name="FX_Phone_Ring" ObjectPath="\Events\Default Work Unit\FX_Phone_Ring" DurationType="OneShot" DurationMin="2.693175" DurationMax="2.693175"/>
+				<Event Id="3013075908" Name="FX_PhoneClock" ObjectPath="\Events\Default Work Unit\FX_PhoneClock" DurationType="Infinite"/>
+				<Event Id="2490349429" Name="FX_PhoneOff" ObjectPath="\Events\Default Work Unit\FX_PhoneOff" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2014603798" Name="MC_Breath" ObjectPath="\Events\Default Work Unit\MC_Breath" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1692856769" Name="MC_CallPeople" ObjectPath="\Events\Default Work Unit\MC_CallPeople" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1648013973" Name="MC_Footsteps" ObjectPath="\Events\Default Work Unit\MC_Footsteps" DurationType="OneShot" DurationMin="0.339592" DurationMax="1.014186"/>
@@ -71,6 +76,7 @@
 				<File Id="562317555"/>
 				<File Id="575849466"/>
 				<File Id="665859498"/>
+				<File Id="830138180"/>
 				<File Id="1044520065"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
@@ -126,6 +132,14 @@
 					<ShortName>PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close.wav</ShortName>
 					<Path>SFX\PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem</Path>
 				</File>
+				<File Id="418994039" Language="SFX">
+					<ShortName>Phone_Ring.wav</ShortName>
+					<Path>SFX\Phone_Ring_66C02B12.wem</Path>
+				</File>
+				<File Id="429146205" Language="SFX">
+					<ShortName>239907__woodwolf__kisses.wav</ShortName>
+					<Path>SFX\239907__woodwolf__kisses_66C02B12.wem</Path>
+				</File>
 				<File Id="443761236" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_03.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_03_66C02B12.wem</Path>
@@ -138,9 +152,21 @@
 					<ShortName>466217__harrisando__vibrating.wav</ShortName>
 					<Path>SFX\466217__harrisando__vibrating_4C5A9564.wem</Path>
 				</File>
+				<File Id="524063718" Language="SFX">
+					<ShortName>443558__juliandmc4__beso.wav</ShortName>
+					<Path>SFX\443558__juliandmc4__beso_66C02B12.wem</Path>
+				</File>
 				<File Id="536595270" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_05.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_05_66C02B12.wem</Path>
+				</File>
+				<File Id="538099929" Language="SFX">
+					<ShortName>235777__lex777__kissing-smooches-01.wav</ShortName>
+					<Path>SFX\235777__lex777__kissing-smooches-01_66C02B12.wem</Path>
+				</File>
+				<File Id="546633791" Language="SFX">
+					<ShortName>428220__leoctiurs__111-kiss.wav</ShortName>
+					<Path>SFX\428220__leoctiurs__111-kiss_66C02B12.wem</Path>
 				</File>
 				<File Id="561983247" Language="SFX">
 					<ShortName>MC_Floor_FS_04.wav</ShortName>
@@ -193,6 +219,10 @@
 				<File Id="946887884" Language="SFX">
 					<ShortName>MC_Floor_FS_10.wav</ShortName>
 					<Path>SFX\MC_Floor_FS_10_66C02B12.wem</Path>
+				</File>
+				<File Id="980323591" Language="SFX">
+					<ShortName>Clock-Design.wav</ShortName>
+					<Path>SFX\Clock-Design_82FDE72D.wem</Path>
 				</File>
 				<File Id="1058726748" Language="SFX">
 					<ShortName>PM_KF_103 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin.wav</ShortName>

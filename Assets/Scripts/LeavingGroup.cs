@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DancingGroup : PeopleGroup
+public class LeavingGroup : PeopleGroup
 {
+
+    bool leaving = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,20 +15,24 @@ public class DancingGroup : PeopleGroup
     // Update is called once per frame
     void Update()
     {
-        
+        if (leaving)
+        {
+            this.transform.position -= new Vector3(0.03f, 0, 0);
+        }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        EventManager.OnInteract += Dance;
+        EventManager.OnInteract += UnlockPath;
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        EventManager.OnInteract -= Dance;
+        EventManager.OnInteract -= UnlockPath;
     }
 
-    public void Dance()
+    public void UnlockPath()
     {
-        Debug.Log("You got moves");
+        Debug.Log("To " + Mathf.Infinity + " and beyond");
+        this.leaving = true;
     }
 }

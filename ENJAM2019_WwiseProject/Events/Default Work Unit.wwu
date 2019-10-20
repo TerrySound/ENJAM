@@ -80,12 +80,101 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="FX_PhoneRing" ID="{4F5BA3BF-A1F2-4DDD-9325-BE9FF50D47FC}">
+				<Event Name="FX_PhoneClock" ID="{4F5BA3BF-A1F2-4DDD-9325-BE9FF50D47FC}">
 					<ChildrenList>
 						<Action Name="" ID="{6330DD1F-FA72-425F-9DA5-8C96891D4696}" ShortID="474858183">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FX_PhoneRing" ID="{D6DE6847-52A1-4843-8372-9405BB0C9F75}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+									<ObjectRef Name="FX_Phone_Vibrate" ID="{D6DE6847-52A1-4843-8372-9405BB0C9F75}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4EF3D729-3E96-43E0-A390-574F2EF53491}" ShortID="275984012">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FX_FeedBack" ID="{4293EE11-A58E-4FF2-95E2-E59B58CA644F}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{52AA4DD1-D99C-4C07-B29F-4EC67689F970}" ShortID="364681600">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="11"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{B2C9C5A2-B8EC-4629-860A-46736AF53D38}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5BCFCD29-901C-4DF4-A7F0-D728F5320376}" ShortID="544756306">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="11"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC" ID="{12899D3B-B891-4180-80CA-AE01666B79B3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{ED6A5DB1-FF7E-485C-8DDC-85F9AD8CEB28}" ShortID="718245489">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="11"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Reverb_Bathroom" ID="{56F1242D-8301-45D3-857D-1B1FBA4A25C4}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8E96FB03-30FA-4043-8D3D-9C4D7B67F366}" ShortID="793817410">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="11"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Reverb_LivingRoom" ID="{D61F5E6B-CED2-4FF5-9841-FE56A4074F20}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7F0F8A39-72EE-4061-9E44-AA87889E9DA1}" ShortID="994569211">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="11"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO" ID="{7FC2F04E-9374-4EC6-BFDE-791DA621DD63}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B687DC62-DEF3-40CC-9817-462CCBAC9645}" ShortID="683186941">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FX_Clock" ID="{C531D8AA-BB81-4A5C-A57F-0D15F3DE2C2F}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{86956F8F-9E9B-4506-AFF9-59CCF6A8478E}" ShortID="322288884">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clock-Design" ID="{7E9711D5-7DB2-4F33-86B6-BC6E362D606B}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -93,26 +182,29 @@
 				</Event>
 				<Event Name="FX_FeedBack" ID="{4293EE11-A58E-4FF2-95E2-E59B58CA644F}">
 					<ChildrenList>
-						<Action Name="" ID="{DE9C9BBC-0772-4347-AFB2-0F8D36CC04E8}" ShortID="995632076">
+						<Action Name="" ID="{23104546-865D-4956-B16E-DF94E0F47F7C}" ShortID="258617738">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FX_FeedBack" ID="{C531D8AA-BB81-4A5C-A57F-0D15F3DE2C2F}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+									<ObjectRef Name="FX_Clock" ID="{C531D8AA-BB81-4A5C-A57F-0D15F3DE2C2F}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="FX_PhoneOff" ID="{1CF5363F-EE29-4BAC-8B6B-6BAB94976AAA}">
-					<ChildrenList>
-						<Action Name="" ID="{7EB44BB5-CFC1-4AE9-BDE1-EB9463FE30FF}" ShortID="46316789">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="FX_PhoneOff" ID="{1D652EDE-5E52-4129-B3E8-3BB12709D7F7}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
+						<Action Name="" ID="{FEF6846E-6DAB-4DD1-9614-D2B2D822B70F}" ShortID="905621433">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="15"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="FX_PhoneOff" ID="{1CF5363F-EE29-4BAC-8B6B-6BAB94976AAA}"/>
 				<Event Name="FX_Fridge" ID="{484CEDEF-50B9-4C8D-80D0-E7128673DE74}">
 					<ChildrenList>
 						<Action Name="" ID="{139B55EB-5AA2-498C-AF3C-0A7CBA2FA462}" ShortID="404871486">
@@ -133,6 +225,14 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{A380C0CF-AED2-4495-84EE-05A370DA1DE6}" ShortID="670393686">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="15"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Amb_Downstair" ID="{D23FA168-DAEB-487F-A2E2-1FC0EC62C5EF}">
@@ -141,6 +241,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Amb_General" ID="{3A6A8F97-0EAB-4BDE-AD71-C0F364D4AF3E}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FX_Phone_Ring" ID="{4DB2D4F4-9995-43E4-A093-C607D55E38B8}">
+					<ChildrenList>
+						<Action Name="" ID="{8B70BD70-2DED-44D3-A75E-6A27E00245BA}" ShortID="246538495">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FX_Phone_Ring" ID="{D7ED9FBA-607D-46E5-A35C-251E8853E8B2}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
