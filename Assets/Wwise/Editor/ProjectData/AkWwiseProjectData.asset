@@ -24,14 +24,47 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 8773f664cf49ef40991e297458d41079
     GuidInternal: 
-    m_lastTime: -8586301364577509466
-    List: []
+    m_lastTime: -8586301019885342351
+    List:
+    - name: Reverb_Bathroom
+      guid: 2d24f1560183d345857d1b1fba4a25c4
+      id: 2620089962
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Reverb_Bathroom
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Reverb_Bathroom
+    - name: Reverb_Bedroom
+      guid: 93fe8a1eac0541478058773b33acac79
+      id: 1463772704
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Reverb_Bedroom
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Reverb_Bedroom
+    - name: Reverb_LivingRoom
+      guid: 6b5e1fd6d2cef54f9841fe56a4074f20
+      id: 400405326
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Reverb_LivingRoom
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Reverb_LivingRoom
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 5ed96920ed67014693a7f69b56896bd9
     GuidInternal: 
-    m_lastTime: -8586301297629050257
+    m_lastTime: -8586301213420014871
     List:
     - name: SOUNBANK_WWISE
       guid: c171a1cb6b9d9c4ba46616a43dc94eda
@@ -47,29 +80,197 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 296dcd70bed7cd4698e1de4ab13efed1
     GuidInternal: 
-    m_lastTime: -8586301297628949777
+    m_lastTime: -8586301012301882424
     List:
-    - name: Test_Event
-      guid: 01a9eb8ad718cd4e8c12150022f89682
-      id: 4258653052
+    - name: Ambience_BathRoom
+      guid: 0a8ee496c45bef4d9da46f7add01be15
+      id: 2024055086
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Test_Event
+      - ElementName: Ambience_BathRoom
         ObjectType: 3
-      Path: Default Work Unit\Test_Event
+      Path: Default Work Unit\Ambience_BathRoom
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Test_Event_2
-      guid: af1406f03ee3744ea927c5ab88dba437
-      id: 1897643075
+    - name: Ambience_BedRoom
+      guid: c23b570b561bce499955d632748214a4
+      id: 2510340756
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Test_Event_2
+      - ElementName: Ambience_BedRoom
         ObjectType: 3
-      Path: Default Work Unit\Test_Event_2
+      Path: Default Work Unit\Ambience_BedRoom
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Ambience_Kitchen
+      guid: 556a45768345bb46a9f53ccd66a2d191
+      id: 1710825164
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambience_Kitchen
+        ObjectType: 3
+      Path: Default Work Unit\Ambience_Kitchen
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Ambience_LivingRoom
+      guid: af1406f03ee3744ea927c5ab88dba437
+      id: 3642974746
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambience_LivingRoom
+        ObjectType: 3
+      Path: Default Work Unit\Ambience_LivingRoom
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FX_FeedBack
+      guid: 11ee93428ea5f24f95e2e59b58ca644f
+      id: 2442113491
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FX_FeedBack
+        ObjectType: 3
+      Path: Default Work Unit\FX_FeedBack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FX_Fridge
+      guid: efed4c48b9508d4c80d0e7128673de74
+      id: 3205713061
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FX_Fridge
+        ObjectType: 3
+      Path: Default Work Unit\FX_Fridge
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FX_PhoneOff
+      guid: 3f36f51c29eeac4b8b6b6bab94976aaa
+      id: 2490349429
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FX_PhoneOff
+        ObjectType: 3
+      Path: Default Work Unit\FX_PhoneOff
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: FX_PhoneRing
+      guid: bfa35b4ff2a1dd4d9325be9ff50d47fc
+      id: 3011458840
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FX_PhoneRing
+        ObjectType: 3
+      Path: Default Work Unit\FX_PhoneRing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Main_Menu
+      guid: 01a9eb8ad718cd4e8c12150022f89682
+      id: 2005704188
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main_Menu
+        ObjectType: 3
+      Path: Default Work Unit\Main_Menu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MC_Breath
+      guid: 1cda9750820d71468ca2ce6ae6d75018
+      id: 2014603798
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MC_Breath
+        ObjectType: 3
+      Path: Default Work Unit\MC_Breath
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MC_CallPeople
+      guid: 834e30799c031447a5ff1f30e28bb518
+      id: 1692856769
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MC_CallPeople
+        ObjectType: 3
+      Path: Default Work Unit\MC_CallPeople
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MC_Footsteps
+      guid: 2ccaf6a576742749b30f59d3056ded10
+      id: 1648013973
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MC_Footsteps
+        ObjectType: 3
+      Path: Default Work Unit\MC_Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MC_HearthBeat
+      guid: 89331b3411c48345a831bd2b8721eb36
+      id: 3065870848
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MC_HearthBeat
+        ObjectType: 3
+      Path: Default Work Unit\MC_HearthBeat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_Dancing
+      guid: 4439ad233a6a9a48aebba189185955ce
+      id: 1577475545
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VO_Dancing
+        ObjectType: 3
+      Path: Default Work Unit\VO_Dancing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_PNJ_Embarrassed
+      guid: aa0b6c4cb7aa264a8e3b4ba51cfda133
+      id: 3796451867
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VO_PNJ_Embarrassed
+        ObjectType: 3
+      Path: Default Work Unit\VO_PNJ_Embarrassed
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_PNJ_Laught
+      guid: fd6d222e88fafc41aae8c49fe56f0f63
+      id: 3673579421
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VO_PNJ_Laught
+        ObjectType: 3
+      Path: Default Work Unit\VO_PNJ_Laught
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -78,8 +279,17 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 84810c4c1430c445a4720a7e648cd846
     GuidInternal: 
-    m_lastTime: -8586301364576710553
-    List: []
+    m_lastTime: -8586301157174309571
+    List:
+    - name: RTPC_SideChain_FX
+      guid: 19ece1010b249049acffb218849e8cfb
+      id: 1038960886
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: RTPC_SideChain_FX
+        ObjectType: 13
+      Path: Default Work Unit\RTPC_SideChain_FX
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -92,8 +302,33 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 4f599d5e8284b3429e521cd5f09ca5d9
     GuidInternal: 
-    m_lastTime: -8586301364576790411
-    List: []
+    m_lastTime: -8586301133873838062
+    List:
+    - name: Texture
+      guid: 7ada9935946774429c61a4bb97f4dda1
+      id: 2460634474
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Texture
+        ObjectType: 11
+      Path: Default Work Unit\Texture
+      values:
+      - name: Floor
+        guid: c6e727ad11bd41489c08c46e6f82c4ff
+        id: 1088209313
+        PathAndIcons:
+        - ElementName: Floor
+          ObjectType: 10
+      - name: Wood
+        guid: db7dea883e49eb40bdcb7083ba549aad
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Wood
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -103,7 +338,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /ENJAM2019_WwiseProject
-  - /ENJAM2019_WwiseProject/Events
-  - /ENJAM2019_WwiseProject/Events/Default Work Unit
+  - /ENJAM2019_WwiseProject/Auxiliary Busses
+  - /ENJAM2019_WwiseProject/Auxiliary Busses/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
