@@ -55,5 +55,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	946887884	MC_Floor_FS_10	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Floor_FS_10_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_10		15413
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	153558715	Huge_Crowd	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\Huge_Crowd_C42B8C3C.wem	153558715.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience_LivingRoom\Huge_Crowd	
 	562317555	Music_Intro	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\Music Export_C42B8C3C.wem	562317555.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Music_Intro\Music_Intro	
 

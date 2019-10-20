@@ -9,6 +9,10 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
+		<File Id="153558715" Language="SFX">
+			<ShortName>Huge_Crowd.wav</ShortName>
+			<Path>SFX\Huge_Crowd_C42B8C3C.wem</Path>
+		</File>
 		<File Id="562317555" Language="SFX">
 			<ShortName>Music Export.wav</ShortName>
 			<Path>SFX\Music Export_C42B8C3C.wem</Path>
@@ -25,7 +29,7 @@
 				<Event Id="2024055086" Name="Ambience_BathRoom" ObjectPath="\Events\Default Work Unit\Ambience_BathRoom" MaxAttenuation="500.000000" DurationType="OneShot" DurationMin="12.339207" DurationMax="12.339207"/>
 				<Event Id="2510340756" Name="Ambience_BedRoom" ObjectPath="\Events\Default Work Unit\Ambience_BedRoom" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1710825164" Name="Ambience_Kitchen" ObjectPath="\Events\Default Work Unit\Ambience_Kitchen" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3642974746" Name="Ambience_LivingRoom" ObjectPath="\Events\Default Work Unit\Ambience_LivingRoom" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3642974746" Name="Ambience_LivingRoom" ObjectPath="\Events\Default Work Unit\Ambience_LivingRoom" DurationType="Infinite"/>
 				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3205713061" Name="FX_Fridge" ObjectPath="\Events\Default Work Unit\FX_Fridge" MaxAttenuation="500.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
 				<Event Id="2490349429" Name="FX_PhoneOff" ObjectPath="\Events\Default Work Unit\FX_PhoneOff" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -40,6 +44,7 @@
 				<Event Id="3673579421" Name="VO_PNJ_Laught" ObjectPath="\Events\Default Work Unit\VO_PNJ_Laught" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
+				<File Id="153558715"/>
 				<File Id="562317555"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
