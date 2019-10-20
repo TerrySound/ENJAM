@@ -21,7 +21,7 @@ public class EventManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            if (TakePhone.onMyPhone)
+            if (PlayerMovement.phoneOut)
             {
                 if (EventManager.OnPhone != null)
                 {

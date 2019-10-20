@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [Tooltip("The speed of the character")]
     private float speed = 5;
     public float actualSpeed;
-    static bool phoneOut = false;
+    public static bool phoneOut = false;
 
     void Awake()
     {
@@ -58,8 +58,7 @@ public class PlayerMovement : MonoBehaviour
     void switchPhone()
     {
         phoneOut = !phoneOut;
-        TakePhone.onMyPhone = phoneOut;
-        if (TakePhone.onMyPhone)
+        if (phoneOut)
         {
             EventManager.OnPhone += Ring;
         }
