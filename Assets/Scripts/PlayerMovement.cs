@@ -26,8 +26,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         actualSpeed = this.movePlayer(Input.GetAxis("Horizontal"))*100;
         AkSoundEngine.SetRTPCValue("RTPC_MC_Position", this.transform.position.x);
+        this.GetComponent<Animator>().SetFloat("actualSpeed", actualSpeed);
     }
 
     float movePlayer(float dir)
