@@ -29,7 +29,7 @@
 				<Event Id="628060881" Name="Amb_Medium_Crowd" ObjectPath="\Events\Default Work Unit\Amb_Medium_Crowd" DurationType="OneShot" DurationMin="31.234852" DurationMax="31.234852"/>
 				<Event Id="3860820919" Name="Amb_Medium_Crowd_Distant" ObjectPath="\Events\Default Work Unit\Amb_Medium_Crowd_Distant" DurationType="OneShot" DurationMin="13.172268" DurationMax="13.172268"/>
 				<Event Id="1518284782" Name="Amb_Medium_Crowd_Dynamic_Close" ObjectPath="\Events\Default Work Unit\Amb_Medium_Crowd_Dynamic_Close" DurationType="OneShot" DurationMin="186.552353" DurationMax="186.552353"/>
-				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="100.000000" DurationType="Infinite"/>
+				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="50.000000" DurationType="Infinite"/>
 				<Event Id="2024055086" Name="Ambience_BathRoom" ObjectPath="\Events\Default Work Unit\Ambience_BathRoom" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2510340756" Name="Ambience_BedRoom" ObjectPath="\Events\Default Work Unit\Ambience_BedRoom" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1710825164" Name="Ambience_Kitchen" ObjectPath="\Events\Default Work Unit\Ambience_Kitchen" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
