@@ -80,7 +80,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 296dcd70bed7cd4698e1de4ab13efed1
     GuidInternal: 
-    m_lastTime: -8586300210662170340
+    m_lastTime: -8586300143570448738
     List:
     - name: Amb_Downstair
       guid: 68a13fd2ebda7f48a2e21fc0ec62c5ef
@@ -103,6 +103,18 @@ MonoBehaviour:
       - ElementName: Amb_Music
         ObjectType: 3
       Path: Default Work Unit\Amb_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Amb_Upstair
+      guid: 09def1f67466c844b68d89a9310852be
+      id: 747370712
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Amb_Upstair
+        ObjectType: 3
+      Path: Default Work Unit\Amb_Upstair
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -255,7 +267,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 84810c4c1430c445a4720a7e648cd846
     GuidInternal: 
-    m_lastTime: -8586300286977850104
+    m_lastTime: -8586300117858578030
     List:
     - name: RTPC_MC_Position
       guid: 73c4c4d204bb4148be5a271a1282cb4c

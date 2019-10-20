@@ -3,26 +3,26 @@
 	<Platform GUID="{40FEE263-E9B5-4142-A545-8204B79B882E}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="1381453291" Timestamp="1571588964"/>
-				<File Name="SOUNBANK_WWISE" Hash="583023601" Timestamp="1571591055"/>
+				<File Name="Init" Hash="1965686176" Timestamp="1571592543"/>
+				<File Name="SOUNBANK_WWISE" Hash="3979007500" Timestamp="1571595369"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3657763425" Timestamp="1571591055"/>
+				<File Name="" Hash="1013470062" Timestamp="1571595369"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{44FF733D-B05B-46E4-85A1-F729DC060505}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="2314080233" Timestamp="1571588964"/>
-				<File Name="SOUNBANK_WWISE" Hash="583023601" Timestamp="1571591055"/>
+				<File Name="Init" Hash="3336074410" Timestamp="1571592542"/>
+				<File Name="SOUNBANK_WWISE" Hash="3979007500" Timestamp="1571595369"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3659775899" Timestamp="1571591055"/>
+				<File Name="" Hash="1227963128" Timestamp="1571595369"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

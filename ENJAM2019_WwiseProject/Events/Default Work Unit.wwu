@@ -147,6 +147,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Amb_Upstair" ID="{F6F1DE09-6674-44C8-B68D-89A9310852BE}">
+					<ChildrenList>
+						<Action Name="" ID="{DDE506F4-0735-4440-8AA0-5E088D4822F4}" ShortID="603211890">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Upstair" ID="{0D03FF3C-A9BE-4576-BFD3-CB2BF2524403}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
