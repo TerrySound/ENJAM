@@ -1914,6 +1914,39 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="Door_Open" ID="{F5C9E68F-AA7B-45F7-A039-9899F280D286}" ShortID="733553118">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EFX INT Door Bang Wood Swing Broken 01 A" ID="{D8FB6201-1E49-4CBE-93FC-ACF108DE483F}" ShortID="477024675">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.09947348930847E-02"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.335625618403694"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.37921898653529"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.38286221930622"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>EFX INT Door Bang Wood Swing Broken 01 A.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EFX INT Door Bang Wood Swing Broken 01 A" ID="{D8FB6201-1E49-4CBE-93FC-ACF108DE483F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="MC" ID="{A6DC5F71-F5FD-46DD-99C6-B75109BB21F9}" ShortID="937092802">

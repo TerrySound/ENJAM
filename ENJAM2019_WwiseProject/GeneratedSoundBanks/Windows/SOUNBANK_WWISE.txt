@@ -2,7 +2,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	791491523	FX_Phone_Ring			\Default Work Unit\FX_Phone_Ring	
 	1114231687	Amb_Music			\Default Work Unit\Amb_Music	
 	1294859063	FX_Aquarium			\Default Work Unit\FX_Aquarium	
-	1577475545	VO_Dancing			\Default Work Unit\VO_Dancing	
 	1648013973	MC_Footsteps			\Default Work Unit\MC_Footsteps	
 	1727588526	Stop_Groupe			\Default Work Unit\Stop_Groupe	
 	2060891257	Amb_Downstair			\Default Work Unit\Amb_Downstair	
@@ -14,8 +13,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3013075908	FX_PhoneClock			\Default Work Unit\FX_PhoneClock	
 	3065870848	MC_HearthBeat			\Default Work Unit\MC_HearthBeat	
 	3205713061	FX_Fridge			\Default Work Unit\FX_Fridge	
-	3673579421	VO_PNJ_Laught			\Default Work Unit\VO_PNJ_Laught	
-	3796451867	VO_PNJ_Embarrassed			\Default Work Unit\VO_PNJ_Embarrassed	
+	3523512105	FX_Couple_Stop			\Default Work Unit\FX_Couple_Stop	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2460634474	Texture			\Default Work Unit\Texture	
@@ -49,6 +47,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	418994039	Phone_Ring	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\Phone_Ring_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Phone_Ring\Phone_Ring		108301
 	429146205	Kiss_02	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\239907__woodwolf__kisses_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Kiss\Kisses_02\Kiss_02		140147
 	443761236	MC_Wood_FS_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Wood_FS\MC_Wood_FS_03_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_03		35365
+	477024675	Door_Open	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\EFX INT Door Bang Wood Swing Broken 01 A_B33E6B04.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\Door_Open		57795
 	484190720	MC_Wood_FS_09	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Wood_FS\MC_Wood_FS_09_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_09		31790
 	505863634	FX_Phone_Vibrate	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\466217__harrisando__vibrating_4C5A9564.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Phone_Vibrate\FX_Phone_Vibrate		53607
 	508167777	Aquarium	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\175274__mdsn__aquarium-gurgle_0313E3DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Aquarium\Aquarium		969283

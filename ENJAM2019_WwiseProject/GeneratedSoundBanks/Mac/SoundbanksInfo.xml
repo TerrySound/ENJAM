@@ -56,6 +56,7 @@
 				<Event Id="2060891257" Name="Amb_Downstair" ObjectPath="\Events\Default Work Unit\Amb_Downstair" DurationType="Infinite"/>
 				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="1294859063" Name="FX_Aquarium" ObjectPath="\Events\Default Work Unit\FX_Aquarium" MaxAttenuation="2.000000" DurationType="Infinite"/>
+				<Event Id="3523512105" Name="FX_Couple_Stop" ObjectPath="\Events\Default Work Unit\FX_Couple_Stop" DurationType="OneShot" DurationMin="1.003643" DurationMax="1.003643"/>
 				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3205713061" Name="FX_Fridge" ObjectPath="\Events\Default Work Unit\FX_Fridge" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="791491523" Name="FX_Phone_Ring" ObjectPath="\Events\Default Work Unit\FX_Phone_Ring" DurationType="OneShot" DurationMin="2.693175" DurationMax="2.693175"/>
@@ -67,9 +68,6 @@
 				<Event Id="1648013973" Name="MC_Footsteps" ObjectPath="\Events\Default Work Unit\MC_Footsteps" DurationType="OneShot" DurationMin="0.339592" DurationMax="1.014186"/>
 				<Event Id="3065870848" Name="MC_HearthBeat" ObjectPath="\Events\Default Work Unit\MC_HearthBeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1727588526" Name="Stop_Groupe" ObjectPath="\Events\Default Work Unit\Stop_Groupe" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1577475545" Name="VO_Dancing" ObjectPath="\Events\Default Work Unit\VO_Dancing" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3796451867" Name="VO_PNJ_Embarrassed" ObjectPath="\Events\Default Work Unit\VO_PNJ_Embarrassed" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3673579421" Name="VO_PNJ_Laught" ObjectPath="\Events\Default Work Unit\VO_PNJ_Laught" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="91340931"/>
@@ -154,6 +152,10 @@
 				<File Id="443761236" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_03.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_03_66C02B12.wem</Path>
+				</File>
+				<File Id="477024675" Language="SFX">
+					<ShortName>EFX INT Door Bang Wood Swing Broken 01 A.wav</ShortName>
+					<Path>SFX\EFX INT Door Bang Wood Swing Broken 01 A_B33E6B04.wem</Path>
 				</File>
 				<File Id="484190720" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_09.wav</ShortName>

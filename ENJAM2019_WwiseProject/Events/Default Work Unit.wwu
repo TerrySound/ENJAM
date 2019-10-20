@@ -3,39 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="VO_PNJ_Laught" ID="{2E226DFD-FA88-41FC-AAE8-C49FE56F0F63}">
-					<ChildrenList>
-						<Action Name="" ID="{AD8C2721-5A75-4AD6-A37C-3C8DE2828377}" ShortID="578604286">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="VO_PNJ_Laught" ID="{EA76886D-7501-4D37-9935-388C5D3DB7F0}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="VO_PNJ_Embarrassed" ID="{4C6C0BAA-AAB7-4A26-8E3B-4BA51CFDA133}">
-					<ChildrenList>
-						<Action Name="" ID="{42FFD8A0-A2CA-472B-9B76-844A8B68A5BA}" ShortID="6440048">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="VO_PNJ_Embarrassed" ID="{6A741046-2D55-4F4C-9214-F912836A8221}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="VO_Dancing" ID="{23AD3944-6A3A-489A-AEBB-A189185955CE}">
-					<ChildrenList>
-						<Action Name="" ID="{B59C318D-892E-4477-BEEB-E6D417B82112}" ShortID="393257546">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="VO_Dancing" ID="{4FDEA711-1D82-46A5-964B-C2F5AE650BEE}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="MC_Footsteps" ID="{A5F6CA2C-7476-4927-B30F-59D3056DED10}">
 					<ChildrenList>
 						<Action Name="" ID="{59D6FE53-090A-4288-96DB-D578EACC08B4}" ShortID="1071418381">
@@ -318,6 +285,29 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Kiss" ID="{8ABD85EE-7D83-4303-A26E-C15B1C8C9223}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FX_Couple_Stop" ID="{38453DC5-CD34-49F5-8FF0-8FDB6B9FD425}">
+					<ChildrenList>
+						<Action Name="" ID="{919744A3-6CE9-427F-8E56-A8B5D8E64F8D}" ShortID="766413970">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Kiss" ID="{8ABD85EE-7D83-4303-A26E-C15B1C8C9223}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{514F8A6D-0103-453F-B94B-54A009B00FD3}" ShortID="921506220">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Open" ID="{F5C9E68F-AA7B-45F7-A039-9899F280D286}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
