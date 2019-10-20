@@ -4,10 +4,48 @@
 		<WorkUnit Name="Default Work Unit" ID="{5E9D594F-8482-42B3-9E52-1CD5F09CA5D9}" PersistMode="Standalone">
 			<ChildrenList>
 				<SwitchGroup Name="Texture" ID="{3599DA7A-6794-4274-9C61-A4BB97F4DDA1}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Switch Name="Wood" ID="{88EA7DDB-493E-40EB-BDCB-7083BA549AAD}"/>
 						<Switch Name="Floor" ID="{AD27E7C6-BD11-4841-9C08-C46E6F82C4FF}"/>
 					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_MC_Position" ID="{D2C4C473-BB04-4841-BE5A-271A1282CB4C}"/>
+						<Curve Name="" ID="{EABFABE7-7607-4491-A16A-EB5160D7090C}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>-5</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>-4.999</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>6.90043</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>11.6</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>20</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
 				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
