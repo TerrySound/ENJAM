@@ -31,6 +31,7 @@ public class CameraMovement : MonoBehaviour
     private bool isStickingExit = false;
     private float halfScreenWidth = 0f;
     private Vector3 stickingPosition = Vector3.zero;
+    private Vector3 unstickingPosition = Vector3.zero;
     private float stickingSpeed = 5f;
 
     void Start()
@@ -56,7 +57,7 @@ public class CameraMovement : MonoBehaviour
         halfScreenWidth = Camera.main.orthographicSize * Camera.main.aspect;
 
         // ensure the camera starts at the right place
-        transform.position = new Vector3(-2.5f, 0.31f, -500f);
+        //transform.position = new Vector3(-2.5f, 0.31f, -500f);
     }
 
     // Update is called once per frame
@@ -98,21 +99,47 @@ public class CameraMovement : MonoBehaviour
 
             if (isScrolling)
             {
+
                 if (stickingPosition != Vector3.zero)
                 {
-                Debug.Log("on se colle");
-                    transform.position = stickingPosition;
+                    Debug.Log("on se colle");
+                    //transform.position = stickingPosition;
                     t = Mathf.Min(t + Time.deltaTime * stickingSpeed, 1f); // t in [0,1]
                     transform.position = Vector3.Lerp(originPosition, stickingPosition, t);
 
                     if (t == 1f)
                     {
+                        Debug.Log("collé");
                         stickingPosition = Vector3.zero;
+                        transform.parent = null; // set parent
                     }
                 }
-
-                if (!isStickingExit && !isStickingEntrance)    /* Slack of the camera */
+                
+                else if (unstickingPosition != Vector3.zero)
                 {
+                    Debug.Log("on se décolle");
+                    isStickingEntrance = false;
+                    isStickingExit = false;   
+                    /*
+                    //transform.position = unstickingPosition;
+                    t = Mathf.Min(t + Time.deltaTime * stickingSpeed, 1f); // t in [0,1]
+                    transform.position = Vector3.Lerp(originPosition, unstickingPosition, t);
+
+                    Debug.Log(t);
+                    if (t == 1f)
+                    {
+                        Debug.Log("décollé");
+                        unstickingPosition = Vector3.zero;
+                        transform.parent = character.transform; // set parent
+                        isStickingEntrance = false;
+                        isStickingExit = false;
+                    }*/
+                }
+                
+
+                else if (!isStickingExit && !isStickingEntrance)    /* Slack of the camera */
+                {
+                    Debug.Log("not sticking");
                     float distanceToCharacter = character.transform.position.x - transform.position.x;
                     float translationX = transform.position.x - lastPosition.x;
                     if (!isRightLimit && distanceToCharacter >= slack)
@@ -138,18 +165,22 @@ public class CameraMovement : MonoBehaviour
 
                     /* Stick to the borders of the world */
 
-                    if (!isStickingEntrance && character.transform.position.x - entrance.transform.position.x <= halfScreenWidth)
+                    if (!isStickingEntrance && character.transform.position.x + slack - entrance.transform.position.x <= halfScreenWidth)
                     {
+                    Debug.Log("approaching entrance");
                         transform.parent = null;
                         isStickingEntrance = true;
                         originPosition = transform.position;
                         t = 0f;
+                        unstickingPosition = Vector3.zero;
                         stickingPosition = new Vector3(entrance.transform.position.x + halfScreenWidth, transform.position.y, transform.position.z);
                     }
-                    else if (!isStickingExit && exit.transform.position.x - character.transform.position.x <= halfScreenWidth)
+                    else if (!isStickingExit && exit.transform.position.x - character.transform.position.x + slack <= halfScreenWidth)
                     {
+                    Debug.Log("approaching exit");
                         transform.parent = null;
                         isStickingExit = true;
+                        unstickingPosition = Vector3.zero;
                         originPosition = transform.position;
                         t = 0f;
                         stickingPosition = new Vector3(exit.transform.position.x - halfScreenWidth, transform.position.y, transform.position.z); // will be updated the next update
@@ -157,17 +188,30 @@ public class CameraMovement : MonoBehaviour
                 }
                 else
                 {
-                    if (isStickingEntrance && character.transform.position.x - entrance.transform.position.x > halfScreenWidth)
+                /* Unstick */
+
+                if (unstickingPosition == Vector3.zero)
+                {
+                    if (isStickingEntrance && character.transform.position.x - entrance.transform.position.x > halfScreenWidth + slack)
                     {
-                        transform.parent = character.transform;
-                        isStickingEntrance = false;
+                        transform.parent = character.transform; 
+                        /*
+                        unstickingPosition = originPosition;
+                        originPosition = transform.position;
+                        t = 0f; // will be updated the next update
+                        */
                     }
-                    else if (isStickingExit && exit.transform.position.x - character.transform.position.x > halfScreenWidth)
+                    else if (isStickingExit && exit.transform.position.x - character.transform.position.x > halfScreenWidth + slack)
                     {
                         transform.parent = character.transform;
-                        isStickingExit = false;
+                        /*
+                        unstickingPosition = originPosition;
+                        originPosition = transform.position;
+                        t = 0f;
+                        */
                     }
                 }
+            }
             
         }
         lastPosition = transform.position;
