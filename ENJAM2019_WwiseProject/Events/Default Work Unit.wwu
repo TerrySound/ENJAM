@@ -202,6 +202,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Amb_Medium_Crowd" ID="{42FEED7F-7566-47AB-9891-AD8A7FF6715C}">
+					<ChildrenList>
+						<Action Name="" ID="{E211500F-5311-4BAF-8C6F-EECCD8EAFADE}" ShortID="515847702">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Medium_Crowd_Close" ID="{DAF21C0C-D790-44A5-8B6E-310D20264E33}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Amb_Medium_Crowd_Distant" ID="{445DCECB-5B8E-4F6B-8E2B-726914D8A291}">
+					<ChildrenList>
+						<Action Name="" ID="{DB2A855D-2FF2-4EEC-835B-CFEE1D40AC9A}" ShortID="258864901">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Medium_Crowd_Distant" ID="{CB9645BD-1FCA-4035-A36C-24C8C9373A23}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Amb_Medium_Crowd_Dynamic_Close" ID="{77573DFA-4B82-4CBC-8E76-42AFE49265F3}">
+					<ChildrenList>
+						<Action Name="" ID="{2F250205-0A00-43B7-BF81-75F9DF7ADE37}" ShortID="415663756">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Medium_Crowd_Dynamic_Close" ID="{BE821354-8AB0-4403-8E63-C0E7E75201FB}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Amb_Huge_Crowd" ID="{40715CEA-BDE8-4DD4-ADFF-A4D6305A34C9}">
+					<ChildrenList>
+						<Action Name="" ID="{E2657D25-6848-4C9C-9549-2DF9810D4228}" ShortID="645028725">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Huge_Crowd" ID="{8C0FAC0F-7583-4751-A4A2-28B2E4B2BDFF}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
