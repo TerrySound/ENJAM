@@ -43,7 +43,7 @@ public class CameraMovement : MonoBehaviour
         {
             throw new System.ArgumentNullException("No exit point");
         }
-        if (exit.transform.position.x - entrance.transform.position.x < Camera.main.orthographicSize)
+        if (exit.transform.position.x - entrance.transform.position.x < Camera.main.orthographicSize * Camera.main.aspect)
         {
             throw new System.ArgumentNullException("Entrance and exit points are too close to each other");
         }
@@ -122,13 +122,15 @@ public class CameraMovement : MonoBehaviour
 
                 /* Stick to the borders of the world */
 
-                if (!isStickingEntrance && character.transform.position.x - entrance.transform.position.x < +halfScreenWidth)
+                if (!isStickingEntrance && character.transform.position.x - entrance.transform.position.x <= halfScreenWidth)
                 {
+                    transform.position = new Vector3(entrance.transform.position.x + halfScreenWidth, transform.position.y, transform.position.z);
                     transform.parent = null;
                     isStickingEntrance = true;
                 }
-                else if (!isStickingExit && exit.transform.position.x - character.transform.position.x < halfScreenWidth)
+                else if (!isStickingExit && exit.transform.position.x - character.transform.position.x <= halfScreenWidth)
                 {
+                    transform.position = new Vector3(exit.transform.position.x - halfScreenWidth, transform.position.y, transform.position.z);
                     transform.parent = null;
                     isStickingExit = true;
                 }
