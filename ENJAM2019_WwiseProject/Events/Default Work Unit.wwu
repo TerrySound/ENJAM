@@ -191,6 +191,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Amb_Music" ID="{8762CCE0-5545-4B8B-8108-77E511BBD752}">
+					<ChildrenList>
+						<Action Name="" ID="{B4D3635B-0DB9-4272-9E34-4F8A1E348A9A}" ShortID="390466717">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{D2C1A954-C1FD-46B3-98DB-6BD9B85C2626}" WorkUnitID="{928A65DF-772D-44C3-94CD-F5DA2B997A90}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
