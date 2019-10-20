@@ -51,10 +51,10 @@ public class CameraMovement : MonoBehaviour
         {
             throw new System.ArgumentNullException("No character to follow");
         }
+        halfScreenWidth = Camera.main.orthographicSize * Camera.main.aspect;
+
         // ensure the camera starts at the same height as the player
         transform.position = new Vector3(transform.position.x, character.transform.position.y, transform.position.z);
-
-        halfScreenWidth = Camera.main.orthographicSize * Camera.main.aspect;
     }
 
     // Update is called once per frame
@@ -151,5 +151,23 @@ public class CameraMovement : MonoBehaviour
         }
 
         lastPosition = transform.position;
+    }
+    void Warp()
+    {
+        transform.position = new Vector3(character.transform.position.x, character.transform.position.y, transform.position.z);
+
+        /* Reload sticking */
+
+        isStickingEntrance = false;
+        isStickingExit = false;
+
+        if (character.transform.position.x - entrance.transform.position.x < halfScreenWidth)
+        {
+            isStickingEntrance = true;
+        }
+        else if (exit.transform.position.x - character.transform.position.x < halfScreenWidth)
+        {
+            isStickingExit = true;
+        }
     }
 }
