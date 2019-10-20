@@ -14,10 +14,9 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	2620089962	Reverb_Bathroom			\Default Work Unit\Master Audio Bus\Reverb_Bathroom	
 
 Effect plug-ins	ID	Name	Type				Notes
-	602546716	Room_Large	Wwise RoomVerb			
+	506891147	Plate_Small	Wwise RoomVerb			
 	623221272	Wwise_Meter_(Custom)	Wwise Meter			
 	1990128658	Room_Medium	Wwise RoomVerb			
-	2995775460	Room_Small	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

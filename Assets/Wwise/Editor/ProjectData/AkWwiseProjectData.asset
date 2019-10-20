@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 8773f664cf49ef40991e297458d41079
     GuidInternal: 
-    m_lastTime: -8586301019885342351
+    m_lastTime: -8586300196975028513
     List:
     - name: Reverb_Bathroom
       guid: 2d24f1560183d345857d1b1fba4a25c4
@@ -80,8 +80,20 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 296dcd70bed7cd4698e1de4ab13efed1
     GuidInternal: 
-    m_lastTime: -8586300423253780459
+    m_lastTime: -8586300210662170340
     List:
+    - name: Amb_Downstair
+      guid: 68a13fd2ebda7f48a2e21fc0ec62c5ef
+      id: 2060891257
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Amb_Downstair
+        ObjectType: 3
+      Path: Default Work Unit\Amb_Downstair
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Amb_Music
       guid: e0cc628745558b4b810877e511bbd752
       id: 1114231687
@@ -91,54 +103,6 @@ MonoBehaviour:
       - ElementName: Amb_Music
         ObjectType: 3
       Path: Default Work Unit\Amb_Music
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Ambience_BathRoom
-      guid: 0a8ee496c45bef4d9da46f7add01be15
-      id: 2024055086
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Ambience_BathRoom
-        ObjectType: 3
-      Path: Default Work Unit\Ambience_BathRoom
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Ambience_BedRoom
-      guid: c23b570b561bce499955d632748214a4
-      id: 2510340756
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Ambience_BedRoom
-        ObjectType: 3
-      Path: Default Work Unit\Ambience_BedRoom
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Ambience_Kitchen
-      guid: 556a45768345bb46a9f53ccd66a2d191
-      id: 1710825164
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Ambience_Kitchen
-        ObjectType: 3
-      Path: Default Work Unit\Ambience_Kitchen
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Ambience_LivingRoom
-      guid: af1406f03ee3744ea927c5ab88dba437
-      id: 3642974746
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Ambience_LivingRoom
-        ObjectType: 3
-      Path: Default Work Unit\Ambience_LivingRoom
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -291,8 +255,26 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 84810c4c1430c445a4720a7e648cd846
     GuidInternal: 
-    m_lastTime: -8586301157174309571
+    m_lastTime: -8586300286977850104
     List:
+    - name: RTPC_MC_Position
+      guid: 73c4c4d204bb4148be5a271a1282cb4c
+      id: 3715171847
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: RTPC_MC_Position
+        ObjectType: 13
+      Path: Default Work Unit\RTPC_MC_Position
+    - name: RTPC_Music
+      guid: 373ec24f6025b449b8602d650d9ad472
+      id: 3709650428
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: RTPC_Music
+        ObjectType: 13
+      Path: Default Work Unit\RTPC_Music
     - name: RTPC_SideChain_FX
       guid: 19ece1010b249049acffb218849e8cfb
       id: 1038960886

@@ -6,26 +6,26 @@
 				<SoundcasterSession Name="Mix" ID="{751913AB-E935-4DED-BD08-CA3D69615C99}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Ambience_BathRoom" ID="{96E48E0A-5BC4-4DEF-9DA4-6F7ADD01BE15}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
+							<ObjectRef Name="Amb_Downstair" ID="{D23FA168-DAEB-487F-A2E2-1FC0EC62C5EF}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Music" ID="{D2C1A954-C1FD-46B3-98DB-6BD9B85C2626}" WorkUnitID="{928A65DF-772D-44C3-94CD-F5DA2B997A90}"/>
 							<Position X="1" Y="0"/>
 						</Module>
-						<Module>
-							<ObjectRef Name="Ambience_BedRoom" ID="{0B573BC2-1B56-49CE-9955-D632748214A4}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
-							<Position X="1" Y="1"/>
-						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_MC_Position" ID="{D2C4C473-BB04-4841-BE5A-271A1282CB4C}"/>
-							<Value>1.21232038000408E-311</Value>
+							<Value>756.212161616161</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_SideChain_FX" ID="{01E1EC19-240B-4990-ACFF-B218849E8CFB}"/>
 							<Value>-3</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Music" ID="{4FC23E37-2560-49B4-B860-2D650D9AD472}"/>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

@@ -22,11 +22,17 @@ public class CameraMovement : MonoBehaviour
 
     [SerializeField]
     [Tooltip("The slack of the camera")]
+    [Range(0,10)]
     public float slack = 0.5f;
 
     void Start()
     {
-
+        if (character == null)
+        {
+            throw new System.ArgumentNullException("No character to follow");
+        }
+        // ensure the camera starts at the same height as the player
+        transform.position = new Vector3(transform.position.x, character.transform.position.y, transform.position.z);
     }
 
     // Update is called once per frame
