@@ -10,9 +10,11 @@ public class SoundTriggerEvent : MonoBehaviour
     private void OnTriggerEnter2D (Collider2D Collider)
     { 
         AkSoundEngine.PostEvent(EventNameEnter, gameObject);
+        Debug.Log("enter");
     }
     private void OnTriggerExit2D (Collider2D other)
     {
+        Debug.Log("Exit");
         AkSoundEngine.PostEvent(EventNameExit, gameObject);
     }
 }

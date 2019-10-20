@@ -59,6 +59,9 @@
 							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="Amb_Downstair" ID="{3A6A8F97-0EAB-4BDE-AD71-C0F364D4AF3E}" ShortID="29813964">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
@@ -176,7 +179,12 @@
 										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="UserAuxSendVolume0" Type="Real64">
 											<ValueList>
-												<Value>-14</Value>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -507,27 +515,27 @@
 										<BlendTrackAssoc>
 											<ItemRef Name="Amb_Couloir" ID="{00469542-E458-40FC-B613-CB116049B296}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>0</LeftEdgePos>
+												<LeftEdgePos>-5</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>359.59595959596</RightEdgePos>
+												<RightEdgePos>-0.871050837106067</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="Amb_LivingRoom" ID="{F636065E-BDCB-483F-BEF1-E0454A903E63}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>227.272727272727</LeftEdgePos>
+												<LeftEdgePos>-2.65991987909577</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>706.060606060606</RightEdgePos>
+												<RightEdgePos>2.72348166191745</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="Amb_Kitchen" ID="{9F35C00C-8B6E-41D8-B11E-37574BA2407C}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>588.888888888889</LeftEdgePos>
+												<LeftEdgePos>1.62926371909183</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>1000</RightEdgePos>
+												<RightEdgePos>4</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
@@ -748,27 +756,27 @@
 										<BlendTrackAssoc>
 											<ItemRef Name="Amb_Couloir" ID="{53D5C68F-F681-4F2D-B489-897110CEF5A7}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>0</LeftEdgePos>
+												<LeftEdgePos>-5</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>333.333333333333</RightEdgePos>
+												<RightEdgePos>-2</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="Amb_BedRoom" ID="{89822636-A87D-4BB7-9DC4-F74DB09AECE6}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>239.393939393939</LeftEdgePos>
+												<LeftEdgePos>-2.84545454545455</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>666.666666666667</RightEdgePos>
+												<RightEdgePos>1</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="Amb_BathRoom" ID="{4AF15DCF-E25A-494E-8CFB-5539D1B58CF9}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>586.868686868687</LeftEdgePos>
+												<LeftEdgePos>0.281818181818183</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>1000</RightEdgePos>
+												<RightEdgePos>4</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
@@ -855,15 +863,234 @@
 						</BlendContainer>
 						<BlendContainer Name="FX_Fridge" ID="{3CF7CB38-4711-47F8-8742-F20685A20848}" ShortID="600044052">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="GameAuxSendVolume" Type="Real64">
 									<ValueList>
 										<Value>-10</Value>
 									</ValueList>
 								</Property>
 								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{6AB04E13-6543-4860-B57F-7CDA5CB75423}">
+										<Attenuation Name="RTPC_Music_Attenuation (Custom)" ID="{A6E619ED-E567-4616-A077-0098AA7C5A9B}" ShortID="62594177">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="5"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{84C11830-9A44-4D84-BA88-BD2AC2F53F01}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>0.866834</XPos>
+																	<YPos>-0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>1.82789</XPos>
+																	<YPos>-7.11757</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>2.10427</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>4.3907</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>5</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeWetUser" ID="{29330092-5924-44E4-B0F5-EEDEF1A59EC1}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>-16.57688</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>0.76005</XPos>
+																	<YPos>-16.33219</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>1.3505025</XPos>
+																	<YPos>-5.17937</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>4.170854</XPos>
+																	<YPos>-2.79461</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>4.736181</XPos>
+																	<YPos>-5.38217</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>5</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{F115A794-7D04-4598-BE42-D8318E5E2E79}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>0.85</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>2.71105</XPos>
+																	<YPos>10</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>3.75378</XPos>
+																	<YPos>20</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>5</XPos>
+																	<YPos>41</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="HighPassFilter" ID="{31652966-0F2A-4656-8118-317541939B17}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>3.35</XPos>
+																	<YPos>7</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>4.040955</XPos>
+																	<YPos>9</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>5</XPos>
+																	<YPos>10</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{04EEB7BF-1CD5-4734-9B0B-DE736257E215}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>79.66102</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>0.71708</XPos>
+																	<YPos>70.76271</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>1.11181</XPos>
+																	<YPos>39.83051</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>2.05402</XPos>
+																	<YPos>46.18644</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>2.73869</XPos>
+																	<YPos>63.50804</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>3.29146</XPos>
+																	<YPos>75.42373</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>4.10276</XPos>
+																	<YPos>77.11864</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>5</XPos>
+																	<YPos>77.54237</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
 								</Reference>
@@ -882,11 +1109,6 @@
 											</ValueList>
 										</Property>
 										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-9</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -957,7 +1179,7 @@
 										<Value>-15</Value>
 									</ValueList>
 								</Property>
-								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -970,8 +1192,51 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
-								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{5191000B-4690-4EF8-BA32-08401E692C06}" ShortID="561637282">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_MC_Position" ID="{D2C4C473-BB04-4841-BE5A-271A1282CB4C}" WorkUnitID="{4C0C8184-3014-45C4-A472-0A7E648CD846}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C7CC57D0-2F1E-42A9-BCBC-A25F92B90832}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-5</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-1.43188</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1.10627</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{2BDC3DA5-2044-467B-9056-7F982ECD0005}">
@@ -996,6 +1261,9 @@
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
 									<ObjectRef Name="Texture" ID="{3599DA7A-6794-4274-9C61-A4BB97F4DDA1}" WorkUnitID="{5E9D594F-8482-42B3-9E52-1CD5F09CA5D9}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb_LivingRoom" ID="{D61F5E6B-CED2-4FF5-9841-FE56A4074F20}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
