@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 8773f664cf49ef40991e297458d41079
     GuidInternal: 
-    m_lastTime: -8586301019885342351
+    m_lastTime: -8586300283817750512
     List:
     - name: Reverb_Bathroom
       guid: 2d24f1560183d345857d1b1fba4a25c4
@@ -80,8 +80,56 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 296dcd70bed7cd4698e1de4ab13efed1
     GuidInternal: 
-    m_lastTime: -8586300423253780459
+    m_lastTime: -8586300292558043932
     List:
+    - name: Amb_Huge_Crowd
+      guid: ea5c7140e8bdd44dadffa4d6305a34c9
+      id: 1695669757
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Amb_Huge_Crowd
+        ObjectType: 3
+      Path: Default Work Unit\Amb_Huge_Crowd
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Amb_Medium_Crowd
+      guid: 7fedfe426675ab479891ad8a7ff6715c
+      id: 628060881
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Amb_Medium_Crowd
+        ObjectType: 3
+      Path: Default Work Unit\Amb_Medium_Crowd
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Amb_Medium_Crowd_Distant
+      guid: cbce5d448e5b6b4f8e2b726914d8a291
+      id: 3860820919
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Amb_Medium_Crowd_Distant
+        ObjectType: 3
+      Path: Default Work Unit\Amb_Medium_Crowd_Distant
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Amb_Medium_Crowd_Dynamic_Close
+      guid: fa3d5777824bbc4c8e7642afe49265f3
+      id: 1518284782
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Amb_Medium_Crowd_Dynamic_Close
+        ObjectType: 3
+      Path: Default Work Unit\Amb_Medium_Crowd_Dynamic_Close
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Amb_Music
       guid: e0cc628745558b4b810877e511bbd752
       id: 1114231687
@@ -291,7 +339,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 84810c4c1430c445a4720a7e648cd846
     GuidInternal: 
-    m_lastTime: -8586300412590326786
+    m_lastTime: -8586300286977850104
     List:
     - name: RTPC_MC_Position
       guid: 73c4c4d204bb4148be5a271a1282cb4c
@@ -302,6 +350,15 @@ MonoBehaviour:
       - ElementName: RTPC_MC_Position
         ObjectType: 13
       Path: Default Work Unit\RTPC_MC_Position
+    - name: RTPC_Music
+      guid: 373ec24f6025b449b8602d650d9ad472
+      id: 3709650428
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: RTPC_Music
+        ObjectType: 13
+      Path: Default Work Unit\RTPC_Music
     - name: RTPC_SideChain_FX
       guid: 19ece1010b249049acffb218849e8cfb
       id: 1038960886

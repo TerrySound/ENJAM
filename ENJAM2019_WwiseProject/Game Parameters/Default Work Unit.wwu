@@ -16,6 +16,7 @@
 						<Property Name="Max" Type="Real64" Value="1000"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="RTPC_Music" ID="{4FC23E37-2560-49B4-B860-2D650D9AD472}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

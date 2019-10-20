@@ -4,12 +4,26 @@
 		<WorkUnit Name="Default Work Unit" ID="{928A65DF-772D-44C3-94CD-F5DA2B997A90}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Music" ID="{D2C1A954-C1FD-46B3-98DB-6BD9B85C2626}" ShortID="206597410">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="RTPC_Music_Attenuation" ID="{6AB04E13-6543-4860-B57F-7CDA5CB75423}" WorkUnitID="{CC4376CA-C1FC-48A4-B5FE-62A125B7A615}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Ambience" ID="{B2C9C5A2-B8EC-4629-860A-46736AF53D38}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb_LivingRoom" ID="{D61F5E6B-CED2-4FF5-9841-FE56A4074F20}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
