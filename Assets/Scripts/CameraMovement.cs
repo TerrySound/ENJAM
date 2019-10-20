@@ -30,6 +30,8 @@ public class CameraMovement : MonoBehaviour
     private bool isStickingEntrance = false;
     private bool isStickingExit = false;
     private float halfScreenWidth = 0f;
+    private Vector3 stickingPosition = Vector3.zero;
+    private float stickingSpeed = 5f;
 
     void Start()
     {
@@ -54,105 +56,123 @@ public class CameraMovement : MonoBehaviour
         halfScreenWidth = Camera.main.orthographicSize * Camera.main.aspect;
 
         // ensure the camera starts at the right place
-        //transform.position = new Vector3(transform.position.x, character.transform.position.y, transform.position.z);
         transform.position = new Vector3(-2.5f, 0.31f, -500f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Return)) // Simulate trigger
-        {
-            originPosition = transform.position;
-            isSwitchingMode = true;
-        }
-
-        if (isSwitchingMode)
-        {
-            t = Mathf.Min(t + Time.deltaTime * speed, 1f); // t in [0,1]
-            float smoothstep = t * t * (3 - 2 * t);
-            float targetX = Mathf.Max(character.transform.position.x, entrance.transform.position.x + halfScreenWidth);
-            targetX = Mathf.Min(targetX, exit.transform.position.x - halfScreenWidth);
-            Vector3 targetPosition = new Vector3(targetX, originPosition.y, originPosition.z);
-            transform.position = Vector3.Lerp(originPosition, targetPosition, smoothstep);
-
-            if (t == 1f)
+            if (Input.GetKey(KeyCode.Return)) // Simulate trigger
             {
-                isSwitchingMode = false;
-                isScrolling = true;
+                originPosition = transform.position;
+                isSwitchingMode = true;
+                t = 0f;
+            }
 
-                /* Initial sticking */
-                
-                if (character.transform.position.x - entrance.transform.position.x < halfScreenWidth)
+            if (isSwitchingMode)
+            {
+                t = Mathf.Min(t + Time.deltaTime * speed, 1f); // t in [0,1]
+                float smoothstep = t * t * (3 - 2 * t);
+                float targetX = Mathf.Max(character.transform.position.x, entrance.transform.position.x + halfScreenWidth);
+                targetX = Mathf.Min(targetX, exit.transform.position.x - halfScreenWidth);
+                Vector3 targetPosition = new Vector3(targetX, originPosition.y, originPosition.z);
+                transform.position = Vector3.Lerp(originPosition, targetPosition, smoothstep);
+
+                if (t == 1f)
                 {
-                    isStickingEntrance = true;
-                }
-                else if (exit.transform.position.x - character.transform.position.x < halfScreenWidth)
-                {
-                    isStickingExit = true;
+                    isSwitchingMode = false;
+                    isScrolling = true;
+
+                    /* Initial sticking */
+
+                    if (character.transform.position.x - entrance.transform.position.x < halfScreenWidth)
+                    {
+                        isStickingEntrance = true;
+                    }
+                    else if (exit.transform.position.x - character.transform.position.x < halfScreenWidth)
+                    {
+                        isStickingExit = true;
+                    }
                 }
             }
-        }
 
-        if (isScrolling)
-        {
-            if (!isStickingExit && !isStickingEntrance)    /* Slack of the camera */
+            if (isScrolling)
             {
-                float distanceToCharacter = character.transform.position.x - transform.position.x;
-                float translationX = transform.position.x - lastPosition.x;
-                if (!isRightLimit && distanceToCharacter >= slack)
+                if (stickingPosition != Vector3.zero)
                 {
-                    transform.parent = character.transform;
-                    isRightLimit = true;
-                }
-                else if (!isLeftLimit && distanceToCharacter <= -slack)
-                {
-                    transform.parent = character.transform;
-                    isLeftLimit = true;
-                }
-                else if (isRightLimit && translationX < 0)
-                {
-                    transform.parent = null;
-                    isRightLimit = false;
-                }
-                else if (isLeftLimit && translationX > 0)
-                {
-                    transform.parent = null;
-                    isLeftLimit = false;
+                Debug.Log("on se colle");
+                    transform.position = stickingPosition;
+                    t = Mathf.Min(t + Time.deltaTime * stickingSpeed, 1f); // t in [0,1]
+                    transform.position = Vector3.Lerp(originPosition, stickingPosition, t);
+
+                    if (t == 1f)
+                    {
+                        stickingPosition = Vector3.zero;
+                    }
                 }
 
-                /* Stick to the borders of the world */
+                if (!isStickingExit && !isStickingEntrance)    /* Slack of the camera */
+                {
+                    float distanceToCharacter = character.transform.position.x - transform.position.x;
+                    float translationX = transform.position.x - lastPosition.x;
+                    if (!isRightLimit && distanceToCharacter >= slack)
+                    {
+                        transform.parent = character.transform;
+                        isRightLimit = true;
+                    }
+                    else if (!isLeftLimit && distanceToCharacter <= -slack)
+                    {
+                        transform.parent = character.transform;
+                        isLeftLimit = true;
+                    }
+                    else if (isRightLimit && translationX < 0)
+                    {
+                        transform.parent = null;
+                        isRightLimit = false;
+                    }
+                    else if (isLeftLimit && translationX > 0)
+                    {
+                        transform.parent = null;
+                        isLeftLimit = false;
+                    }
 
-                if (!isStickingEntrance && character.transform.position.x - entrance.transform.position.x <= halfScreenWidth)
-                {
-                    transform.position = new Vector3(entrance.transform.position.x + halfScreenWidth, transform.position.y, transform.position.z);
-                    transform.parent = null;
-                    isStickingEntrance = true;
+                    /* Stick to the borders of the world */
+
+                    if (!isStickingEntrance && character.transform.position.x - entrance.transform.position.x <= halfScreenWidth)
+                    {
+                        transform.parent = null;
+                        isStickingEntrance = true;
+                        originPosition = transform.position;
+                        t = 0f;
+                        stickingPosition = new Vector3(entrance.transform.position.x + halfScreenWidth, transform.position.y, transform.position.z);
+                    }
+                    else if (!isStickingExit && exit.transform.position.x - character.transform.position.x <= halfScreenWidth)
+                    {
+                        transform.parent = null;
+                        isStickingExit = true;
+                        originPosition = transform.position;
+                        t = 0f;
+                        stickingPosition = new Vector3(exit.transform.position.x - halfScreenWidth, transform.position.y, transform.position.z); // will be updated the next update
+                    }
                 }
-                else if (!isStickingExit && exit.transform.position.x - character.transform.position.x <= halfScreenWidth)
+                else
                 {
-                    transform.position = new Vector3(exit.transform.position.x - halfScreenWidth, transform.position.y, transform.position.z);
-                    transform.parent = null;
-                    isStickingExit = true;
+                    if (isStickingEntrance && character.transform.position.x - entrance.transform.position.x > halfScreenWidth)
+                    {
+                        transform.parent = character.transform;
+                        isStickingEntrance = false;
+                    }
+                    else if (isStickingExit && exit.transform.position.x - character.transform.position.x > halfScreenWidth)
+                    {
+                        transform.parent = character.transform;
+                        isStickingExit = false;
+                    }
                 }
-            }
-            else
-            {
-                if (isStickingEntrance && character.transform.position.x - entrance.transform.position.x > halfScreenWidth)
-                {
-                    transform.parent = character.transform;
-                    isStickingEntrance = false;
-                }
-                else if (isStickingExit && exit.transform.position.x - character.transform.position.x > halfScreenWidth)
-                {
-                    transform.parent = character.transform;
-                    isStickingExit = false;
-                }
-            }
+            
         }
-
         lastPosition = transform.position;
     }
+
     void Warp()
     {
         transform.position = new Vector3(character.transform.position.x, transform.position.y, transform.position.z);
