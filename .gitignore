@@ -5,8 +5,8 @@
 [Bb]uilds/
 Assets/AssetStoreTools*
 ENJAM2019_WwiseProject/*
-!.cache/*
-!GeneratedSoundBanks/*
+!.cache/
+!GeneratedSoundBanks/
 
 
 # Visual Studio cache directory
