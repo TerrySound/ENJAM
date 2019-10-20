@@ -291,8 +291,17 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 84810c4c1430c445a4720a7e648cd846
     GuidInternal: 
-    m_lastTime: -8586301157174309571
+    m_lastTime: -8586300412590326786
     List:
+    - name: RTPC_MC_Position
+      guid: 73c4c4d204bb4148be5a271a1282cb4c
+      id: 3715171847
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: RTPC_MC_Position
+        ObjectType: 13
+      Path: Default Work Unit\RTPC_MC_Position
     - name: RTPC_SideChain_FX
       guid: 19ece1010b249049acffb218849e8cfb
       id: 1038960886
