@@ -10,6 +10,10 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Music" ID="{D2C1A954-C1FD-46B3-98DB-6BD9B85C2626}" WorkUnitID="{928A65DF-772D-44C3-94CD-F5DA2B997A90}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Ambience_BedRoom" ID="{0B573BC2-1B56-49CE-9955-D632748214A4}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
 							<Position X="1" Y="1"/>
 						</Module>
