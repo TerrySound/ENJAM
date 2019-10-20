@@ -53,8 +53,9 @@ public class CameraMovement : MonoBehaviour
         }
         halfScreenWidth = Camera.main.orthographicSize * Camera.main.aspect;
 
-        // ensure the camera starts at the same height as the player
+        // ensure the camera starts at the right place
         //transform.position = new Vector3(transform.position.x, character.transform.position.y, transform.position.z);
+        transform.position = new Vector3(-2.5f, 0.31f, -500f);
     }
 
     // Update is called once per frame
@@ -154,7 +155,7 @@ public class CameraMovement : MonoBehaviour
     }
     void Warp()
     {
-        transform.position = new Vector3(character.transform.position.x, character.transform.position.y, transform.position.z);
+        transform.position = new Vector3(character.transform.position.x, transform.position.y, transform.position.z);
 
         /* Reload sticking */
 
