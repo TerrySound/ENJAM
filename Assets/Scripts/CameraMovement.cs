@@ -54,7 +54,7 @@ public class CameraMovement : MonoBehaviour
         halfScreenWidth = Camera.main.orthographicSize * Camera.main.aspect;
 
         // ensure the camera starts at the same height as the player
-        transform.position = new Vector3(transform.position.x, character.transform.position.y, transform.position.z);
+        //transform.position = new Vector3(transform.position.x, character.transform.position.y, transform.position.z);
     }
 
     // Update is called once per frame
@@ -72,7 +72,7 @@ public class CameraMovement : MonoBehaviour
             float smoothstep = t * t * (3 - 2 * t);
             float targetX = Mathf.Max(character.transform.position.x, entrance.transform.position.x + halfScreenWidth);
             targetX = Mathf.Min(targetX, exit.transform.position.x - halfScreenWidth);
-            Vector3 targetPosition = new Vector3(targetX, character.transform.position.y, originPosition.z);
+            Vector3 targetPosition = new Vector3(targetX, originPosition.y, originPosition.z);
             transform.position = Vector3.Lerp(originPosition, targetPosition, smoothstep);
 
             if (t == 1f)
