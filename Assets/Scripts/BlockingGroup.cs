@@ -18,15 +18,15 @@ public class BlockingGroup : PeopleGroup
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        EventManager.OnInteract += Action;
+        EventManager.OnInteract += UnlockPath;
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        EventManager.OnInteract -= Action;
+        EventManager.OnInteract -= UnlockPath;
     }
 
-    public void Action()
+    public void UnlockPath()
     {
         Debug.Log("What do you want?");
     }

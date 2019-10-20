@@ -17,16 +17,16 @@ public class DancingGroup : PeopleGroup
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        EventManager.OnInteract += Action;
+        EventManager.OnInteract += Dance;
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        EventManager.OnInteract -= Action;
+        EventManager.OnInteract -= Dance;
     }
 
-    public void Action()
+    public void Dance()
     {
-        Debug.Log("What do you want?");
+        Debug.Log("You got moves");
     }
 }

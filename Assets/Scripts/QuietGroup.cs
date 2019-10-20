@@ -17,16 +17,16 @@ public class QuietGroup : PeopleGroup
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        EventManager.OnInteract += Action;
+        EventManager.OnInteract += Quiet;
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        EventManager.OnInteract -= Action;
+        EventManager.OnInteract -= Quiet;
     }
 
-    public void Action()
+    public void Quiet()
     {
-        Debug.Log("What do you want?");
+        Debug.Log("Shhhhhhh");
     }
 }

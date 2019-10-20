@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [Tooltip("The speed of the character")]
     private float speed = 5;
     public float actualSpeed;
+    static bool phoneOut = false;
 
     void Awake()
     {
@@ -26,15 +27,51 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        actualSpeed = this.movePlayer(Input.GetAxis("Horizontal"))*100;
-        AkSoundEngine.SetRTPCValue("RTPC_MC_Position", this.transform.position.x);
-        this.GetComponent<Animator>().SetFloat("actualSpeed", actualSpeed);
+        if (!phoneOut)
+        {
+            actualSpeed = this.movePlayer(Input.GetAxis("Horizontal")) * 100;
+            AkSoundEngine.SetRTPCValue("RTPC_MC_Position", this.transform.position.x);
+            this.GetComponent<Animator>().SetFloat("actualSpeed", actualSpeed);
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                this.switchPhone();
+                AkSoundEngine.PostEvent("FX_PhoneClock", this.gameObject);
+            }
+            
+        }
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                this.switchPhone();
+                AkSoundEngine.PostEvent("FX_Feedback", this.gameObject);
+            }
+        } 
     }
 
     float movePlayer(float dir)
     {
         this.transform.position += new Vector3(dir, 0, 0)*Time.unscaledDeltaTime*this.speed;
         return dir* Time.unscaledDeltaTime * this.speed;
+    }
+
+    void switchPhone()
+    {
+        phoneOut = !phoneOut;
+        TakePhone.onMyPhone = phoneOut;
+        if (TakePhone.onMyPhone)
+        {
+            EventManager.OnPhone += Ring;
+        }
+        else
+        {
+            EventManager.OnPhone -= Ring;
+        }
+        
+    }
+
+    public void Ring()
+    {
+        AkSoundEngine.PostEvent("FX_Phone_Ring", this.gameObject);
     }
 }

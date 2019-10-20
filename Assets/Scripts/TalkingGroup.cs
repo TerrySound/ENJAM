@@ -18,15 +18,15 @@ public class TalkingGroup : PeopleGroup
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        EventManager.OnInteract += Action;
+        EventManager.OnInteract += Turn;
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        EventManager.OnInteract -= Action;
+        EventManager.OnInteract -= Turn;
     }
 
-    private void Action()
+    private void Turn()
     {
         Debug.Log("What do you want?");
     }

@@ -7,6 +7,8 @@ public class EventManager : MonoBehaviour
 
     public delegate void Interaction();
     public static event Interaction OnInteract;
+    public delegate void PhoneInteraction();
+    public static event PhoneInteraction OnPhone;
 
     // Start is called before the first frame update
     void Start()
@@ -19,10 +21,20 @@ public class EventManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            if (OnInteract != null)
+            if (TakePhone.onMyPhone)
             {
-                OnInteract();
+                if (EventManager.OnPhone != null)
+                {
+                    OnPhone();
+                }
             }
+            else
+            {
+                if (OnInteract != null)
+                {
+                    OnInteract();
+                }
+            }            
         }
     }
 

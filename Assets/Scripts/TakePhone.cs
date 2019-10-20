@@ -4,11 +4,7 @@ using UnityEngine;
 
 public class TakePhone : MonoBehaviour
 {
-
-    void Awake()
-    {
-        //EventManager.OnPhone += Take;
-    }
+    static public bool onMyPhone;
 
 
     // Start is called before the first frame update
@@ -20,10 +16,11 @@ public class TakePhone : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (TakePhone.onMyPhone)
+        {
+
+        }
     }
-    public void Take()
-    {
-        Debug.Log("What time is it?");
-    }
+
+    
 }
