@@ -7,7 +7,7 @@ public class TakePhone : MonoBehaviour
 
     void Awake()
     {
-        EventManager.OnPhone += Take;
+        //EventManager.OnPhone += Take;
     }
 
 
