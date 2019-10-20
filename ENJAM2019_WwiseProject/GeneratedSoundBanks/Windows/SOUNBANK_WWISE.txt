@@ -24,6 +24,9 @@ Switch	ID	Name	Switch Group			Notes
 	1088209313	Floor	Texture			
 	2058049674	Wood	Texture			
 
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	224924274	Wwise Sine	Wwise Sine		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Fridge\FX_Fridge\Wwise Sine	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9520817	MC_Floor_FS_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Floor_FS_03_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_03		11802
 	14350048	MC_Wood_FS_02	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Wood_FS\MC_Wood_FS_02_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_02		38700
@@ -39,7 +42,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	443761236	MC_Wood_FS_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Wood_FS\MC_Wood_FS_03_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_03		35365
 	484190720	MC_Wood_FS_09	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Wood_FS\MC_Wood_FS_09_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_09		31790
 	536595270	MC_Wood_FS_05	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Wood_FS\MC_Wood_FS_05_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_05		33328
-	555347811	FX_Fridge	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\FX_Fridge_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Fridge\FX_Fridge		816807
+	555347811	FX_Fridge	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\FX_Fridge_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience_BathRoom\FX_Fridge		816807
 	561983247	MC_Floor_FS_04	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Floor_FS_04_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_04		11759
 	616251333	MC_Wood_FS_11	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Wood_FS\MC_Wood_FS_11_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_11		33183
 	664329015	MC_Floor_FS_09	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Floor_FS_09_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_09		11652

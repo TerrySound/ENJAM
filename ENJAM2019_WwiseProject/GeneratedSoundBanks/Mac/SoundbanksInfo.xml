@@ -22,12 +22,12 @@
 			<Path>SOUNBANK_WWISE.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" DurationType="Infinite"/>
-				<Event Id="2024055086" Name="Ambience_BathRoom" ObjectPath="\Events\Default Work Unit\Ambience_BathRoom" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2024055086" Name="Ambience_BathRoom" ObjectPath="\Events\Default Work Unit\Ambience_BathRoom" MaxAttenuation="500.000000" DurationType="OneShot" DurationMin="12.339207" DurationMax="12.339207"/>
 				<Event Id="2510340756" Name="Ambience_BedRoom" ObjectPath="\Events\Default Work Unit\Ambience_BedRoom" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1710825164" Name="Ambience_Kitchen" ObjectPath="\Events\Default Work Unit\Ambience_Kitchen" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3642974746" Name="Ambience_LivingRoom" ObjectPath="\Events\Default Work Unit\Ambience_LivingRoom" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3205713061" Name="FX_Fridge" ObjectPath="\Events\Default Work Unit\FX_Fridge" MaxAttenuation="500.000000" DurationType="OneShot" DurationMin="12.339207" DurationMax="12.339207"/>
+				<Event Id="3205713061" Name="FX_Fridge" ObjectPath="\Events\Default Work Unit\FX_Fridge" MaxAttenuation="500.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
 				<Event Id="2490349429" Name="FX_PhoneOff" ObjectPath="\Events\Default Work Unit\FX_PhoneOff" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3011458840" Name="FX_PhoneRing" ObjectPath="\Events\Default Work Unit\FX_PhoneRing" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2005704188" Name="Main_Menu" ObjectPath="\Events\Default Work Unit\Main_Menu" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>

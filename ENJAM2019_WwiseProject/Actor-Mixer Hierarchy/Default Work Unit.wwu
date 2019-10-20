@@ -22,6 +22,95 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FX_Fridge" ID="{6353C8EC-CC7C-4AD2-B9AD-9FBD4762F80E}" ShortID="217182469">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="GameAuxSendVolume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{24B8BFD2-6DA2-4A40-8547-C38F06943062}" ShortID="339747365">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="500"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{7B80FF3F-46BE-4FE1-AD89-BB7BD8FCAABE}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>288.84712</XPos>
+																			<YPos>-3.63108</YPos>
+																			<Flags>0</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>500</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="FX" ID="{AD89EE91-B149-4A16-934E-A919914BE6AB}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FX_Fridge" ID="{868A1E58-C5C3-4555-AFCD-40F6D4A25FC5}" ShortID="993206263">
+											<Language>SFX</Language>
+											<AudioFile>FX_Fridge.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="555347811"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FX_Fridge" ID="{868A1E58-C5C3-4555-AFCD-40F6D4A25FC5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="Ambience_BedRoom" ID="{89822636-A87D-4BB7-9DC4-F74DB09AECE6}" ShortID="645154754">
 							<ReferenceList>
@@ -207,9 +296,15 @@
 											<Language>SFX</Language>
 											<AudioFile>FX_Fridge.wav</AudioFile>
 										</AudioFileSource>
+										<SourcePlugin Name="Wwise Sine" ID="{5EDED437-FF0C-4DA4-8115-167D2FFEE79D}" ShortID="224924274" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+											<PropertyList>
+												<Property Name="SineFrequency" Type="Real32" Value="261"/>
+											</PropertyList>
+											<Language>SFX</Language>
+										</SourcePlugin>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="FX_Fridge" ID="{5A467603-10E7-4D16-9AEA-9C9E1B77DF70}" Platform="Linked"/>
+										<ActiveSource Name="Wwise Sine" ID="{5EDED437-FF0C-4DA4-8115-167D2FFEE79D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
