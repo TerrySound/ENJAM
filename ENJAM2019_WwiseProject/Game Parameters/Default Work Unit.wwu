@@ -13,7 +13,7 @@
 				<GameParameter Name="RTPC_MC_Position" ID="{D2C4C473-BB04-4841-BE5A-271A1282CB4C}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="4"/>
+						<Property Name="Max" Type="Real64" Value="20"/>
 						<Property Name="Min" Type="Real64" Value="-5"/>
 					</PropertyList>
 				</GameParameter>
