@@ -51,12 +51,10 @@
 			<IncludedEvents>
 				<Event Id="2060891257" Name="Amb_Downstair" ObjectPath="\Events\Default Work Unit\Amb_Downstair" DurationType="Infinite"/>
 				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="5.000000" DurationType="Infinite"/>
-				<Event Id="747370712" Name="Amb_Upstair" ObjectPath="\Events\Default Work Unit\Amb_Upstair" DurationType="Infinite"/>
 				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3205713061" Name="FX_Fridge" ObjectPath="\Events\Default Work Unit\FX_Fridge" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="2490349429" Name="FX_PhoneOff" ObjectPath="\Events\Default Work Unit\FX_PhoneOff" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3011458840" Name="FX_PhoneRing" ObjectPath="\Events\Default Work Unit\FX_PhoneRing" DurationType="OneShot" DurationMin="2.163715" DurationMax="2.163715"/>
-				<Event Id="2005704188" Name="Main_Menu" ObjectPath="\Events\Default Work Unit\Main_Menu" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3011458840" Name="FX_PhoneRing" ObjectPath="\Events\Default Work Unit\FX_PhoneRing" DurationType="OneShot" DurationMin="0.737744" DurationMax="0.737744"/>
 				<Event Id="2014603798" Name="MC_Breath" ObjectPath="\Events\Default Work Unit\MC_Breath" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1692856769" Name="MC_CallPeople" ObjectPath="\Events\Default Work Unit\MC_CallPeople" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1648013973" Name="MC_Footsteps" ObjectPath="\Events\Default Work Unit\MC_Footsteps" DurationType="OneShot" DurationMin="0.339592" DurationMax="1.014186"/>
@@ -138,7 +136,7 @@
 				</File>
 				<File Id="505863634" Language="SFX">
 					<ShortName>466217__harrisando__vibrating.wav</ShortName>
-					<Path>SFX\466217__harrisando__vibrating_1DA902F2.wem</Path>
+					<Path>SFX\466217__harrisando__vibrating_4C5A9564.wem</Path>
 				</File>
 				<File Id="536595270" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_05.wav</ShortName>

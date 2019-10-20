@@ -3,7 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Main_Menu" ID="{8AEBA901-18D7-4ECD-8C12-150022F89682}"/>
 				<Event Name="VO_PNJ_Laught" ID="{2E226DFD-FA88-41FC-AAE8-C49FE56F0F63}">
 					<ChildrenList>
 						<Action Name="" ID="{AD8C2721-5A75-4AD6-A37C-3C8DE2828377}" ShortID="578604286">
@@ -141,18 +140,7 @@
 						<Action Name="" ID="{9992D902-F8DB-49D6-9C73-EB4846E357DB}" ShortID="308419212">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Amb_Downstair" ID="{3A6A8F97-0EAB-4BDE-AD71-C0F364D4AF3E}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Amb_Upstair" ID="{F6F1DE09-6674-44C8-B68D-89A9310852BE}">
-					<ChildrenList>
-						<Action Name="" ID="{DDE506F4-0735-4440-8AA0-5E088D4822F4}" ShortID="603211890">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Amb_Upstair" ID="{0D03FF3C-A9BE-4576-BFD3-CB2BF2524403}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+									<ObjectRef Name="Amb_General" ID="{3A6A8F97-0EAB-4BDE-AD71-C0F364D4AF3E}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
