@@ -7,6 +7,7 @@ Switch	ID	Name	Switch Group			Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1038960886	RTPC_SideChain_FX			\Default Work Unit\RTPC_SideChain_FX	
+	1957673199	RTPC_Clock			\Default Work Unit\RTPC_Clock	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	

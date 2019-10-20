@@ -1,12 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
 	791491523	FX_Phone_Ring			\Default Work Unit\FX_Phone_Ring	
 	1114231687	Amb_Music			\Default Work Unit\Amb_Music	
+	1294859063	FX_Aquarium			\Default Work Unit\FX_Aquarium	
 	1577475545	VO_Dancing			\Default Work Unit\VO_Dancing	
 	1648013973	MC_Footsteps			\Default Work Unit\MC_Footsteps	
 	1727588526	Stop_Groupe			\Default Work Unit\Stop_Groupe	
 	2060891257	Amb_Downstair			\Default Work Unit\Amb_Downstair	
 	2092440099	Groupe			\Default Work Unit\Groupe	
 	2442113491	FX_FeedBack			\Default Work Unit\FX_FeedBack	
+	2450280999	Kiss			\Default Work Unit\Kiss	
 	2480426025	FX_Rot			\Default Work Unit\FX_Rot	
 	2490349429	FX_PhoneOff			\Default Work Unit\FX_PhoneOff	
 	3013075908	FX_PhoneClock			\Default Work Unit\FX_PhoneClock	
@@ -45,14 +47,15 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	328297850	PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_Kitchen\Kitchen_Object_01\PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close		49808
 	366933411	PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_Kitchen\Kitchen_Object_01\PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close		45107
 	418994039	Phone_Ring	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\Phone_Ring_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Phone_Ring\Phone_Ring		108301
-	429146205	Kiss_02	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\239907__woodwolf__kisses_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_BedRoom\Kisses_01\Kiss_02		140147
+	429146205	Kiss_02	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\239907__woodwolf__kisses_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Kiss\Kisses_02\Kiss_02		140147
 	443761236	MC_Wood_FS_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_03_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_03		35365
 	484190720	MC_Wood_FS_09	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_09_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_09		31790
 	505863634	FX_Phone_Vibrate	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\466217__harrisando__vibrating_4C5A9564.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Phone_Vibrate\FX_Phone_Vibrate		53607
-	524063718	Kiss_04	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\443558__juliandmc4__beso_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_BedRoom\Kisses_01\Kiss_04		71690
+	508167777	Aquarium	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\175274__mdsn__aquarium-gurgle_0313E3DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Aquarium\Aquarium		969283
+	524063718	Kiss_04	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\443558__juliandmc4__beso_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Kiss\Kisses_02\Kiss_04		71690
 	536595270	MC_Wood_FS_05	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_05_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_05		33328
-	538099929	Kiss_01	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\235777__lex777__kissing-smooches-01_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_BedRoom\Kisses_01\Kiss_01		214688
-	546633791	Kiss_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\428220__leoctiurs__111-kiss_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_BedRoom\Kisses_01\Kiss_03		754539
+	538099929	Kiss_01	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\235777__lex777__kissing-smooches-01_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Kiss\Kisses_02\Kiss_01		214688
+	546633791	Kiss_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\428220__leoctiurs__111-kiss_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Kiss\Kisses_02\Kiss_03		754539
 	561983247	MC_Floor_FS_04	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_04_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_04		11759
 	616251333	MC_Wood_FS_11	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_11_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_11		33183
 	664329015	MC_Floor_FS_09	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_09_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_09		11652

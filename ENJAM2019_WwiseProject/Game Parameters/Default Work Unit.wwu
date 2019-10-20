@@ -18,6 +18,7 @@
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="RTPC_Music" ID="{4FC23E37-2560-49B4-B860-2D650D9AD472}"/>
+				<GameParameter Name="RTPC_Clock" ID="{722E1991-1807-44E6-8FEC-355FF9526BE8}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

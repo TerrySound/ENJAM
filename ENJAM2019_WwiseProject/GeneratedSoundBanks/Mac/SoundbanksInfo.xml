@@ -55,6 +55,7 @@
 			<IncludedEvents>
 				<Event Id="2060891257" Name="Amb_Downstair" ObjectPath="\Events\Default Work Unit\Amb_Downstair" DurationType="Infinite"/>
 				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="5.000000" DurationType="Infinite"/>
+				<Event Id="1294859063" Name="FX_Aquarium" ObjectPath="\Events\Default Work Unit\FX_Aquarium" MaxAttenuation="2.000000" DurationType="Infinite"/>
 				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3205713061" Name="FX_Fridge" ObjectPath="\Events\Default Work Unit\FX_Fridge" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="791491523" Name="FX_Phone_Ring" ObjectPath="\Events\Default Work Unit\FX_Phone_Ring" DurationType="OneShot" DurationMin="2.693175" DurationMax="2.693175"/>
@@ -62,6 +63,7 @@
 				<Event Id="2490349429" Name="FX_PhoneOff" ObjectPath="\Events\Default Work Unit\FX_PhoneOff" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2480426025" Name="FX_Rot" ObjectPath="\Events\Default Work Unit\FX_Rot" DurationType="OneShot" DurationMin="1.622511" DurationMax="1.622511"/>
 				<Event Id="2092440099" Name="Groupe" ObjectPath="\Events\Default Work Unit\Groupe" DurationType="OneShot" DurationMin="31.234852" DurationMax="31.234852"/>
+				<Event Id="2450280999" Name="Kiss" ObjectPath="\Events\Default Work Unit\Kiss" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="1648013973" Name="MC_Footsteps" ObjectPath="\Events\Default Work Unit\MC_Footsteps" DurationType="OneShot" DurationMin="0.339592" DurationMax="1.014186"/>
 				<Event Id="3065870848" Name="MC_HearthBeat" ObjectPath="\Events\Default Work Unit\MC_HearthBeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1727588526" Name="Stop_Groupe" ObjectPath="\Events\Default Work Unit\Stop_Groupe" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -160,6 +162,10 @@
 				<File Id="505863634" Language="SFX">
 					<ShortName>466217__harrisando__vibrating.wav</ShortName>
 					<Path>SFX\466217__harrisando__vibrating_4C5A9564.wem</Path>
+				</File>
+				<File Id="508167777" Language="SFX">
+					<ShortName>175274__mdsn__aquarium-gurgle.wav</ShortName>
+					<Path>SFX\175274__mdsn__aquarium-gurgle_0313E3DC.wem</Path>
 				</File>
 				<File Id="524063718" Language="SFX">
 					<ShortName>443558__juliandmc4__beso.wav</ShortName>

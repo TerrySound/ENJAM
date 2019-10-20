@@ -156,6 +156,19 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{4D9C25B0-02A2-43E5-80AD-A70D2A3B5746}" ShortID="855762970">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RTPC_Clock" ID="{722E1991-1807-44E6-8FEC-355FF9526BE8}" WorkUnitID="{4C0C8184-3014-45C4-A472-0A7E648CD846}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="FX_FeedBack" ID="{4293EE11-A58E-4FF2-95E2-E59B58CA644F}">
@@ -179,6 +192,18 @@
 								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{634D41B7-8196-44EE-A272-1A08AC123164}" ShortID="564411386">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RTPC_Clock" ID="{722E1991-1807-44E6-8FEC-355FF9526BE8}" WorkUnitID="{4C0C8184-3014-45C4-A472-0A7E648CD846}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
@@ -271,6 +296,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="FX_Rot" ID="{2F581928-B0AF-4531-8B2F-5D5F22BFF3F6}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FX_Aquarium" ID="{90870A86-E687-48FD-BB93-C127DB31496A}">
+					<ChildrenList>
+						<Action Name="" ID="{011BC064-5E34-4788-9146-E5AD152924C8}" ShortID="971146542">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FX_Aquarium" ID="{643E2CE9-CF4B-4FF4-A2A3-50C411A79199}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Kiss" ID="{2736E28E-064E-4560-83F0-5F9EAD3818BB}">
+					<ChildrenList>
+						<Action Name="" ID="{1D7D1683-9D45-4A30-9BC0-5F5862E96BB9}" ShortID="703514595">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Kiss" ID="{8ABD85EE-7D83-4303-A26E-C15B1C8C9223}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
