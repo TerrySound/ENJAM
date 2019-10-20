@@ -6,26 +6,26 @@
 				<SoundcasterSession Name="Mix" ID="{751913AB-E935-4DED-BD08-CA3D69615C99}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Amb_Downstair" ID="{D23FA168-DAEB-487F-A2E2-1FC0EC62C5EF}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
-							<Position X="0" Y="1"/>
+							<ObjectRef Name="FX_FeedBack" ID="{4293EE11-A58E-4FF2-95E2-E59B58CA644F}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
+							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Music" ID="{D2C1A954-C1FD-46B3-98DB-6BD9B85C2626}" WorkUnitID="{928A65DF-772D-44C3-94CD-F5DA2B997A90}"/>
+							<ObjectRef Name="FX_PhoneClock" ID="{4F5BA3BF-A1F2-4DDD-9325-BE9FF50D47FC}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_MC_Position" ID="{D2C4C473-BB04-4841-BE5A-271A1282CB4C}"/>
-							<Value>7.5432165541467</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_SideChain_FX" ID="{01E1EC19-240B-4990-ACFF-B218849E8CFB}"/>
-							<Value>-3</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_Music" ID="{4FC23E37-2560-49B4-B860-2D650D9AD472}"/>
-							<Value>0</Value>
+							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

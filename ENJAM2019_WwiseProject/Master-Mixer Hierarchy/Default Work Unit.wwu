@@ -213,7 +213,7 @@
 								</Reference>
 							</ReferenceList>
 						</AuxBus>
-						<AuxBus Name="Reverb_Bedroom" ID="{1E8AFE93-05AC-4741-8058-773B33ACAC79}">
+						<AuxBus Name="Reverb_Clock" ID="{1E8AFE93-05AC-4741-8058-773B33ACAC79}">
 							<PropertyList>
 								<Property Name="CenterPercentage" Type="int32">
 									<ValueList>

@@ -17,8 +17,8 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	400405326	Reverb_LivingRoom			\Default Work Unit\Master Audio Bus\Reverb_LivingRoom	
-	1463772704	Reverb_Bedroom			\Default Work Unit\Master Audio Bus\Reverb_Bedroom	
 	2620089962	Reverb_Bathroom			\Default Work Unit\Master Audio Bus\Reverb_Bathroom	
+	3828378466	Reverb_Clock			\Default Work Unit\Master Audio Bus\Reverb_Clock	
 
 Effect plug-ins	ID	Name	Type				Notes
 	506891147	Plate_Small	Wwise RoomVerb			
