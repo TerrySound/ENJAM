@@ -38,7 +38,7 @@
 			<Path>SOUNBANK_WWISE.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2060891257" Name="Amb_Downstair" ObjectPath="\Events\Default Work Unit\Amb_Downstair" DurationType="Infinite"/>
-				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="50.000000" DurationType="Infinite"/>
+				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3205713061" Name="FX_Fridge" ObjectPath="\Events\Default Work Unit\FX_Fridge" DurationType="Infinite"/>
 				<Event Id="2490349429" Name="FX_PhoneOff" ObjectPath="\Events\Default Work Unit\FX_PhoneOff" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -122,7 +122,7 @@
 				</File>
 				<File Id="505863634" Language="SFX">
 					<ShortName>466217__harrisando__vibrating.wav</ShortName>
-					<Path>SFX\466217__harrisando__vibrating_6946E774.wem</Path>
+					<Path>SFX\466217__harrisando__vibrating_1DA902F2.wem</Path>
 				</File>
 				<File Id="536595270" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_05.wav</ShortName>
