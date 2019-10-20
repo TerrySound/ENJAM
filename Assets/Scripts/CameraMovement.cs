@@ -26,7 +26,12 @@ public class CameraMovement : MonoBehaviour
 
     void Start()
     {
-
+        if (character == null)
+        {
+            throw new System.ArgumentNullException("No character to follow");
+        }
+        // ensure the camera starts at the same height as the player
+        transform.position = new Vector3(transform.position.x, character.transform.position.y, transform.position.z);
     }
 
     // Update is called once per frame
