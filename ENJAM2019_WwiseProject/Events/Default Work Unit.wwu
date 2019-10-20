@@ -4,72 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}" PersistMode="Standalone">
 			<ChildrenList>
 				<Event Name="Main_Menu" ID="{8AEBA901-18D7-4ECD-8C12-150022F89682}"/>
-				<Event Name="Ambience_LivingRoom" ID="{F00614AF-E33E-4E74-A927-C5AB88DBA437}">
-					<ChildrenList>
-						<Action Name="" ID="{5988DFF0-332A-4D6C-B8BC-0413C5FEA5C4}" ShortID="875014759">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ambience_LivingRoom" ID="{F636065E-BDCB-483F-BEF1-E0454A903E63}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Ambience_Kitchen" ID="{76456A55-4583-46BB-A9F5-3CCD66A2D191}">
-					<ChildrenList>
-						<Action Name="" ID="{07722C17-B4A4-4758-A75A-39D3AF2A7F9D}" ShortID="716205220">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ambience_Kitchen" ID="{9F35C00C-8B6E-41D8-B11E-37574BA2407C}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Ambience_BedRoom" ID="{0B573BC2-1B56-49CE-9955-D632748214A4}">
-					<ChildrenList>
-						<Action Name="" ID="{7CD91F01-0BDE-4E5F-8692-6A083219E742}" ShortID="680184599">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ambience_BedRoom" ID="{89822636-A87D-4BB7-9DC4-F74DB09AECE6}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{2C9077A9-1588-4D3B-A4E9-66EABB1FB86C}" ShortID="30615491">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ambience_BathRoom" ID="{4AF15DCF-E25A-494E-8CFB-5539D1B58CF9}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Ambience_BathRoom" ID="{96E48E0A-5BC4-4DEF-9DA4-6F7ADD01BE15}">
-					<ChildrenList>
-						<Action Name="" ID="{1DA66A29-0AE3-4A6B-AE3C-6D4435B30A0C}" ShortID="593352788">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ambience_BathRoom" ID="{4AF15DCF-E25A-494E-8CFB-5539D1B58CF9}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{7BF7009D-8B90-49AF-9403-67BDC88905D6}" ShortID="858160183">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ambience_BedRoom" ID="{89822636-A87D-4BB7-9DC4-F74DB09AECE6}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="VO_PNJ_Laught" ID="{2E226DFD-FA88-41FC-AAE8-C49FE56F0F63}">
 					<ChildrenList>
 						<Action Name="" ID="{AD8C2721-5A75-4AD6-A37C-3C8DE2828377}" ShortID="578604286">
@@ -202,45 +136,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Amb_Medium_Crowd" ID="{42FEED7F-7566-47AB-9891-AD8A7FF6715C}">
+				<Event Name="Amb_Downstair" ID="{D23FA168-DAEB-487F-A2E2-1FC0EC62C5EF}">
 					<ChildrenList>
-						<Action Name="" ID="{E211500F-5311-4BAF-8C6F-EECCD8EAFADE}" ShortID="515847702">
+						<Action Name="" ID="{9992D902-F8DB-49D6-9C73-EB4846E357DB}" ShortID="308419212">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Amb_Medium_Crowd_Close" ID="{DAF21C0C-D790-44A5-8B6E-310D20264E33}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Amb_Medium_Crowd_Distant" ID="{445DCECB-5B8E-4F6B-8E2B-726914D8A291}">
-					<ChildrenList>
-						<Action Name="" ID="{DB2A855D-2FF2-4EEC-835B-CFEE1D40AC9A}" ShortID="258864901">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Amb_Medium_Crowd_Distant" ID="{CB9645BD-1FCA-4035-A36C-24C8C9373A23}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Amb_Medium_Crowd_Dynamic_Close" ID="{77573DFA-4B82-4CBC-8E76-42AFE49265F3}">
-					<ChildrenList>
-						<Action Name="" ID="{2F250205-0A00-43B7-BF81-75F9DF7ADE37}" ShortID="415663756">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Amb_Medium_Crowd_Dynamic_Close" ID="{BE821354-8AB0-4403-8E63-C0E7E75201FB}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Amb_Huge_Crowd" ID="{40715CEA-BDE8-4DD4-ADFF-A4D6305A34C9}">
-					<ChildrenList>
-						<Action Name="" ID="{E2657D25-6848-4C9C-9549-2DF9810D4228}" ShortID="645028725">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Amb_Huge_Crowd" ID="{8C0FAC0F-7583-4751-A4A2-28B2E4B2BDFF}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+									<ObjectRef Name="Amb_Downstair" ID="{3A6A8F97-0EAB-4BDE-AD71-C0F364D4AF3E}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

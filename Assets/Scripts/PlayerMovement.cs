@@ -7,7 +7,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField]
-    [Range(1f, 100f)]
+    [Range(0f, 100f)]
     [Tooltip("The speed of the character")]
     private float speed = 5;
     public float actualSpeed;
