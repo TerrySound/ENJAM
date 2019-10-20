@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [Range(1f, 100f)]
     [Tooltip("The speed of the character")]
     private float speed = 5;
+    public float actualSpeed;
 
     void Awake()
     {
@@ -25,12 +26,13 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.movePlayer(Input.GetAxis("Horizontal"));
+        actualSpeed = this.movePlayer(Input.GetAxis("Horizontal"));
         AkSoundEngine.SetRTPCValue("RTPC_MC_Position", this.transform.position.x);
     }
 
-    void movePlayer(float dir)
+    float movePlayer(float dir)
     {
         this.transform.position += new Vector3(dir, 0, 0)*Time.unscaledDeltaTime*this.speed;
+        return dir* Time.unscaledDeltaTime * this.speed;
     }
 }
