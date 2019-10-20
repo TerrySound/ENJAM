@@ -13,7 +13,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<BlendContainer Name="Amb_Medium_Crowd_Close" ID="{DAF21C0C-D790-44A5-8B6E-310D20264E33}" ShortID="169040469">
+						<BlendContainer Name="Groupe" ID="{DAF21C0C-D790-44A5-8B6E-310D20264E33}" ShortID="169040469">
 							<PropertyList>
 								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
@@ -27,7 +27,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Medium_Crowd_Close" ID="{3F62850D-9BB9-4F62-9B0A-A678FC0134D2}" ShortID="906396004">
+								<Sound Name="Groupe" ID="{3F62850D-9BB9-4F62-9B0A-A678FC0134D2}" ShortID="906396004">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
@@ -1078,16 +1078,29 @@
 							<ChildrenList>
 								<Sound Name="Clock" ID="{A95E1AE0-10F0-40DE-92A4-4800834A6529}" ShortID="822410221">
 									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsStreamingEnabled" Type="bool">
 											<ValueList>
 												<Value>True</Value>
 											</ValueList>
 										</Property>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
 												<Value>-710</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
 											</ValueList>
 										</Property>
 										<Property Name="UserAuxSendVolume0" Type="Real64">
@@ -1130,6 +1143,21 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="FX_Phone_Vibrate" ID="{EFC46942-3BAC-4353-8E9F-6FFCBAAEA34D}" ShortID="344016701">
+									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
@@ -1504,8 +1532,21 @@
 								</Sound>
 							</ChildrenList>
 						</BlendContainer>
-						<Sound Name="Clock-Design" ID="{7E9711D5-7DB2-4F33-86B6-BC6E362D606B}" ShortID="442770281">
+						<Sound Name="Clock_Design" ID="{7E9711D5-7DB2-4F33-86B6-BC6E362D606B}" ShortID="442770281">
 							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-5</Value>
@@ -1535,6 +1576,44 @@
 								<ActiveSource Name="Clock-Design" ID="{F9F95AD1-0D0E-4F35-AEAE-16100FCB6270}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<BlendContainer Name="FX_Rot" ID="{2F581928-B0AF-4531-8B2F-5D5F22BFF3F6}" ShortID="333008923">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Rot" ID="{E3A62CEA-CDCA-4812-B707-6CD542951A98}" ShortID="253661032">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="428137__inspectorj__burp-male-short-a" ID="{FCFBCEEE-B1C1-42DF-960C-43250967D388}" ShortID="11174130">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.80200611467102E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.137607739665787"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.267024542446706"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.889535745696696"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>428137__inspectorj__burp-male-short-a.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="428137__inspectorj__burp-male-short-a" ID="{FCFBCEEE-B1C1-42DF-960C-43250967D388}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="MC" ID="{A6DC5F71-F5FD-46DD-99C6-B75109BB21F9}" ShortID="937092802">
@@ -1547,26 +1626,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<BlendContainer Name="MC_Breath" ID="{2760E8FB-EF38-4C2C-808F-083FD892196E}" ShortID="1049124551">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
-								</Reference>
-							</ReferenceList>
-						</BlendContainer>
-						<BlendContainer Name="MC_CallPeople" ID="{8595D91A-F117-41E7-8BED-2E4112C1FF1F}" ShortID="1013851007">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
-								</Reference>
-							</ReferenceList>
-						</BlendContainer>
 						<BlendContainer Name="MC_HearthBeat" ID="{7F4E6425-18B5-4764-BC4E-EE99E3D4C7EB}" ShortID="824545262">
 							<ReferenceList>
 								<Reference Name="Conversion">

@@ -47,28 +47,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="MC_CallPeople" ID="{79304E83-039C-4714-A5FF-1F30E28BB518}">
-					<ChildrenList>
-						<Action Name="" ID="{72BC0061-E341-4239-83E7-2DB7360A8F92}" ShortID="32742140">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MC_CallPeople" ID="{8595D91A-F117-41E7-8BED-2E4112C1FF1F}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="MC_Breath" ID="{5097DA1C-0D82-4671-8CA2-CE6AE6D75018}">
-					<ChildrenList>
-						<Action Name="" ID="{A558BD3E-46AB-4331-B0A1-03886317D97D}" ShortID="625673788">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MC_Breath" ID="{2760E8FB-EF38-4C2C-808F-083FD892196E}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="MC_HearthBeat" ID="{341B3389-C411-4583-A831-BD2B8721EB36}">
 					<ChildrenList>
 						<Action Name="" ID="{3A22D394-FD35-4027-A40B-89107CB3F6DD}" ShortID="669170060">
@@ -174,7 +152,7 @@
 						<Action Name="" ID="{86956F8F-9E9B-4506-AFF9-59CCF6A8478E}" ShortID="322288884">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Clock-Design" ID="{7E9711D5-7DB2-4F33-86B6-BC6E362D606B}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+									<ObjectRef Name="Clock_Design" ID="{7E9711D5-7DB2-4F33-86B6-BC6E362D606B}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -252,6 +230,47 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="FX_Phone_Ring" ID="{D7ED9FBA-607D-46E5-A35C-251E8853E8B2}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Groupe" ID="{FAFCD02E-8758-4D83-B90C-59052D6BA818}">
+					<ChildrenList>
+						<Action Name="" ID="{A0F262C4-083D-4EEA-B7E3-B2F582ABDAE1}" ShortID="300195047">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Groupe" ID="{DAF21C0C-D790-44A5-8B6E-310D20264E33}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Groupe" ID="{0A759CDA-FD61-40C3-BD6C-141770E5EE66}">
+					<ChildrenList>
+						<Action Name="" ID="{7F734B69-1317-4001-BA1E-B6D8246619BA}" ShortID="716763252">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Groupe" ID="{DAF21C0C-D790-44A5-8B6E-310D20264E33}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FX_Rot" ID="{3B6FFEE8-56EC-48FE-A04F-ED9A27AFD757}">
+					<ChildrenList>
+						<Action Name="" ID="{76831979-8D63-405B-8C29-2BC6D0E2788B}" ShortID="581301223">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FX_Rot" ID="{2F581928-B0AF-4531-8B2F-5D5F22BFF3F6}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

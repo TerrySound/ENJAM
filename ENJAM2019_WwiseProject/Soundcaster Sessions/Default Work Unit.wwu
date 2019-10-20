@@ -4,16 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{F6B2FA10-BFC9-4A2D-9896-C4392A22C81E}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="Mix" ID="{751913AB-E935-4DED-BD08-CA3D69615C99}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="FX_FeedBack" ID="{4293EE11-A58E-4FF2-95E2-E59B58CA644F}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="FX_PhoneClock" ID="{4F5BA3BF-A1F2-4DDD-9325-BE9FF50D47FC}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_MC_Position" ID="{D2C4C473-BB04-4841-BE5A-271A1282CB4C}"/>

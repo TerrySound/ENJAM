@@ -3,10 +3,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	1114231687	Amb_Music			\Default Work Unit\Amb_Music	
 	1577475545	VO_Dancing			\Default Work Unit\VO_Dancing	
 	1648013973	MC_Footsteps			\Default Work Unit\MC_Footsteps	
-	1692856769	MC_CallPeople			\Default Work Unit\MC_CallPeople	
-	2014603798	MC_Breath			\Default Work Unit\MC_Breath	
+	1727588526	Stop_Groupe			\Default Work Unit\Stop_Groupe	
 	2060891257	Amb_Downstair			\Default Work Unit\Amb_Downstair	
+	2092440099	Groupe			\Default Work Unit\Groupe	
 	2442113491	FX_FeedBack			\Default Work Unit\FX_FeedBack	
+	2480426025	FX_Rot			\Default Work Unit\FX_Rot	
 	2490349429	FX_PhoneOff			\Default Work Unit\FX_PhoneOff	
 	3013075908	FX_PhoneClock			\Default Work Unit\FX_PhoneClock	
 	3065870848	MC_HearthBeat			\Default Work Unit\MC_HearthBeat	
@@ -29,8 +30,10 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9520817	MC_Floor_FS_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_03_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_03		11802
+	11174130	Rot	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\428137__inspectorj__burp-male-short-a_70CBF2C3.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Rot\Rot		44478
 	14350048	MC_Wood_FS_02	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_02_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_02		38700
 	70509852	MC_Wood_FS_07	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_07_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_07		32281
+	106585426	Groupe	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\Medium_Crowd_Close_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Groupe\Groupe		1753440
 	136788477	MC_Wood_FS_14	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_14_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_14		26391
 	157910693	MC_Wood_FS_10	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_10_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_10		29939
 	160356805	MC_Wood_FS_13	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_13_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_13		36460
@@ -63,7 +66,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	896004742	MC_Floor_FS_02	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_02_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_02		11377
 	912256610	PM_KF_102 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\PM_KF_102 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_Kitchen\Kitchen_Object_02\PM_KF_102 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin		57901
 	946887884	MC_Floor_FS_10	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_10_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_10		15413
-	980323591	Clock-Design	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\Clock-Design_82FDE72D.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\Clock-Design		658243
+	980323591	Clock_Design	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\Clock-Design_82FDE72D.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\Clock_Design		658243
 	1058726748	PM_KF_103 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\PM_KF_103 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_Kitchen\Kitchen_Object_02\PM_KF_103 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin		50611
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
