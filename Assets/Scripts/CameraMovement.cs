@@ -22,6 +22,7 @@ public class CameraMovement : MonoBehaviour
 
     [SerializeField]
     [Tooltip("The slack of the camera")]
+    [Range(0,10)]
     public float slack = 0.5f;
 
     void Start()
