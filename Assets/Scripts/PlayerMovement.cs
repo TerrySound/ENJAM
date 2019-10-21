@@ -13,6 +13,10 @@ public class PlayerMovement : MonoBehaviour
     public float actualSpeed;
     public static bool phoneOut = false;
 
+    private GameObject entrance;
+    private GameObject exit;
+    private float halfWidth;
+
     void Awake()
     {
         this.GetComponent<Rigidbody2D>().gravityScale = 0;
@@ -21,7 +25,11 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        halfWidth = GetComponent<SpriteRenderer>().sprite.rect.width * 0.5f / GetComponent<SpriteRenderer>().sprite.pixelsPerUnit;
+        halfWidth /= 2.2f; // without alpha
+        entrance = GameObject.Find("entrance"); ;
+        exit = GameObject.Find("exit");
+        EsaclierInteract.OnTP += switchFloor;
     }
 
     // Update is called once per frame
@@ -51,6 +59,9 @@ public class PlayerMovement : MonoBehaviour
 
     float movePlayer(float dir)
     {
+        if (transform.position.x - halfWidth <= entrance.transform.position.x && dir < 0) { return 0; }
+        if (transform.position.x + halfWidth >= exit.transform.position.x && dir > 0) { return 0; }
+
         this.transform.position += new Vector3(dir, 0, 0)*Time.unscaledDeltaTime*this.speed;
         return dir* Time.unscaledDeltaTime * this.speed;
     }
@@ -73,5 +84,11 @@ public class PlayerMovement : MonoBehaviour
     public void Ring()
     {
         AkSoundEngine.PostEvent("FX_Phone_Ring", this.gameObject);
+    }
+
+    void switchFloor()
+    {
+        entrance = GameObject.Find("entrance 1st floor");
+        exit = GameObject.Find("exit 1st floor");
     }
 }
