@@ -5,6 +5,10 @@ using UnityEngine;
 public class EsaclierInteract : PeopleGroup
 {
     public GameObject player;
+    public delegate void TeleportInteraction();
+    public static event TeleportInteraction OnTP;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +33,13 @@ public class EsaclierInteract : PeopleGroup
 
     public void SquallalaNousSommesPartis()
     {
-        player.transform.position = new Vector3(8.3f, player.transform.position.y, player.transform.position.z);
-       
+        //player.transform.position += new Vector3(0, 10,0);
+        player.transform.position += new Vector3(4.3f, player.transform.position.y, player.transform.position.z);
+        if (EsaclierInteract.OnTP != null)
+        {
+            OnTP();
+        }
+        //player.transform.position -= new Vector3(0, 10, 0);
+
     }
 }
