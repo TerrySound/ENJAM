@@ -34,7 +34,8 @@ public class EsaclierInteract : PeopleGroup
     public void SquallalaNousSommesPartis()
     {
         //player.transform.position += new Vector3(0, 10,0);
-        player.transform.position += new Vector3(4.3f, player.transform.position.y, player.transform.position.z);
+        //player.transform.position += new Vector3(4.3f, player.transform.position.y, player.transform.position.z);
+        player.transform.position += new Vector3(4.3f, 0f, 0f);
         if (EsaclierInteract.OnTP != null)
         {
             OnTP();
