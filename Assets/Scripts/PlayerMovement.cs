@@ -40,7 +40,8 @@ public class PlayerMovement : MonoBehaviour
             actualSpeed = this.movePlayer(Input.GetAxis("Horizontal")) * 100;
             AkSoundEngine.SetRTPCValue("RTPC_MC_Position", this.transform.position.x);
             this.GetComponent<Animator>().SetFloat("actualSpeed", actualSpeed);
-            if (Input.GetKeyDown(KeyCode.R))
+
+            if (Input.GetKeyDown(KeyCode.R) && actualSpeed == 0f)
             {
                 this.switchPhone();
                 AkSoundEngine.PostEvent("FX_PhoneClock", this.gameObject);
