@@ -9,6 +9,8 @@ public class EventManager : MonoBehaviour
     public static event Interaction OnInteract;
     public delegate void PhoneInteraction();
     public static event PhoneInteraction OnPhone;
+    public delegate void TeleportInteraction();
+    public static event TeleportInteraction OnTP;
 
     // Start is called before the first frame update
     void Start()
