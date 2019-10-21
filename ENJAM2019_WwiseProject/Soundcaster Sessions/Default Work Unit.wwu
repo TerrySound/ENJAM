@@ -7,7 +7,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_Clock" ID="{722E1991-1807-44E6-8FEC-355FF9526BE8}"/>
-							<Value>45.9183673469388</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_MC_Position" ID="{D2C4C473-BB04-4841-BE5A-271A1282CB4C}"/>
@@ -15,7 +15,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_SideChain_FX" ID="{01E1EC19-240B-4990-ACFF-B218849E8CFB}"/>
-							<Value>0</Value>
+							<Value>-2.27796610169491</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_Music" ID="{4FC23E37-2560-49B4-B860-2D650D9AD472}"/>

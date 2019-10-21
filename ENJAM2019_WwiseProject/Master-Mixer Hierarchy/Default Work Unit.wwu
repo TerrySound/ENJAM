@@ -79,6 +79,62 @@
 										<Value>0</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{DDC79F25-7CBC-4901-B8DD-B35912CECC59}" ShortID="812314266">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_Clock" ID="{722E1991-1807-44E6-8FEC-355FF9526BE8}" WorkUnitID="{4C0C8184-3014-45C4-A472-0A7E648CD846}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7B036841-B3DD-4DDB-BC20-763F49C03A00}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>35</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{46FDCBFC-591A-4564-95DC-C3BEFE29AED8}" ShortID="388252380">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_Clock" ID="{722E1991-1807-44E6-8FEC-355FF9526BE8}" WorkUnitID="{4C0C8184-3014-45C4-A472-0A7E648CD846}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{63A88E14-622D-456A-93CF-928BA3A938DA}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-1000</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0">
@@ -103,7 +159,7 @@
 										<Value>0</Value>
 									</ValueList>
 								</Property>
-								<Property Name="Highpass" Type="int16">
+								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
 										<RTPC Name="" ID="{27B96E02-61C6-45C8-B75E-7718284DF675}" ShortID="677969304">
 											<ReferenceList>
@@ -123,7 +179,40 @@
 													</Point>
 													<Point>
 														<XPos>100</XPos>
-														<YPos>35</YPos>
+														<YPos>32</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{90911842-10B8-48D5-983B-9DE02FF5276B}" ShortID="237719641">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_Clock" ID="{722E1991-1807-44E6-8FEC-355FF9526BE8}" WorkUnitID="{4C0C8184-3014-45C4-A472-0A7E648CD846}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2FA219FD-5440-4E1E-B7DC-8B91236A7069}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>67.19457</XPos>
+														<YPos>-988</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-1328</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -150,13 +239,13 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>-18.313986679353</XPos>
-														<YPos>0</YPos>
+														<XPos>-12.12394</XPos>
+														<YPos>1.04619</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-4</YPos>
+														<YPos>1.5</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -178,7 +267,7 @@
 										<Value>0</Value>
 									</ValueList>
 								</Property>
-								<Property Name="OutputBusVolume" Type="Real64">
+								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
 										<RTPC Name="" ID="{D784C72E-8B7F-409B-AA87-41C779572E6D}" ShortID="321718055">
 											<ReferenceList>
@@ -188,7 +277,7 @@
 											</ReferenceList>
 											<Curve Name="" ID="{C10B0C49-0715-4533-91CE-ED439435D59C}">
 												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
+													<Property Name="Flags" Type="int32" Value="65537"/>
 												</PropertyList>
 												<PointList>
 													<Point>
@@ -203,7 +292,35 @@
 													</Point>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-4</YPos>
+														<YPos>-2</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{5A463463-6D9B-43C8-B39E-7DB2373AB35D}" ShortID="417272590">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_Clock" ID="{722E1991-1807-44E6-8FEC-355FF9526BE8}" WorkUnitID="{4C0C8184-3014-45C4-A472-0A7E648CD846}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{BE9DCA94-175D-4A15-A109-800E80062B49}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-1000</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -220,7 +337,7 @@
 										<Value>0</Value>
 									</ValueList>
 								</Property>
-								<Property Name="Highpass" Type="int16">
+								<Property Name="OutputBusLowpass" Type="int16">
 									<RTPCList>
 										<RTPC Name="" ID="{9A1C330B-937E-414A-A490-476EE2CB27B0}" ShortID="1021837954">
 											<ReferenceList>
@@ -290,6 +407,34 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{47F4C029-1C69-4BEC-9760-F5AA6F83160C}" ShortID="655922265">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_Clock" ID="{722E1991-1807-44E6-8FEC-355FF9526BE8}" WorkUnitID="{4C0C8184-3014-45C4-A472-0A7E648CD846}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{20E5FCE8-9196-41DF-B816-235C8A816916}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-1000</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
@@ -311,6 +456,39 @@
 								</Reference>
 							</ReferenceList>
 						</AuxBus>
+						<Bus Name="Special" ID="{F2B5E5E3-4285-4A2E-9C8A-248FC429BE80}"/>
+						<Bus Name="Music" ID="{10CBC4CA-5F15-46A2-8373-8C443B37784B}">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{4B5F332A-9169-4152-BCC6-74AA806F96D4}" ShortID="835032622">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_Clock" ID="{722E1991-1807-44E6-8FEC-355FF9526BE8}" WorkUnitID="{4C0C8184-3014-45C4-A472-0A7E648CD846}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{1978DB3B-8BE8-41C9-803E-DFF3FB860824}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>57</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
