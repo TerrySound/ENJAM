@@ -32,7 +32,6 @@ public class CameraMovement : MonoBehaviour
     private float halfScreenWidth = 0f;
     private Vector3 stickingPosition = Vector3.zero;
     private Vector3 unstickingPosition = Vector3.zero;
-    private float stickingSpeed = 5f;
     [SerializeField]
     [Tooltip("Epsilon to stick")]
     [Range(0f, 0.05f)]
@@ -60,8 +59,10 @@ public class CameraMovement : MonoBehaviour
         }
         halfScreenWidth = Camera.main.orthographicSize * Camera.main.aspect;
 
-        // ensure the camera starts at the right place
-        //transform.position = new Vector3(-2.5f, 0.31f, -500f);
+        // to do : ensure the camera starts at the right place
+
+        // subscribe to the tp event
+        EsaclierInteract.OnTP += reset;
     }
 
     // Update is called once per frame
@@ -145,23 +146,21 @@ public class CameraMovement : MonoBehaviour
 
                     /* Stick to the borders of the world */
 
-                    if (!isStickingEntrance && transform.position.x - entrance.transform.position.x <= halfScreenWidth + epsilon) // + epsilon
+                    if (!isStickingEntrance && transform.position.x - entrance.transform.position.x <= halfScreenWidth + epsilon)
                     {
                         transform.parent = null;
                         isStickingEntrance = true;
                         originPosition = transform.position;
-                        t = 0f;
                         unstickingPosition = Vector3.zero;
                         stickingPosition = new Vector3(entrance.transform.position.x + halfScreenWidth, transform.position.y, transform.position.z);
                         isLeftLimit = false; // reset the slack
                 }
-                    else if (!isStickingExit && exit.transform.position.x - transform.position.x <= halfScreenWidth + epsilon) // + epsilon
+                    else if (!isStickingExit && exit.transform.position.x - transform.position.x <= halfScreenWidth + epsilon)
                     {
                         transform.parent = null;
                         isStickingExit = true;
-                        unstickingPosition = Vector3.zero;
                         originPosition = transform.position;
-                        t = 0f;
+                        unstickingPosition = Vector3.zero;
                         stickingPosition = new Vector3(exit.transform.position.x - halfScreenWidth, transform.position.y, transform.position.z); // will be updated the next update
                         isRightLimit = false; // reset the slack
                     }
@@ -191,11 +190,14 @@ public class CameraMovement : MonoBehaviour
         lastPosition = transform.position;
     }
 
-    void Warp()
+    void reset()
     {
-        /* warp the camera to the player position */
+        /* reset the camera to the player position */
 
-        transform.position = new Vector3(character.transform.position.x, transform.position.y, transform.position.z);
+        Debug.Log("Camera is reset");
+
+        entrance = GameObject.Find("entrance 1st floor");
+        exit = GameObject.Find("exit 1st floor");
 
         isLeftLimit = false;
         isRightLimit = false;
@@ -203,13 +205,28 @@ public class CameraMovement : MonoBehaviour
         isStickingEntrance = false;
         isStickingExit = false;
 
-        if (character.transform.position.x - entrance.transform.position.x < halfScreenWidth)
+        //transform.parent = null;
+        //transform.position += new Vector3(4.3f, transform.position.y, transform.position.z);
+        transform.parent = character.transform;
+        transform.position = new Vector3(character.transform.position.x, transform.position.y, transform.position.z);
+        lastPosition = transform.position;
+
+        if (transform.position.x - entrance.transform.position.x <= halfScreenWidth + epsilon)
         {
+            transform.parent = null;
             isStickingEntrance = true;
+            originPosition = transform.position;
+            unstickingPosition = Vector3.zero;
+            stickingPosition = new Vector3(entrance.transform.position.x + halfScreenWidth, transform.position.y, transform.position.z);
         }
-        else if (exit.transform.position.x - character.transform.position.x < halfScreenWidth)
+        else if (exit.transform.position.x - transform.position.x <= halfScreenWidth + epsilon)
         {
+            transform.parent = null;
             isStickingExit = true;
+            originPosition = transform.position;
+            unstickingPosition = Vector3.zero;
+            stickingPosition = new Vector3(exit.transform.position.x - halfScreenWidth, transform.position.y, transform.position.z); // will be updated the next update
+            isRightLimit = false; // reset the slack
         }
     }
 }
