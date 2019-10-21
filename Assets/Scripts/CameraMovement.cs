@@ -33,7 +33,10 @@ public class CameraMovement : MonoBehaviour
     private Vector3 stickingPosition = Vector3.zero;
     private Vector3 unstickingPosition = Vector3.zero;
     private float stickingSpeed = 5f;
-    private float epsilon = 0.05f;
+    [SerializeField]
+    [Tooltip("Epsilon to stick")]
+    [Range(0f, 0.05f)]
+    private float epsilon = 0.001f;
 
     void Start()
     {
@@ -190,9 +193,12 @@ public class CameraMovement : MonoBehaviour
 
     void Warp()
     {
+        /* warp the camera to the player position */
+
         transform.position = new Vector3(character.transform.position.x, transform.position.y, transform.position.z);
 
-        /* Reload sticking */
+        isLeftLimit = false;
+        isRightLimit = false;
 
         isStickingEntrance = false;
         isStickingExit = false;
