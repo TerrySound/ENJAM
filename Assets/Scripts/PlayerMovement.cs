@@ -74,10 +74,20 @@ public class PlayerMovement : MonoBehaviour
         if (phoneOut)
         {
             EventManager.OnPhone += Ring;
+            GameObject.Find("E Button Ring").GetComponent<SpriteRenderer>().enabled = true;
+            GameObject.Find("Ring").GetComponent<MeshRenderer>().enabled = true;
+            GameObject.Find("Turn off").GetComponent<MeshRenderer>().enabled = true;
+            GameObject.Find("Time").GetComponent<MeshRenderer>().enabled = true;
+            GameObject.Find("Phone").GetComponent<MeshRenderer>().enabled = false;
         }
         else
         {
             EventManager.OnPhone -= Ring;
+            GameObject.Find("E Button Ring").GetComponent<SpriteRenderer>().enabled = false;
+            GameObject.Find("Ring").GetComponent<MeshRenderer>().enabled = false;
+            GameObject.Find("Turn off").GetComponent<MeshRenderer>().enabled = false;
+            GameObject.Find("Time").GetComponent<MeshRenderer>().enabled = false;
+            GameObject.Find("Phone").GetComponent<MeshRenderer>().enabled = true;
         }
         
     }
