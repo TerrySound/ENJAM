@@ -39,6 +39,7 @@ public class EsaclierInteract : PeopleGroup
         if (EsaclierInteract.OnTP != null)
         {
             OnTP();
+            AkSoundEngine.PostEvent("MC_Escalier_Transition", gameObject);
         }
         //player.transform.position -= new Vector3(0, 10, 0);
 

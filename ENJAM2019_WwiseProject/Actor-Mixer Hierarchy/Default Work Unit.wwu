@@ -81,63 +81,6 @@
 												</PointList>
 											</Curve>
 										</RTPC>
-										<RTPC Name="" ID="{B97703AD-1142-43BD-9D54-1F21B2F81383}" ShortID="512285654">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<Custom>
-														<ModulatorLfo Name="Modulator LFO (Custom)" ID="{2C513945-155E-4256-9E28-465D542DAB7B}" ShortID="482123299">
-															<PropertyList>
-																<Property Name="LfoFrequency" Type="Real64" Value="0.3">
-																	<RTPCList>
-																		<RTPC Name="" ID="{01238AB7-FFD9-46CC-BC19-65AA14FA3086}" ShortID="1030458280">
-																			<ReferenceList>
-																				<Reference Name="ControlInput">
-																					<ObjectRef Name="RTPC_Clock" ID="{722E1991-1807-44E6-8FEC-355FF9526BE8}" WorkUnitID="{4C0C8184-3014-45C4-A472-0A7E648CD846}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<Curve Name="" ID="{02D8F8B1-3E4A-4C59-B976-B13798AB86C7}">
-																				<PropertyList>
-																					<Property Name="Flags" Type="int32" Value="5"/>
-																				</PropertyList>
-																				<PointList>
-																					<Point>
-																						<XPos>0</XPos>
-																						<YPos>1</YPos>
-																						<Flags>5</Flags>
-																					</Point>
-																					<Point>
-																						<XPos>100</XPos>
-																						<YPos>854.71458</YPos>
-																						<Flags>37</Flags>
-																					</Point>
-																				</PointList>
-																			</Curve>
-																		</RTPC>
-																	</RTPCList>
-																</Property>
-															</PropertyList>
-														</ModulatorLfo>
-													</Custom>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{65CB6636-7647-481C-A765-B17EC817E25C}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>0</YPos>
-														<Flags>21</Flags>
-													</Point>
-													<Point>
-														<XPos>1</XPos>
-														<YPos>3.24894</YPos>
-														<Flags>53</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
 									</RTPCList>
 								</Property>
 							</PropertyList>
@@ -652,6 +595,11 @@
 												<Property Name="IsStreamingEnabled" Type="bool">
 													<ValueList>
 														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1171,6 +1119,27 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
+						<Sound Name="Test" ID="{F5353D1E-B9CA-4CB0-AC9F-8F44ABD2028B}" ShortID="1020627853">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Sine" ID="{BC994547-8E95-4D89-818D-60809FF3BFA2}" ShortID="255012609" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+									<PropertyList>
+										<Property Name="SineFrequency" Type="Real32" Value="778"/>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Sine" ID="{BC994547-8E95-4D89-818D-60809FF3BFA2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="FX" ID="{21E8C908-025C-4DEA-8FD5-A16BAE71BC8D}" ShortID="154161452">
@@ -2608,7 +2577,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2919,7 +2888,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-2</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

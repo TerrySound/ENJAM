@@ -28,9 +28,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1957673199	RTPC_Clock			\Default Work Unit\RTPC_Clock	
 	3715171847	RTPC_MC_Position			\Default Work Unit\RTPC_MC_Position	
 
-Modulator LFO	ID	Name			Wwise Object Path	Notes
-	482123299	Modulator LFO (Custom)				
-
 Effect plug-ins	ID	Name	Type				Notes
 	471826248	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
 
