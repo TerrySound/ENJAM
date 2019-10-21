@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BlockingGroup : PeopleGroup
 {
+
+    public Collider2D blockingCollider;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +31,7 @@ public class BlockingGroup : PeopleGroup
 
     public void UnlockPath()
     {
-        Debug.Log("What do you want?");
+        Destroy(blockingCollider);
+        this.transform.position += new Vector3(0, 0.05f, 0.1f);
     }
 }
