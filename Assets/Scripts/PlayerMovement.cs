@@ -58,6 +58,7 @@ public class PlayerMovement : MonoBehaviour
     void switchPhone()
     {
         phoneOut = !phoneOut;
+        this.GetComponent<Animator>().SetBool("hasPhone", phoneOut);
         if (phoneOut)
         {
             EventManager.OnPhone += Ring;

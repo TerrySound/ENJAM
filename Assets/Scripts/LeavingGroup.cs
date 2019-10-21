@@ -33,6 +33,7 @@ public class LeavingGroup : PeopleGroup
     public void Leave()
     {
         Debug.Log("To " + Mathf.Infinity + " and beyond");
+        playerAnimator.SetTrigger("isDancing");
         this.leaving = true;
     }
 }
