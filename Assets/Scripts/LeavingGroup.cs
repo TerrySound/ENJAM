@@ -17,20 +17,20 @@ public class LeavingGroup : PeopleGroup
     {
         if (leaving)
         {
-            this.transform.position -= new Vector3(0.03f, 0, 0);
+            this.transform.position -= new Vector3(0.015f, 0, 0);
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        EventManager.OnInteract += UnlockPath;
+        EventManager.OnInteract += Leave;
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        EventManager.OnInteract -= UnlockPath;
+        EventManager.OnInteract -= Leave;
     }
 
-    public void UnlockPath()
+    public void Leave()
     {
         Debug.Log("To " + Mathf.Infinity + " and beyond");
         this.leaving = true;
