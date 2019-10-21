@@ -11,7 +11,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_MC_Position" ID="{D2C4C473-BB04-4841-BE5A-271A1282CB4C}"/>
-							<Value>0</Value>
+							<Value>1.36363636363636</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_SideChain_FX" ID="{01E1EC19-240B-4990-ACFF-B218849E8CFB}"/>
