@@ -1756,9 +1756,8 @@ Transform:
   - {fileID: 1817656299}
   - {fileID: 1699869004}
   - {fileID: 1141044531}
-  - {fileID: 2051542517}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &273944124 stripped
 Transform:
@@ -2727,7 +2726,6 @@ GameObject:
   - component: {fileID: 496751363}
   - component: {fileID: 496751366}
   - component: {fileID: 496751362}
-  - component: {fileID: 496751367}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -13470,11 +13468,6 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5577370091300233071, guid: 9b39d9105dd4c75488eafe5a700add96,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: e8b1b3dcafc8d8f4986adaa4698bbf6d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b39d9105dd4c75488eafe5a700add96, type: 3}
 --- !u!1001 &2361152348373206597
@@ -13628,11 +13621,6 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2662471661623472531, guid: c9fb07dd9c6bd0e46b3ca93197ed461e,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: e8b1b3dcafc8d8f4986adaa4698bbf6d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9fb07dd9c6bd0e46b3ca93197ed461e, type: 3}
 --- !u!1001 &2620227114518037190
