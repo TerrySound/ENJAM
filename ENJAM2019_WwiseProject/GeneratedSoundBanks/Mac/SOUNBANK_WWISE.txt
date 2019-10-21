@@ -23,7 +23,11 @@ Switch	ID	Name	Switch Group			Notes
 	2058049674	Wood	Texture			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	1957673199	RTPC_Clock			\Default Work Unit\RTPC_Clock	
 	3715171847	RTPC_MC_Position			\Default Work Unit\RTPC_MC_Position	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	482123299	Modulator LFO (Custom)				
 
 Effect plug-ins	ID	Name	Type				Notes
 	471826248	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
@@ -42,12 +46,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	210591787	MC_Floor_FS_07	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_07_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_07		12560
 	224776312	MC_Wood_FS_12	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_12_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_12		36336
 	273541201	MC_Wood_FS_06	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_06_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_06		30931
+	310800875	Phone_Ring	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\Arcade Jingle Negative 07_77F989C0.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Phone_Off\Phone_Ring		25655
 	328297850	PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_Kitchen\Kitchen_Object_01\PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close		49808
 	366933411	PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_Kitchen\Kitchen_Object_01\PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close		45107
 	418994039	Phone_Ring	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\Phone_Ring_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Phone_Ring\Phone_Ring		108301
 	429146205	Kiss_02	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\239907__woodwolf__kisses_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Kiss\Kisses_02\Kiss_02		140147
 	443761236	MC_Wood_FS_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_03_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_03		35365
-	477024675	Door_Open	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\EFX INT Door Bang Wood Swing Broken 01 A_B33E6B04.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\Door_Open		57795
+	477024675	Door_Open	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\EFX INT Door Bang Wood Swing Broken 01 A_FDCD84A9.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\Door_Open		53926
 	484190720	MC_Wood_FS_09	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Wood_FS\MC_Wood_FS_09_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_09		31790
 	505863634	FX_Phone_Vibrate	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\466217__harrisando__vibrating_4C5A9564.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Phone_Vibrate\FX_Phone_Vibrate		53607
 	508167777	Aquarium	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\175274__mdsn__aquarium-gurgle_0313E3DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Aquarium\Aquarium		969283
