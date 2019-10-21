@@ -870,7 +870,7 @@
 										<BlendTrackAssoc>
 											<ItemRef Name="Amb_BathRoom" ID="{4AF15DCF-E25A-494E-8CFB-5539D1B58CF9}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>11</LeftEdgePos>
+												<LeftEdgePos>11.2022244691608</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
 												<RightEdgePos>20</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
