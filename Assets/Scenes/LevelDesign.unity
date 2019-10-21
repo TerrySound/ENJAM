@@ -3167,7 +3167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 375531119}
-  slack: 0
+  slack: 0.05
   epsilon: 0.001
 --- !u!114 &496751367
 MonoBehaviour:
