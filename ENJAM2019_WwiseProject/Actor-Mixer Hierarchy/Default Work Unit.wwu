@@ -954,7 +954,8 @@
 													<Language>SFX</Language>
 													<AudioFile>235777__lex777__kissing-smooches-01.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="538099929"/>
+														<File Platform="Mac" ID="538099929"/>
+														<File Platform="Windows" ID="538099929"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1020,7 +1021,8 @@
 													<Language>SFX</Language>
 													<AudioFile>428220__leoctiurs__111-kiss.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="546633791"/>
+														<File Platform="Mac" ID="546633791"/>
+														<File Platform="Windows" ID="546633791"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1096,6 +1098,9 @@
 												<AudioFileSource Name="235777__lex777__kissing-smooches-01" ID="{0DA5F6F8-A2C8-4191-B010-CED474906E00}" ShortID="538099929">
 													<Language>SFX</Language>
 													<AudioFile>235777__lex777__kissing-smooches-01.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File Platform="Linux" ID="526998124"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1134,6 +1139,9 @@
 												<AudioFileSource Name="428220__leoctiurs__111-kiss" ID="{69F21FFB-A6BA-46D0-9199-FE9EDAED4D9D}" ShortID="546633791">
 													<Language>SFX</Language>
 													<AudioFile>428220__leoctiurs__111-kiss.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File Platform="Linux" ID="351041937"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>

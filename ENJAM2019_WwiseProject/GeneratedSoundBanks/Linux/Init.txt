@@ -1,0 +1,34 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2460634474	Texture			\Default Work Unit\Texture	
+
+Switch	ID	Name	Switch Group			Notes
+	1088209313	Floor	Texture			
+	2058049674	Wood	Texture			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1038960886	RTPC_SideChain_FX			\Default Work Unit\RTPC_SideChain_FX	
+	1957673199	RTPC_Clock			\Default Work Unit\RTPC_Clock	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
+	1534528548	VO			\Default Work Unit\Master Audio Bus\VO	
+	1685527061	MC			\Default Work Unit\Master Audio Bus\MC	
+	1802970371	FX			\Default Work Unit\Master Audio Bus\FX	
+	3064974266	Special			\Default Work Unit\Master Audio Bus\Special	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	400405326	Reverb_LivingRoom			\Default Work Unit\Master Audio Bus\Reverb_LivingRoom	
+	2620089962	Reverb_Bathroom			\Default Work Unit\Master Audio Bus\Reverb_Bathroom	
+	3828378466	Reverb_Clock			\Default Work Unit\Master Audio Bus\Reverb_Clock	
+
+Effect plug-ins	ID	Name	Type				Notes
+	506891147	Plate_Small	Wwise RoomVerb			
+	623221272	Wwise_Meter_(Custom)	Wwise Meter			
+	1990128658	Room_Medium	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

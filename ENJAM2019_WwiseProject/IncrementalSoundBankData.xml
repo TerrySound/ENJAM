@@ -26,4 +26,17 @@
 			</Language>
 		</XMLInfo>
 	</Platform>
+	<Platform GUID="{ADE7ED2A-C9BB-486F-8337-4AB42650630C}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="1447915898" Timestamp="1571682046"/>
+				<File Name="SOUNBANK_WWISE" Hash="1481123781" Timestamp="1571682046"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="133360565" Timestamp="1571682046"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
 </IncrementalBankBuild>

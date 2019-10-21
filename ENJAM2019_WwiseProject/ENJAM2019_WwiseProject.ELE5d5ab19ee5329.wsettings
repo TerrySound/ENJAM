@@ -40,12 +40,15 @@
 					<ValueList>
 						<Value Platform="Windows"></Value>
 						<Value Platform="Mac"></Value>
+						<Value Platform="Linux"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
+						<Value>GeneratedSoundBanks\Windows\</Value>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Linux">GeneratedSoundBanks\Linux\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="Game Profiler\Capture List\Filters\Scope - Game Object" Type="bool" Value="True"/>
@@ -59,9 +62,10 @@
 				<Property Name="Game Profiler\Capture List\Filters\Wwise Objects - Use Hierarchy" Type="bool" Value="False"/>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
-				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
+				<Property Name="General\LatestPlatform" Type="string" Value="Linux"/>
+				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="PXP/RFuw5EaFofcp3AYFBWPi/kC16UJBpUWCBLebiC4="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="Ku3nrbvJb0iDN0q0JlBjDD1z/0RbsORGhaH3KdwGBQVj4v5AtelCQaVFggS3m4gu"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="wXGhy2udnEukZhakPclO2g=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="IgCnURNYck60S0KSSiBizgH/////////HM/6QX2EykKiYBwzY2o6LgH/////////"/>
@@ -77,7 +81,7 @@
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MonitoringManager\WatchMgr\WatchesVersion" Type="int32" Value="7"/>
 				<Property Name="MonitoringManager\WatchMgr\x64_GameSyncWatches" Type="string" Value="c8TE0gS7QUi+WicaEoLLTA=="/>
-				<Property Name="MonitoringManager\WatchMgr\x64_Watches" Type="string" Value="AQAAAGQCAAAINwAAAAAAAAEAsEdkAgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEfxLVP9/AADgkthZZAIAAMASQgb/fwAAkDzuVWQCAAAgldhZZAIAACBOq1lkAgAAEfxLVP9/AAABAAAAAAAAAAAAsEdkAgAAQClNTWQCAAAAAAAAAAAAAAAAAAAAAAAAjxnjBf9/AAABAAAAZAIAALhMAAAAAAAAAQCwR2QCAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAR/EtU/38AAOCS2FlkAgAAwBJCBv9/AACQPO5VZAIAACCV2FlkAgAAIE6rWWQCAAAR/EtU/38AAAEAAAAAAAAAAACwR2QCAABAKU1NZAIAAAAAAAAAAAAAAAAAAAAAAACPGeMF/38AAAEAAABkAgAA1Hn///////8BALBHZAIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABH8S1T/fwAA4JLYWWQCAADAEkIG/38AAJA87lVkAgAAIJXYWWQCAAAgTqtZZAIAABH8S1T/fwAAAQAAAAAAAAAAALBHZAIAAEApTU1kAgAAAAAAAAAAAAAAAAAAAAAAAI8Z4wX/fwAA"/>
+				<Property Name="MonitoringManager\WatchMgr\x64_Watches" Type="string" Value="AQAAAFECAAAINwAAAAAAAAEAdPhRAgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEfxLVP9/AADg8siGUQIAAMASYhX/fwAAYKMD/lECAAAg9ciGUQIAAGCq/YlRAgAAEfxLVP9/AAABAAAAAAAAAAAAdPhRAgAAkIgK/lECAAAAAAAAAAAAAAAAAAAAAAAAjxkDFf9/AAABAAAAUQIAALhMAAAAAAAAAQB0+FECAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAR/EtU/38AAODyyIZRAgAAwBJiFf9/AABgowP+UQIAACD1yIZRAgAAYKr9iVECAAAR/EtU/38AAAEAAAAAAAAAAAB0+FECAACQiAr+UQIAAAAAAAAAAAAAAAAAAAAAAACPGQMV/38AAAEAAABRAgAA1Hn///////8BAHT4UQIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABH8S1T/fwAA4PLIhlECAADAEmIV/38AAGCjA/5RAgAAIPXIhlECAABgqv2JUQIAABH8S1T/fwAAAQAAAAAAAAAAAHT4UQIAAJCICv5RAgAAAAAAAAAAAAAAAAAAAAAAAI8ZAxX/fwAA"/>
 				<Property Name="Music Transition List\{93940E5F-C9FE-4750-8495-E547E89E1BB2}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{A8708DCD-060E-4088-A525-FD1DB0BD2F06}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{D2C1A954-C1FD-46B3-98DB-6BD9B85C2626}\x64_Expand States" Type="string" Value=""/>
@@ -116,32 +120,40 @@
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
+						<Value>GeneratedSoundBanks\Windows\</Value>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Linux">GeneratedSoundBanks\Linux\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
 					<ValueList>
+						<Value>Copy Streamed Files</Value>
 						<Value Platform="Windows">Copy Streamed Files</Value>
 						<Value Platform="Mac">Copy Streamed Files</Value>
+						<Value Platform="Linux">Copy Streamed Files</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
 					<ValueList>
+						<Value>"$(WwiseExePath)\CopyStreamedFiles.exe" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 						<Value Platform="Windows">"$(WwiseExePath)\CopyStreamedFiles.exe" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 						<Value Platform="Mac">"$(WwiseExePath)\CopyStreamedFiles.exe" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
+						<Value Platform="Linux">"$(WwiseExePath)\CopyStreamedFiles.exe" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
 						<Value Platform="Mac"></Value>
+						<Value Platform="Linux"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
 						<Value Platform="Mac"></Value>
+						<Value Platform="Linux"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{751913AB-E935-4DED-BD08-CA3D69615C99}"/>

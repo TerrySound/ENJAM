@@ -17,14 +17,14 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 79483f074e43954aa32177f803be1362
     GuidInternal: 
-    m_lastTime: -8586301364575991844
+    m_lastTime: -8586299248611016551
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 8773f664cf49ef40991e297458d41079
     GuidInternal: 
-    m_lastTime: -8586299438960173332
+    m_lastTime: -8586299248610016161
     List:
     - name: Reverb_Bathroom
       guid: 2d24f1560183d345857d1b1fba4a25c4
@@ -64,7 +64,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 5ed96920ed67014693a7f69b56896bd9
     GuidInternal: 
-    m_lastTime: -8586301213420014871
+    m_lastTime: -8586299248610016161
     List:
     - name: SOUNBANK_WWISE
       guid: c171a1cb6b9d9c4ba46616a43dc94eda
@@ -80,7 +80,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 296dcd70bed7cd4698e1de4ab13efed1
     GuidInternal: 
-    m_lastTime: -8586299283235597330
+    m_lastTime: -8586299248610466980
     List:
     - name: Amb_Downstair
       guid: 68a13fd2ebda7f48a2e21fc0ec62c5ef
@@ -291,7 +291,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 84810c4c1430c445a4720a7e648cd846
     GuidInternal: 
-    m_lastTime: -8586299578259021820
+    m_lastTime: -8586299248609112925
     List:
     - name: RTPC_Clock
       guid: 91192e720718e6448fec355ff9526be8
@@ -334,14 +334,14 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: a75570a39a7f044abe0ba13765d0ccbd
     GuidInternal: 
-    m_lastTime: -8586301364576031649
+    m_lastTime: -8586299248610410677
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 4f599d5e8284b3429e521cd5f09ca5d9
     GuidInternal: 
-    m_lastTime: -8586300031208766690
+    m_lastTime: -8586299248610315581
     List:
     - name: Texture
       guid: 7ada9935946774429c61a4bb97f4dda1
@@ -373,7 +373,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 5d6c2ba428553f439ec6fec650175aca
     GuidInternal: 
-    m_lastTime: -8586301364576870669
+    m_lastTime: -8586299248609163056
     List: []
   ExpandedItems:
   - /ENJAM2019_WwiseProject

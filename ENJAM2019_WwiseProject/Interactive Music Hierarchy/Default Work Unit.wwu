@@ -64,6 +64,9 @@
 										<AudioFileSource Name="Music Export" ID="{86C3C490-6A98-4A69-9197-8D4CB2D0F439}" ShortID="562317555">
 											<Language>SFX</Language>
 											<AudioFile>Music Export.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File Platform="Linux" ID="252659156"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
@@ -138,7 +141,8 @@
 											<Language>SFX</Language>
 											<AudioFile>Music Export.wav</AudioFile>
 											<ConvertedFileIDList>
-												<File ID="562317555"/>
+												<File Platform="Mac" ID="562317555"/>
+												<File Platform="Windows" ID="562317555"/>
 											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>

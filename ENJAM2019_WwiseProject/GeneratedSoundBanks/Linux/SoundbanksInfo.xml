@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Linux" BasePlatform="Linux" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\GeneratedSoundBanks\Linux\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\GeneratedSoundBanks\Linux</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="91340931" Language="SFX">
+			<ShortName>Bathroom_Fan.wav</ShortName>
+			<Path>SFX\Bathroom_Fan_C42B8C3C.wem</Path>
+		</File>
+		<File Id="153558715" Language="SFX">
+			<ShortName>Huge_Crowd.wav</ShortName>
+			<Path>SFX\Huge_Crowd_C42B8C3C.wem</Path>
+		</File>
+		<File Id="195299223" Language="SFX">
+			<ShortName>Bedroom_Tone.wav</ShortName>
+			<Path>SFX\Bedroom_Tone_C42B8C3C.wem</Path>
+		</File>
+		<File Id="211680842" Language="SFX">
+			<ShortName>Medium_Crowd_Distant.wav</ShortName>
+			<Path>SFX\Medium_Crowd_Distant_C42B8C3C.wem</Path>
+		</File>
+		<File Id="252659156" Language="SFX">
+			<ShortName>Music Export.wav</ShortName>
+			<Path>SFX\Music Export_C42B8C3C.wem</Path>
+		</File>
+		<File Id="575849466" Language="SFX">
+			<ShortName>Medium_Crowd_Dynamic_Close.wav</ShortName>
+			<Path>SFX\Medium_Crowd_Dynamic_Close_C42B8C3C.wem</Path>
+		</File>
+		<File Id="665859498" Language="SFX">
+			<ShortName>Fridge.wav</ShortName>
+			<Path>SFX\Fridge_C42B8C3C.wem</Path>
+		</File>
+		<File Id="830138180" Language="SFX">
+			<ShortName>Clock.wav</ShortName>
+			<Path>SFX\Clock_C42B8C3C.wem</Path>
+		</File>
+		<File Id="1044520065" Language="SFX">
+			<ShortName>Bathroom_Water.wav</ShortName>
+			<Path>SFX\Bathroom_Water_C42B8C3C.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1286107594" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SOUNBANK_WWISE</ObjectPath>
+			<ShortName>SOUNBANK_WWISE</ShortName>
+			<Path>SOUNBANK_WWISE.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2060891257" Name="Amb_Downstair" ObjectPath="\Events\Default Work Unit\Amb_Downstair" DurationType="Infinite"/>
+				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="5.000000" DurationType="Infinite"/>
+				<Event Id="1294859063" Name="FX_Aquarium" ObjectPath="\Events\Default Work Unit\FX_Aquarium" MaxAttenuation="2.000000" DurationType="Infinite"/>
+				<Event Id="3523512105" Name="FX_Couple_Stop" ObjectPath="\Events\Default Work Unit\FX_Couple_Stop" DurationType="OneShot" DurationMin="0.964704" DurationMax="0.964704"/>
+				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" DurationType="OneShot" DurationMin="0.732477" DurationMax="0.732477"/>
+				<Event Id="3205713061" Name="FX_Fridge" ObjectPath="\Events\Default Work Unit\FX_Fridge" MaxAttenuation="3.000000" DurationType="Infinite"/>
+				<Event Id="661950517" Name="FX_Man_Drink" ObjectPath="\Events\Default Work Unit\FX_Man_Drink" MaxAttenuation="3.000000" DurationType="OneShot" DurationMin="0.481781" DurationMax="0.819022"/>
+				<Event Id="791491523" Name="FX_Phone_Ring" ObjectPath="\Events\Default Work Unit\FX_Phone_Ring" DurationType="OneShot" DurationMin="2.693175" DurationMax="2.693175"/>
+				<Event Id="3013075908" Name="FX_PhoneClock" ObjectPath="\Events\Default Work Unit\FX_PhoneClock" DurationType="Infinite"/>
+				<Event Id="2490349429" Name="FX_PhoneOff" ObjectPath="\Events\Default Work Unit\FX_PhoneOff" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2480426025" Name="FX_Rot" ObjectPath="\Events\Default Work Unit\FX_Rot" DurationType="OneShot" DurationMin="1.622511" DurationMax="1.622511"/>
+				<Event Id="2092440099" Name="Groupe" ObjectPath="\Events\Default Work Unit\Groupe" DurationType="OneShot" DurationMin="31.234852" DurationMax="31.234852"/>
+				<Event Id="2450280999" Name="Kiss" ObjectPath="\Events\Default Work Unit\Kiss" MaxAttenuation="5.000000" DurationType="Infinite"/>
+				<Event Id="3798889014" Name="MC_Escalier_Transition" ObjectPath="\Events\Default Work Unit\MC_Escalier_Transition" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1648013973" Name="MC_Footsteps" ObjectPath="\Events\Default Work Unit\MC_Footsteps" DurationType="OneShot" DurationMin="0.339592" DurationMax="1.014186"/>
+				<Event Id="3065870848" Name="MC_HearthBeat" ObjectPath="\Events\Default Work Unit\MC_HearthBeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1727588526" Name="Stop_Groupe" ObjectPath="\Events\Default Work Unit\Stop_Groupe" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="91340931"/>
+				<File Id="153558715"/>
+				<File Id="195299223"/>
+				<File Id="211680842"/>
+				<File Id="252659156"/>
+				<File Id="575849466"/>
+				<File Id="665859498"/>
+				<File Id="830138180"/>
+				<File Id="1044520065"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="9520817" Language="SFX">
+					<ShortName>MC_Floor_FS_03.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_03_66C02B12.wem</Path>
+				</File>
+				<File Id="11174130" Language="SFX">
+					<ShortName>428137__inspectorj__burp-male-short-a.wav</ShortName>
+					<Path>SFX\428137__inspectorj__burp-male-short-a_70CBF2C3.wem</Path>
+				</File>
+				<File Id="14350048" Language="SFX">
+					<ShortName>MC_Wood_FS\MC_Wood_FS_02.wav</ShortName>
+					<Path>SFX\MC_Wood_FS\MC_Wood_FS_02_66C02B12.wem</Path>
+				</File>
+				<File Id="18035982" Language="SFX">
+					<ShortName>344581__vcspran__drinking-icetea-can.wav</ShortName>
+					<Path>SFX\344581__vcspran__drinking-icetea-can_1DF4C22A.wem</Path>
+				</File>
+				<File Id="50748300" Language="SFX">
+					<ShortName>56270__q-k__water-drink.wav</ShortName>
+					<Path>SFX\56270__q-k__water-drink_877A31ED.wem</Path>
+				</File>
+				<File Id="70509852" Language="SFX">
+					<ShortName>MC_Wood_FS\MC_Wood_FS_07.wav</ShortName>
+					<Path>SFX\MC_Wood_FS\MC_Wood_FS_07_66C02B12.wem</Path>
+				</File>
+				<File Id="106585426" Language="SFX">
+					<ShortName>Medium_Crowd_Close.wav</ShortName>
+					<Path>SFX\Medium_Crowd_Close_66C02B12.wem</Path>
+				</File>
+				<File Id="136788477" Language="SFX">
+					<ShortName>MC_Wood_FS\MC_Wood_FS_14.wav</ShortName>
+					<Path>SFX\MC_Wood_FS\MC_Wood_FS_14_66C02B12.wem</Path>
+				</File>
+				<File Id="157910693" Language="SFX">
+					<ShortName>MC_Wood_FS\MC_Wood_FS_10.wav</ShortName>
+					<Path>SFX\MC_Wood_FS\MC_Wood_FS_10_66C02B12.wem</Path>
+				</File>
+				<File Id="160356805" Language="SFX">
+					<ShortName>MC_Wood_FS\MC_Wood_FS_13.wav</ShortName>
+					<Path>SFX\MC_Wood_FS\MC_Wood_FS_13_66C02B12.wem</Path>
+				</File>
+				<File Id="185827285" Language="SFX">
+					<ShortName>MC_Floor_FS_05.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_05_66C02B12.wem</Path>
+				</File>
+				<File Id="189186148" Language="SFX">
+					<ShortName>MC_Floor_FS_01.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_01_66C02B12.wem</Path>
+				</File>
+				<File Id="210591787" Language="SFX">
+					<ShortName>MC_Floor_FS_07.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_07_66C02B12.wem</Path>
+				</File>
+				<File Id="224776312" Language="SFX">
+					<ShortName>MC_Wood_FS\MC_Wood_FS_12.wav</ShortName>
+					<Path>SFX\MC_Wood_FS\MC_Wood_FS_12_66C02B12.wem</Path>
+				</File>
+				<File Id="273541201" Language="SFX">
+					<ShortName>MC_Wood_FS\MC_Wood_FS_06.wav</ShortName>
+					<Path>SFX\MC_Wood_FS\MC_Wood_FS_06_66C02B12.wem</Path>
+				</File>
+				<File Id="310800875" Language="SFX">
+					<ShortName>Arcade Jingle Negative 07.wav</ShortName>
+					<Path>SFX\Arcade Jingle Negative 07_77F989C0.wem</Path>
+				</File>
+				<File Id="328297850" Language="SFX">
+					<ShortName>PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close.wav</ShortName>
+					<Path>SFX\PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem</Path>
+				</File>
+				<File Id="351041937" Language="SFX">
+					<ShortName>428220__leoctiurs__111-kiss.wav</ShortName>
+					<Path>SFX\428220__leoctiurs__111-kiss_66C02B12.wem</Path>
+				</File>
+				<File Id="366933411" Language="SFX">
+					<ShortName>PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close.wav</ShortName>
+					<Path>SFX\PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem</Path>
+				</File>
+				<File Id="418994039" Language="SFX">
+					<ShortName>Phone_Ring.wav</ShortName>
+					<Path>SFX\Phone_Ring_66C02B12.wem</Path>
+				</File>
+				<File Id="429146205" Language="SFX">
+					<ShortName>239907__woodwolf__kisses.wav</ShortName>
+					<Path>SFX\239907__woodwolf__kisses_66C02B12.wem</Path>
+				</File>
+				<File Id="443761236" Language="SFX">
+					<ShortName>MC_Wood_FS\MC_Wood_FS_03.wav</ShortName>
+					<Path>SFX\MC_Wood_FS\MC_Wood_FS_03_66C02B12.wem</Path>
+				</File>
+				<File Id="477024675" Language="SFX">
+					<ShortName>EFX INT Door Bang Wood Swing Broken 01 A.wav</ShortName>
+					<Path>SFX\EFX INT Door Bang Wood Swing Broken 01 A_FDCD84A9.wem</Path>
+				</File>
+				<File Id="484190720" Language="SFX">
+					<ShortName>MC_Wood_FS\MC_Wood_FS_09.wav</ShortName>
+					<Path>SFX\MC_Wood_FS\MC_Wood_FS_09_66C02B12.wem</Path>
+				</File>
+				<File Id="505863634" Language="SFX">
+					<ShortName>466217__harrisando__vibrating.wav</ShortName>
+					<Path>SFX\466217__harrisando__vibrating_4C5A9564.wem</Path>
+				</File>
+				<File Id="508167777" Language="SFX">
+					<ShortName>175274__mdsn__aquarium-gurgle.wav</ShortName>
+					<Path>SFX\175274__mdsn__aquarium-gurgle_0313E3DC.wem</Path>
+				</File>
+				<File Id="524063718" Language="SFX">
+					<ShortName>443558__juliandmc4__beso.wav</ShortName>
+					<Path>SFX\443558__juliandmc4__beso_66C02B12.wem</Path>
+				</File>
+				<File Id="526998124" Language="SFX">
+					<ShortName>235777__lex777__kissing-smooches-01.wav</ShortName>
+					<Path>SFX\235777__lex777__kissing-smooches-01_66C02B12.wem</Path>
+				</File>
+				<File Id="536595270" Language="SFX">
+					<ShortName>MC_Wood_FS\MC_Wood_FS_05.wav</ShortName>
+					<Path>SFX\MC_Wood_FS\MC_Wood_FS_05_66C02B12.wem</Path>
+				</File>
+				<File Id="561983247" Language="SFX">
+					<ShortName>MC_Floor_FS_04.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_04_66C02B12.wem</Path>
+				</File>
+				<File Id="616251333" Language="SFX">
+					<ShortName>MC_Wood_FS\MC_Wood_FS_11.wav</ShortName>
+					<Path>SFX\MC_Wood_FS\MC_Wood_FS_11_66C02B12.wem</Path>
+				</File>
+				<File Id="631167502" Language="SFX">
+					<ShortName>344581__vcspran__drinking-icetea-can.wav</ShortName>
+					<Path>SFX\344581__vcspran__drinking-icetea-can_BD30FD1F.wem</Path>
+				</File>
+				<File Id="664329015" Language="SFX">
+					<ShortName>MC_Floor_FS_09.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_09_66C02B12.wem</Path>
+				</File>
+				<File Id="688350617" Language="SFX">
+					<ShortName>PM_KF_05 Pot, Panpot, Lid, Lift, Set Down, Open, Close.wav</ShortName>
+					<Path>SFX\PM_KF_05 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem</Path>
+				</File>
+				<File Id="749355102" Language="SFX">
+					<ShortName>MC_Wood_FS\MC_Wood_FS_04.wav</ShortName>
+					<Path>SFX\MC_Wood_FS\MC_Wood_FS_04_66C02B12.wem</Path>
+				</File>
+				<File Id="777856750" Language="SFX">
+					<ShortName>PM_KF_101 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin.wav</ShortName>
+					<Path>SFX\PM_KF_101 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin_66C02B12.wem</Path>
+				</File>
+				<File Id="798328390" Language="SFX">
+					<ShortName>MC_Wood_FS\MC_Wood_FS_08.wav</ShortName>
+					<Path>SFX\MC_Wood_FS\MC_Wood_FS_08_66C02B12.wem</Path>
+				</File>
+				<File Id="869575825" Language="SFX">
+					<ShortName>MC_Floor_FS_08.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_08_66C02B12.wem</Path>
+				</File>
+				<File Id="884335589" Language="SFX">
+					<ShortName>MC_Floor_FS_06.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_06_66C02B12.wem</Path>
+				</File>
+				<File Id="887183314" Language="SFX">
+					<ShortName>MC_Wood_FS\MC_Wood_FS_01.wav</ShortName>
+					<Path>SFX\MC_Wood_FS\MC_Wood_FS_01_66C02B12.wem</Path>
+				</File>
+				<File Id="896004742" Language="SFX">
+					<ShortName>MC_Floor_FS_02.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_02_66C02B12.wem</Path>
+				</File>
+				<File Id="912256610" Language="SFX">
+					<ShortName>PM_KF_102 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin.wav</ShortName>
+					<Path>SFX\PM_KF_102 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin_66C02B12.wem</Path>
+				</File>
+				<File Id="946887884" Language="SFX">
+					<ShortName>MC_Floor_FS_10.wav</ShortName>
+					<Path>SFX\MC_Floor_FS_10_66C02B12.wem</Path>
+				</File>
+				<File Id="980323591" Language="SFX">
+					<ShortName>Clock-Design.wav</ShortName>
+					<Path>SFX\Clock-Design_82FDE72D.wem</Path>
+				</File>
+				<File Id="1058726748" Language="SFX">
+					<ShortName>PM_KF_103 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin.wav</ShortName>
+					<Path>SFX\PM_KF_103 Plate, Glass, Cermaic, Clink, Set Down, Pick Up, On Table, Handlin_66C02B12.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
