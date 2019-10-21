@@ -179,7 +179,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Sound_Phone_End" ID="{7C680784-D5BB-4E5D-9C42-703CD49D837B}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+									<ObjectRef Name="FX_Phone_Off" ID="{C849923F-74D6-4AA9-9663-F5C61612DCA6}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

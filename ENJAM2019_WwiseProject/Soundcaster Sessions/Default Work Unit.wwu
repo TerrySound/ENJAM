@@ -15,7 +15,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_SideChain_FX" ID="{01E1EC19-240B-4990-ACFF-B218849E8CFB}"/>
-							<Value>-5.32126696832579</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_Music" ID="{4FC23E37-2560-49B4-B860-2D650D9AD472}"/>

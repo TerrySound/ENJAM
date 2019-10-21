@@ -56,9 +56,9 @@
 				<Event Id="2060891257" Name="Amb_Downstair" ObjectPath="\Events\Default Work Unit\Amb_Downstair" DurationType="Infinite"/>
 				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="1294859063" Name="FX_Aquarium" ObjectPath="\Events\Default Work Unit\FX_Aquarium" MaxAttenuation="2.000000" DurationType="Infinite"/>
-				<Event Id="3523512105" Name="FX_Couple_Stop" ObjectPath="\Events\Default Work Unit\FX_Couple_Stop" DurationType="OneShot" DurationMin="1.003643" DurationMax="1.003643"/>
-				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" DurationType="OneShot" DurationMin="0.040000" DurationMax="0.040000"/>
-				<Event Id="3205713061" Name="FX_Fridge" ObjectPath="\Events\Default Work Unit\FX_Fridge" MaxAttenuation="5.000000" DurationType="Infinite"/>
+				<Event Id="3523512105" Name="FX_Couple_Stop" ObjectPath="\Events\Default Work Unit\FX_Couple_Stop" DurationType="OneShot" DurationMin="0.964704" DurationMax="0.964704"/>
+				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" DurationType="OneShot" DurationMin="0.732477" DurationMax="0.732477"/>
+				<Event Id="3205713061" Name="FX_Fridge" ObjectPath="\Events\Default Work Unit\FX_Fridge" MaxAttenuation="3.000000" DurationType="Infinite"/>
 				<Event Id="791491523" Name="FX_Phone_Ring" ObjectPath="\Events\Default Work Unit\FX_Phone_Ring" DurationType="OneShot" DurationMin="2.693175" DurationMax="2.693175"/>
 				<Event Id="3013075908" Name="FX_PhoneClock" ObjectPath="\Events\Default Work Unit\FX_PhoneClock" DurationType="Infinite"/>
 				<Event Id="2490349429" Name="FX_PhoneOff" ObjectPath="\Events\Default Work Unit\FX_PhoneOff" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -133,6 +133,10 @@
 					<ShortName>MC_Wood_FS\MC_Wood_FS_06.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_06_66C02B12.wem</Path>
 				</File>
+				<File Id="310800875" Language="SFX">
+					<ShortName>Arcade Jingle Negative 07.wav</ShortName>
+					<Path>SFX\Arcade Jingle Negative 07_77F989C0.wem</Path>
+				</File>
 				<File Id="328297850" Language="SFX">
 					<ShortName>PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close.wav</ShortName>
 					<Path>SFX\PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem</Path>
@@ -155,7 +159,7 @@
 				</File>
 				<File Id="477024675" Language="SFX">
 					<ShortName>EFX INT Door Bang Wood Swing Broken 01 A.wav</ShortName>
-					<Path>SFX\EFX INT Door Bang Wood Swing Broken 01 A_B33E6B04.wem</Path>
+					<Path>SFX\EFX INT Door Bang Wood Swing Broken 01 A_FDCD84A9.wem</Path>
 				</File>
 				<File Id="484190720" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_09.wav</ShortName>
