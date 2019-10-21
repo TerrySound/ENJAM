@@ -10,4 +10,10 @@ public class PostWwiseEvent : MonoBehaviour
     {
         MyEvent.Post(gameObject);
     }
+
+    public AK.Wwise.Event EventGlup;
+    public void PlayGlupSound()
+    {
+        EventGlup.Post(gameObject);
+    }
 }

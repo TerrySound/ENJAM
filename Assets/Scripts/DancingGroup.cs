@@ -28,5 +28,6 @@ public class DancingGroup : PeopleGroup
     public void Dance()
     {
         Debug.Log("You got moves");
+        playerAnimator.SetTrigger("isDancing");
     }
 }

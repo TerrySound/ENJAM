@@ -80,7 +80,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 296dcd70bed7cd4698e1de4ab13efed1
     GuidInternal: 
-    m_lastTime: -8586299560428545235
+    m_lastTime: -8586299392820489547
     List:
     - name: Amb_Downstair
       guid: 68a13fd2ebda7f48a2e21fc0ec62c5ef
@@ -154,6 +154,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: FX_Man_Drink
+      guid: c7b797c58120644ca1e14bf76e994d40
+      id: 661950517
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FX_Man_Drink
+        ObjectType: 3
+      Path: Default Work Unit\FX_Man_Drink
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: FX_Phone_Ring
       guid: f4d4b24d9599e443a093c607d55e38b8
       id: 791491523
@@ -223,6 +235,18 @@ MonoBehaviour:
       - ElementName: Kiss
         ObjectType: 3
       Path: Default Work Unit\Kiss
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MC_Escalier_Transition
+      guid: 588951241f8c8e42b5bd6f84dcc8fb71
+      id: 3798889014
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MC_Escalier_Transition
+        ObjectType: 3
+      Path: Default Work Unit\MC_Escalier_Transition
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
