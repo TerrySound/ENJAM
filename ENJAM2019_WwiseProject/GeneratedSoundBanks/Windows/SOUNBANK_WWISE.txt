@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	661950517	FX_Man_Drink			\Default Work Unit\FX_Man_Drink	
 	791491523	FX_Phone_Ring			\Default Work Unit\FX_Phone_Ring	
 	1114231687	Amb_Music			\Default Work Unit\Amb_Music	
 	1294859063	FX_Aquarium			\Default Work Unit\FX_Aquarium	
@@ -14,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3065870848	MC_HearthBeat			\Default Work Unit\MC_HearthBeat	
 	3205713061	FX_Fridge			\Default Work Unit\FX_Fridge	
 	3523512105	FX_Couple_Stop			\Default Work Unit\FX_Couple_Stop	
+	3798889014	MC_Escalier_Transition			\Default Work Unit\MC_Escalier_Transition	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2460634474	Texture			\Default Work Unit\Texture	
@@ -36,6 +38,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9520817	MC_Floor_FS_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Floor_FS_03_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_03		11802
 	11174130	Rot	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\428137__inspectorj__burp-male-short-a_70CBF2C3.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Rot\Rot		44478
 	14350048	MC_Wood_FS_02	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Wood_FS\MC_Wood_FS_02_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_02		38700
+	18035982	Drinking_01	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\344581__vcspran__drinking-icetea-can_1DF4C22A.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Man_Drink\Man_Drinking\Drinking_01		46708
+	50748300	Drinking_02	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\56270__q-k__water-drink_877A31ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Man_Drink\Man_Drinking\Drinking_02		16087
 	70509852	MC_Wood_FS_07	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Wood_FS\MC_Wood_FS_07_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_07		32281
 	106585426	Groupe	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\Medium_Crowd_Close_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Groupe\Groupe		1753440
 	136788477	MC_Wood_FS_14	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Wood_FS\MC_Wood_FS_14_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_14		26391
@@ -62,6 +66,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	546633791	Kiss_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\428220__leoctiurs__111-kiss_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Kiss\Kisses_02\Kiss_03		754539
 	561983247	MC_Floor_FS_04	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Floor_FS_04_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_04		11759
 	616251333	MC_Wood_FS_11	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Wood_FS\MC_Wood_FS_11_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_11		33183
+	631167502	Drinking_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\344581__vcspran__drinking-icetea-can_BD30FD1F.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Man_Drink\Man_Drinking\Drinking_03		40271
 	664329015	MC_Floor_FS_09	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Floor_FS_09_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_09		11652
 	688350617	PM_KF_05 Pot, Panpot, Lid, Lift, Set Down, Open, Close	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\PM_KF_05 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_Kitchen\Kitchen_Object_01\PM_KF_05 Pot, Panpot, Lid, Lift, Set Down, Open, Close		51750
 	749355102	MC_Wood_FS_04	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Windows\SFX\MC_Wood_FS\MC_Wood_FS_04_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_04		35607

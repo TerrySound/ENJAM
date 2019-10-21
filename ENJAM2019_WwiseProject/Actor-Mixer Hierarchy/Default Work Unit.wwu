@@ -2076,6 +2076,390 @@
 								<ActiveSource Name="EFX INT Door Bang Wood Swing Broken 01 A" ID="{D8FB6201-1E49-4CBE-93FC-ACF108DE483F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<BlendContainer Name="FX_Man_Drink" ID="{C80DD387-4A32-4EFB-992D-7A9BF34CAE0E}" ShortID="718860308">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{86C8539A-D1ED-4DC2-B02B-99E84FDD61DD}" ShortID="120823315">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_MC_Position" ID="{D2C4C473-BB04-4841-BE5A-271A1282CB4C}" WorkUnitID="{4C0C8184-3014-45C4-A472-0A7E648CD846}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F4BB1A38-EF63-431A-BCFF-A36F9E187DBB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-5</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>2.81603</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4.06433</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4.21234</XPos>
+														<YPos>-0.12409</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4.47444</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{6AB04E13-6543-4860-B57F-7CDA5CB75423}">
+										<Attenuation Name="RTPC_Music_Attenuation (Custom)" ID="{3AD122EB-37DD-4A6E-87C1-F6C9CFF3D1C1}" ShortID="300638281">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="3"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{055E2CD4-C30F-4F4B-926A-5EDC453F7828}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>0.5201004</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>2.24319</XPos>
+																	<YPos>-0.87817</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>2.687976</XPos>
+																	<YPos>-2.02915</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>3</XPos>
+																	<YPos>-2.02915</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeWetUser" ID="{4241C4CD-5FFA-4AF3-ABA1-CD3032029292}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>-16.57688</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>0.45603</XPos>
+																	<YPos>-16.33219</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>0.8103015</XPos>
+																	<YPos>-5.17937</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>2.5025124</XPos>
+																	<YPos>-2.79461</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>2.8417086</XPos>
+																	<YPos>-5.38217</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>3</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{E009B3FF-E144-46A6-89B6-068B37C437A8}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>0.51</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>1.490952</XPos>
+																	<YPos>48</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>2.5537689</XPos>
+																	<YPos>72</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>3</XPos>
+																	<YPos>72</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="HighPassFilter" ID="{71CCCCF6-D387-42F8-AA25-7152397BF421}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>2.01</XPos>
+																	<YPos>18</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>2.424573</XPos>
+																	<YPos>9</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>3</XPos>
+																	<YPos>8</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{B3748016-F1B3-4EBD-83CC-D817470B666C}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>79.66102</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>0.430248</XPos>
+																	<YPos>70.76271</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>0.667086</XPos>
+																	<YPos>57.20339</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>1.224876</XPos>
+																	<YPos>52.54237</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>1.643214</XPos>
+																	<YPos>63.50804</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>1.974876</XPos>
+																	<YPos>75.42373</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>2.461656</XPos>
+																	<YPos>77.11864</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>3</XPos>
+																	<YPos>77.54237</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Man_Drinking" ID="{49BA4AFA-38D0-4EDA-A5F4-6566D83463B7}" ShortID="774334991">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Drinking_01" ID="{8E72D052-37AB-4B8A-8A84-9A89154B1717}" ShortID="996544070">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="FX" ID="{AD89EE91-B149-4A16-934E-A919914BE6AB}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="344581__vcspran__drinking-icetea-can" ID="{8556D4AE-9531-4A5B-84CB-406B3410DAC2}" ShortID="18035982">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="3.08234258036107E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.189343901365037"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.427124614707177"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.24614707177455"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>344581__vcspran__drinking-icetea-can.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="344581__vcspran__drinking-icetea-can" ID="{8556D4AE-9531-4A5B-84CB-406B3410DAC2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Drinking_02" ID="{A7D5E273-12B3-4C83-9A47-BB2DD844CFA4}" ShortID="350960392">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="56270__q-k__water-drink" ID="{40447DDD-4D70-4273-8184-C00510372B59}" ShortID="50748300">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="3.39270480298959E-03"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="5.95986381950493E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.82805040292087"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.30983144468708"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>56270__q-k__water-drink.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="56270__q-k__water-drink" ID="{40447DDD-4D70-4273-8184-C00510372B59}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Drinking_03" ID="{AE3DAD71-9137-4F22-A198-84A99C2DD304}" ShortID="736396207">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="FX" ID="{AD89EE91-B149-4A16-934E-A919914BE6AB}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="344581__vcspran__drinking-icetea-can" ID="{EE0D8E2A-E9F3-45D0-BC63-981F702BB0B7}" ShortID="631167502">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="3.08234258036107E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.189343901365037"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.45266402465874"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.22324966974901"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>344581__vcspran__drinking-icetea-can.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="344581__vcspran__drinking-icetea-can" ID="{EE0D8E2A-E9F3-45D0-BC63-981F702BB0B7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{0C55F461-E756-4B4B-8303-E3AD26FF709E}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="1.31561428418081E-14"/>
+										<Property Name="PanY" Type="Real64" Value="-0.310559006211178"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="MC" ID="{A6DC5F71-F5FD-46DD-99C6-B75109BB21F9}" ShortID="937092802">
