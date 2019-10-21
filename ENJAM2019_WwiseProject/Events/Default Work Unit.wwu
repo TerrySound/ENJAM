@@ -34,22 +34,11 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{4EF3D729-3E96-43E0-A390-574F2EF53491}" ShortID="275984012">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="41"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="FX_FeedBack" ID="{4293EE11-A58E-4FF2-95E2-E59B58CA644F}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{52AA4DD1-D99C-4C07-B29F-4EC67689F970}" ShortID="364681600">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="11"/>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64" Value="-6"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -126,13 +115,25 @@
 						<Action Name="" ID="{4D9C25B0-02A2-43E5-80AD-A70D2A3B5746}" ShortID="855762970">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="38"/>
-								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
 								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="RTPC_Clock" ID="{722E1991-1807-44E6-8FEC-355FF9526BE8}" WorkUnitID="{4C0C8184-3014-45C4-A472-0A7E648CD846}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D28BB569-378C-41A9-A16F-080B3B52CF5B}" ShortID="53583011">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="11"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{10CBC4CA-5F15-46A2-8373-8C443B37784B}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -172,6 +173,28 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{E3A2720F-C31C-48AF-8958-99FB4C32F9EC}" ShortID="783901687">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.01"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sound_Phone_End" ID="{7C680784-D5BB-4E5D-9C42-703CD49D837B}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{84D23E80-55F8-4B10-BFD2-12D26E910ADC}" ShortID="148437209">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clock_Design" ID="{7E9711D5-7DB2-4F33-86B6-BC6E362D606B}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="FX_PhoneOff" ID="{1CF5363F-EE29-4BAC-8B6B-6BAB94976AAA}"/>
@@ -189,6 +212,9 @@
 				<Event Name="Amb_Music" ID="{8762CCE0-5545-4B8B-8108-77E511BBD752}">
 					<ChildrenList>
 						<Action Name="" ID="{B4D3635B-0DB9-4272-9E34-4F8A1E348A9A}" ShortID="390466717">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Music" ID="{D2C1A954-C1FD-46B3-98DB-6BD9B85C2626}" WorkUnitID="{928A65DF-772D-44C3-94CD-F5DA2B997A90}"/>
@@ -198,7 +224,6 @@
 						<Action Name="" ID="{A380C0CF-AED2-4495-84EE-05A370DA1DE6}" ShortID="670393686">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="15"/>
-								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList/>
@@ -208,9 +233,23 @@
 				<Event Name="Amb_Downstair" ID="{D23FA168-DAEB-487F-A2E2-1FC0EC62C5EF}">
 					<ChildrenList>
 						<Action Name="" ID="{9992D902-F8DB-49D6-9C73-EB4846E357DB}" ShortID="308419212">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Amb_General" ID="{3A6A8F97-0EAB-4BDE-AD71-C0F364D4AF3E}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E1F4BB91-0EBB-4D85-8FBF-FC48FCD027B9}" ShortID="69514816">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RTPC_Clock" ID="{722E1991-1807-44E6-8FEC-355FF9526BE8}" WorkUnitID="{4C0C8184-3014-45C4-A472-0A7E648CD846}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

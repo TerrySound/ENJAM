@@ -23,10 +23,17 @@ Switch	ID	Name	Switch Group			Notes
 	2058049674	Wood	Texture			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	1957673199	RTPC_Clock			\Default Work Unit\RTPC_Clock	
 	3715171847	RTPC_MC_Position			\Default Work Unit\RTPC_MC_Position	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	482123299	Modulator LFO (Custom)				
 
 Effect plug-ins	ID	Name	Type				Notes
 	471826248	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	674636564	Wwise Sine	Wwise Sine		\Actor-Mixer Hierarchy\Default Work Unit\FX\Sound_Phone_End\Wwise Sine	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9520817	MC_Floor_FS_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Mac\SFX\MC_Floor_FS_03_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_03		11802
