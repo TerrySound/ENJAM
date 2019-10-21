@@ -33,6 +33,7 @@ public class CameraMovement : MonoBehaviour
     private Vector3 stickingPosition = Vector3.zero;
     private Vector3 unstickingPosition = Vector3.zero;
     private float stickingSpeed = 5f;
+    private float epsilon = 0.05f;
 
     void Start()
     {
@@ -101,8 +102,9 @@ public class CameraMovement : MonoBehaviour
             {
                 if (stickingPosition != Vector3.zero)
                 {
+                    transform.position = stickingPosition;
                     stickingPosition = Vector3.zero; // to do : replace with a bool
-                    transform.parent = null; // set parent
+                    //transform.parent = null; // set parent
                 }
                 
                 else if (unstickingPosition != Vector3.zero)
@@ -113,7 +115,7 @@ public class CameraMovement : MonoBehaviour
                 }
                 
 
-                if (!isStickingExit && !isStickingEntrance)    /* Slack of the camera */
+                else if (!isStickingExit && !isStickingEntrance)    /* Slack of the camera */
                 {
                     float distanceToCharacter = character.transform.position.x - transform.position.x;
                     float translationX = transform.position.x - lastPosition.x;
@@ -140,7 +142,7 @@ public class CameraMovement : MonoBehaviour
 
                     /* Stick to the borders of the world */
 
-                    if (!isStickingEntrance && transform.position.x - entrance.transform.position.x <= halfScreenWidth)
+                    if (!isStickingEntrance && transform.position.x - entrance.transform.position.x <= halfScreenWidth + epsilon) // + epsilon
                     {
                         transform.parent = null;
                         isStickingEntrance = true;
@@ -150,7 +152,7 @@ public class CameraMovement : MonoBehaviour
                         stickingPosition = new Vector3(entrance.transform.position.x + halfScreenWidth, transform.position.y, transform.position.z);
                         isLeftLimit = false; // reset the slack
                 }
-                    else if (!isStickingExit && exit.transform.position.x - transform.position.x <= halfScreenWidth)
+                    else if (!isStickingExit && exit.transform.position.x - transform.position.x <= halfScreenWidth + epsilon) // + epsilon
                     {
                         transform.parent = null;
                         isStickingExit = true;
@@ -169,11 +171,13 @@ public class CameraMovement : MonoBehaviour
                 {
                     if (isStickingEntrance && character.transform.position.x - entrance.transform.position.x > halfScreenWidth + slack)
                     {
+                        transform.position = transform.position + Vector3.right * epsilon; // to avoid bouncing between states
                         transform.parent = character.transform;
                         unstickingPosition = originPosition; // to do : replace with a bool
                     }
                     else if (isStickingExit && exit.transform.position.x - character.transform.position.x > halfScreenWidth + slack)
                     {
+                        transform.position = transform.position - Vector3.right * epsilon; // to avoid bouncing between states 
                         transform.parent = character.transform;
                         unstickingPosition = originPosition; // to do : replace with a bool
                     }
