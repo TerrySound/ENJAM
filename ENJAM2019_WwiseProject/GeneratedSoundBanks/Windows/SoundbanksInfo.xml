@@ -60,10 +60,10 @@
 				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" DurationType="OneShot" DurationMin="0.732477" DurationMax="0.732477"/>
 				<Event Id="3205713061" Name="FX_Fridge" ObjectPath="\Events\Default Work Unit\FX_Fridge" MaxAttenuation="3.000000" DurationType="Infinite"/>
 				<Event Id="661950517" Name="FX_Man_Drink" ObjectPath="\Events\Default Work Unit\FX_Man_Drink" MaxAttenuation="3.000000" DurationType="OneShot" DurationMin="0.481781" DurationMax="0.819022"/>
-				<Event Id="791491523" Name="FX_Phone_Ring" ObjectPath="\Events\Default Work Unit\FX_Phone_Ring" DurationType="OneShot" DurationMin="2.693175" DurationMax="2.693175"/>
+				<Event Id="791491523" Name="FX_Phone_Ring" ObjectPath="\Events\Default Work Unit\FX_Phone_Ring" DurationType="OneShot" DurationMin="1.750386" DurationMax="1.750386"/>
 				<Event Id="3013075908" Name="FX_PhoneClock" ObjectPath="\Events\Default Work Unit\FX_PhoneClock" DurationType="Infinite"/>
 				<Event Id="2490349429" Name="FX_PhoneOff" ObjectPath="\Events\Default Work Unit\FX_PhoneOff" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2480426025" Name="FX_Rot" ObjectPath="\Events\Default Work Unit\FX_Rot" DurationType="OneShot" DurationMin="1.622511" DurationMax="1.622511"/>
+				<Event Id="2480426025" Name="FX_Rot" ObjectPath="\Events\Default Work Unit\FX_Rot" DurationType="OneShot" DurationMin="1.422511" DurationMax="1.422511"/>
 				<Event Id="2092440099" Name="Groupe" ObjectPath="\Events\Default Work Unit\Groupe" DurationType="OneShot" DurationMin="31.234852" DurationMax="31.234852"/>
 				<Event Id="2450280999" Name="Kiss" ObjectPath="\Events\Default Work Unit\Kiss" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="3798889014" Name="MC_Escalier_Transition" ObjectPath="\Events\Default Work Unit\MC_Escalier_Transition" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -157,7 +157,7 @@
 				</File>
 				<File Id="418994039" Language="SFX">
 					<ShortName>Phone_Ring.wav</ShortName>
-					<Path>SFX\Phone_Ring_66C02B12.wem</Path>
+					<Path>SFX\Phone_Ring_B2125C6D.wem</Path>
 				</File>
 				<File Id="429146205" Language="SFX">
 					<ShortName>239907__woodwolf__kisses.wav</ShortName>

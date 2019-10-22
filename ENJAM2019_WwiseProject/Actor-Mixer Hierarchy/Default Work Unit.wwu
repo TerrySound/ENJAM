@@ -1599,6 +1599,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Phone_Ring" ID="{233CD4B4-4FCB-498B-8AFE-9C3AC04BDAA0}" ShortID="418994039">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.2739424629385"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.7503856073473"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Phone_Ring.wav</AudioFile>
 										</AudioFileSource>

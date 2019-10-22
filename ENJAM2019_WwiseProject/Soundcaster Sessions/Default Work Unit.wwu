@@ -4,6 +4,32 @@
 		<WorkUnit Name="Default Work Unit" ID="{F6B2FA10-BFC9-4A2D-9896-C4392A22C81E}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="Mix" ID="{751913AB-E935-4DED-BD08-CA3D69615C99}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Amb_Music" ID="{8762CCE0-5545-4B8B-8108-77E511BBD752}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Groupe" ID="{FAFCD02E-8758-4D83-B90C-59052D6BA818}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Amb_Downstair" ID="{D23FA168-DAEB-487F-A2E2-1FC0EC62C5EF}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FX_Couple_Stop" ID="{38453DC5-CD34-49F5-8FF0-8FDB6B9FD425}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FX_Rot" ID="{3B6FFEE8-56EC-48FE-A04F-ED9A27AFD757}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Kiss" ID="{2736E28E-064E-4560-83F0-5F9EAD3818BB}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_Clock" ID="{722E1991-1807-44E6-8FEC-355FF9526BE8}"/>
@@ -11,7 +37,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_MC_Position" ID="{D2C4C473-BB04-4841-BE5A-271A1282CB4C}"/>
-							<Value>1.36363636363636</Value>
+							<Value>6.2</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_SideChain_FX" ID="{01E1EC19-240B-4990-ACFF-B218849E8CFB}"/>
