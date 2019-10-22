@@ -48,6 +48,11 @@ public class PlayerMovement : MonoBehaviour
         }
         /*----------------------------------*/
 
+        if (phoneOut && Input.GetKeyDown(KeyCode.E))    //Phone Ring Sound
+        {
+                Ring();
+        }
+
         if (!phoneOut)
         {
             actualSpeed = this.movePlayer(Input.GetAxis("Horizontal")) * 100;
@@ -68,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
                 this.switchPhone();
                 AkSoundEngine.PostEvent("FX_Feedback", this.gameObject);
             }
-        } 
+        }
     }
 
     float movePlayer(float dir)
@@ -98,6 +103,7 @@ public class PlayerMovement : MonoBehaviour
             GameObject.Find("Time").GetComponent<MeshRenderer>().enabled = false;
             GameObject.Find("Phone").GetComponent<MeshRenderer>().enabled = true;
             // set phoneOut to false at the end of the animation, to forbid movement
+            
         }
         else
         {

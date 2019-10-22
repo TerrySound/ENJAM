@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DoorGroup : PeopleGroup
 {
+    bool DoOnce;
     public Collider2D blockingCollider;
     public GameObject porte;
 
@@ -30,10 +31,12 @@ public class DoorGroup : PeopleGroup
     }
 
     public void OpenDoor()
-    {
-        Destroy(blockingCollider);
-        //this.transform.position += new Vector3(0, 0.05f, 0.1f);
-        AkSoundEngine.PostEvent("FX_Couple_Stop", this.gameObject);
-        porte.GetComponent<Animator>().SetTrigger("porteOpen");
+    {if (DoOnce == false) {
+            Destroy(blockingCollider);
+            //this.transform.position += new Vector3(0, 0.05f, 0.1f);
+            AkSoundEngine.PostEvent("FX_Couple_Stop", this.gameObject);
+            porte.GetComponent<Animator>().SetTrigger("porteOpen");
+            DoOnce = true;
+        }
     }
 }
