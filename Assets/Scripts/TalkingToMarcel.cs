@@ -33,6 +33,7 @@ public class TalkingToMarcel : PeopleGroup
     public void Turn()
     {
         this.GetComponent<Animator>().SetTrigger("talkToMarcel");
+        AkSoundEngine.PostEvent("VO_Hey", gameObject);
     }
 
 

@@ -54,7 +54,7 @@
 			<Path>SOUNBANK_WWISE.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2060891257" Name="Amb_Downstair" ObjectPath="\Events\Default Work Unit\Amb_Downstair" DurationType="Infinite"/>
-				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="5.000000" DurationType="Infinite"/>
+				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="3.000000" DurationType="Infinite"/>
 				<Event Id="1294859063" Name="FX_Aquarium" ObjectPath="\Events\Default Work Unit\FX_Aquarium" MaxAttenuation="2.000000" DurationType="Infinite"/>
 				<Event Id="3523512105" Name="FX_Couple_Stop" ObjectPath="\Events\Default Work Unit\FX_Couple_Stop" DurationType="OneShot" DurationMin="1.464704" DurationMax="1.464704"/>
 				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" DurationType="OneShot" DurationMin="0.732477" DurationMax="0.732477"/>
@@ -65,12 +65,12 @@
 				<Event Id="2490349429" Name="FX_PhoneOff" ObjectPath="\Events\Default Work Unit\FX_PhoneOff" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2480426025" Name="FX_Rot" ObjectPath="\Events\Default Work Unit\FX_Rot" DurationType="OneShot" DurationMin="1.422511" DurationMax="1.422511"/>
 				<Event Id="2092440099" Name="Groupe" ObjectPath="\Events\Default Work Unit\Groupe" DurationType="OneShot" DurationMin="31.234852" DurationMax="31.234852"/>
-				<Event Id="2450280999" Name="Kiss" ObjectPath="\Events\Default Work Unit\Kiss" MaxAttenuation="5.000000" DurationType="Infinite"/>
+				<Event Id="2450280999" Name="Kiss" ObjectPath="\Events\Default Work Unit\Kiss" MaxAttenuation="3.000000" DurationType="Infinite"/>
 				<Event Id="3798889014" Name="MC_Escalier_Transition" ObjectPath="\Events\Default Work Unit\MC_Escalier_Transition" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1648013973" Name="MC_Footsteps" ObjectPath="\Events\Default Work Unit\MC_Footsteps" DurationType="OneShot" DurationMin="0.339592" DurationMax="1.014186"/>
 				<Event Id="3065870848" Name="MC_HearthBeat" ObjectPath="\Events\Default Work Unit\MC_HearthBeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1727588526" Name="Stop_Groupe" ObjectPath="\Events\Default Work Unit\Stop_Groupe" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1525329691" Name="VO_Hey" ObjectPath="\Events\Default Work Unit\VO_Hey" DurationType="OneShot" DurationMin="0.500499" DurationMax="0.768685"/>
+				<Event Id="1525329691" Name="VO_Hey" ObjectPath="\Events\Default Work Unit\VO_Hey" DurationType="OneShot" DurationMin="0.530260" DurationMax="0.814393"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="91340931"/>
