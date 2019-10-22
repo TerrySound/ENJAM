@@ -66,30 +66,35 @@ public class PlayerMovement : MonoBehaviour
         this.transform.position += new Vector3(dir, 0, 0)*Time.unscaledDeltaTime*this.speed;
         return dir* Time.unscaledDeltaTime * this.speed;
     }
-
     void switchPhone()
     {
-        phoneOut = !phoneOut;
-        this.GetComponent<Animator>().SetBool("hasPhone", phoneOut);
         if (phoneOut)
         {
+            this.GetComponent<Animator>().SetBool("hasPhone", false);
             EventManager.OnPhone += Ring;
-            GameObject.Find("E Button Ring").GetComponent<SpriteRenderer>().enabled = true;
-            GameObject.Find("Ring").GetComponent<MeshRenderer>().enabled = true;
-            GameObject.Find("Turn off").GetComponent<MeshRenderer>().enabled = true;
-            GameObject.Find("Time").GetComponent<MeshRenderer>().enabled = true;
-            GameObject.Find("Phone").GetComponent<MeshRenderer>().enabled = false;
-        }
-        else
-        {
-            EventManager.OnPhone -= Ring;
             GameObject.Find("E Button Ring").GetComponent<SpriteRenderer>().enabled = false;
             GameObject.Find("Ring").GetComponent<MeshRenderer>().enabled = false;
             GameObject.Find("Turn off").GetComponent<MeshRenderer>().enabled = false;
             GameObject.Find("Time").GetComponent<MeshRenderer>().enabled = false;
             GameObject.Find("Phone").GetComponent<MeshRenderer>().enabled = true;
+            // set phoneOut to false at the end of the animation, to forbid movement
         }
-        
+        else
+        {
+            this.GetComponent<Animator>().SetBool("hasPhone", true);
+            EventManager.OnPhone -= Ring;
+            GameObject.Find("E Button Ring").GetComponent<SpriteRenderer>().enabled = true;
+            GameObject.Find("Ring").GetComponent<MeshRenderer>().enabled = true;
+            GameObject.Find("Turn off").GetComponent<MeshRenderer>().enabled = true;
+            GameObject.Find("Time").GetComponent<MeshRenderer>().enabled = true;
+            GameObject.Find("Phone").GetComponent<MeshRenderer>().enabled = false;
+            phoneOut = true;
+        }
+    }
+    void stowPhone()
+    {
+        Debug.Log("Téléphone rangé");
+        phoneOut = false;
     }
 
     public void Ring()
