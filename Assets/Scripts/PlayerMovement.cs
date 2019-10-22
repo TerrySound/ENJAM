@@ -35,6 +35,19 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /* To remove in the final version */
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            foreach (GameObject o in FindObjectsOfType(typeof(GameObject)))
+            {
+                if (o.layer == LayerMask.NameToLayer("Barrier"))
+                {
+                    o.GetComponent<BoxCollider2D>().enabled =! o.GetComponent<BoxCollider2D>().enabled;
+                }
+            }
+        }
+        /*----------------------------------*/
+
         if (!phoneOut)
         {
             actualSpeed = this.movePlayer(Input.GetAxis("Horizontal")) * 100;
@@ -62,6 +75,13 @@ public class PlayerMovement : MonoBehaviour
     {
         if (transform.position.x - halfWidth <= entrance.transform.position.x && dir < 0) { return 0; }
         if (transform.position.x + halfWidth >= exit.transform.position.x && dir > 0) { return 0; }
+
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right * dir, Camera.main.orthographicSize * Camera.main.aspect, LayerMask.GetMask("Barrier"));
+        if (hit.transform != null)
+        {
+            if (transform.position.x - halfWidth <= hit.transform.position.x + hit.collider.bounds.size.x && dir < 0) { return 0; }
+            if (transform.position.x + halfWidth >= hit.transform.position.x && dir > 0) { return 0; }
+        }
 
         this.transform.position += new Vector3(dir, 0, 0)*Time.unscaledDeltaTime*this.speed;
         return dir* Time.unscaledDeltaTime * this.speed;
