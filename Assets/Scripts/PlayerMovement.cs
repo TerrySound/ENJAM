@@ -103,7 +103,7 @@ public class PlayerMovement : MonoBehaviour
             GameObject.Find("Time").GetComponent<MeshRenderer>().enabled = false;
             GameObject.Find("Phone").GetComponent<MeshRenderer>().enabled = true;
             // set phoneOut to false at the end of the animation, to forbid movement
-            
+
         }
         else
         {
@@ -114,6 +114,8 @@ public class PlayerMovement : MonoBehaviour
             GameObject.Find("Turn off").GetComponent<MeshRenderer>().enabled = true;
             GameObject.Find("Time").GetComponent<MeshRenderer>().enabled = true;
             GameObject.Find("Phone").GetComponent<MeshRenderer>().enabled = false;
+            GameObject.Find("E Button Interact").GetComponent<SpriteRenderer>().enabled = false;
+            GameObject.Find("NoInteract").GetComponent<MeshRenderer>().enabled = false;
             phoneOut = true;
         }
     }

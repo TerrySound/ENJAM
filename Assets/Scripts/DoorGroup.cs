@@ -23,11 +23,15 @@ public class DoorGroup : PeopleGroup
     private void OnTriggerEnter2D(Collider2D other)
     {
         EventManager.OnPhone += OpenDoor;
+        GameObject.Find("E Button Interact").GetComponent<SpriteRenderer>().enabled = true;
+        GameObject.Find("NoInteract").GetComponent<MeshRenderer>().enabled = true;
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         EventManager.OnPhone -= OpenDoor;
+        GameObject.Find("E Button Interact").GetComponent<SpriteRenderer>().enabled = false;
+        GameObject.Find("NoInteract").GetComponent<MeshRenderer>().enabled = false;
     }
 
     public void OpenDoor()
