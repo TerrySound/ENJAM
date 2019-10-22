@@ -32,7 +32,7 @@ public class EventManager : MonoBehaviour
             }
             else
             {
-                if (OnInteract != null)
+                if (OnInteract != null && PlayerMovement.actualSpeed == 0)
                 {
                     OnInteract();
                 }

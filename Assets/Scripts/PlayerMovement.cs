@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [Range(0f, 100f)]
     [Tooltip("The speed of the character")]
     private float speed = 5;
-    public float actualSpeed;
+    public static float actualSpeed;
     public static bool phoneOut = false;
 
     private GameObject entrance;
