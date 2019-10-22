@@ -56,7 +56,7 @@
 				<Event Id="2060891257" Name="Amb_Downstair" ObjectPath="\Events\Default Work Unit\Amb_Downstair" DurationType="Infinite"/>
 				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="1294859063" Name="FX_Aquarium" ObjectPath="\Events\Default Work Unit\FX_Aquarium" MaxAttenuation="2.000000" DurationType="Infinite"/>
-				<Event Id="3523512105" Name="FX_Couple_Stop" ObjectPath="\Events\Default Work Unit\FX_Couple_Stop" DurationType="OneShot" DurationMin="0.964704" DurationMax="0.964704"/>
+				<Event Id="3523512105" Name="FX_Couple_Stop" ObjectPath="\Events\Default Work Unit\FX_Couple_Stop" DurationType="OneShot" DurationMin="1.464704" DurationMax="1.464704"/>
 				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" DurationType="OneShot" DurationMin="0.732477" DurationMax="0.732477"/>
 				<Event Id="3205713061" Name="FX_Fridge" ObjectPath="\Events\Default Work Unit\FX_Fridge" MaxAttenuation="3.000000" DurationType="Infinite"/>
 				<Event Id="661950517" Name="FX_Man_Drink" ObjectPath="\Events\Default Work Unit\FX_Man_Drink" MaxAttenuation="3.000000" DurationType="OneShot" DurationMin="0.481781" DurationMax="0.819022"/>
@@ -70,6 +70,7 @@
 				<Event Id="1648013973" Name="MC_Footsteps" ObjectPath="\Events\Default Work Unit\MC_Footsteps" DurationType="OneShot" DurationMin="0.339592" DurationMax="1.014186"/>
 				<Event Id="3065870848" Name="MC_HearthBeat" ObjectPath="\Events\Default Work Unit\MC_HearthBeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1727588526" Name="Stop_Groupe" ObjectPath="\Events\Default Work Unit\Stop_Groupe" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1525329691" Name="VO_Hey" ObjectPath="\Events\Default Work Unit\VO_Hey" DurationType="OneShot" DurationMin="0.500499" DurationMax="0.768685"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="91340931"/>
@@ -103,9 +104,17 @@
 					<ShortName>56270__q-k__water-drink.wav</ShortName>
 					<Path>SFX\56270__q-k__water-drink_877A31ED.wem</Path>
 				</File>
+				<File Id="52383725" Language="SFX">
+					<ShortName>Audio 1_02-49.wav</ShortName>
+					<Path>SFX\Audio 1_02-49_66C02B12.wem</Path>
+				</File>
 				<File Id="70509852" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_07.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_07_66C02B12.wem</Path>
+				</File>
+				<File Id="94603474" Language="SFX">
+					<ShortName>Audio 1_02-39.wav</ShortName>
+					<Path>SFX\Audio 1_02-39_66C02B12.wem</Path>
 				</File>
 				<File Id="106585426" Language="SFX">
 					<ShortName>Medium_Crowd_Close.wav</ShortName>
@@ -114,6 +123,10 @@
 				<File Id="136788477" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_14.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_14_66C02B12.wem</Path>
+				</File>
+				<File Id="138294089" Language="SFX">
+					<ShortName>Audio 1_02-54.wav</ShortName>
+					<Path>SFX\Audio 1_02-54_66C02B12.wem</Path>
 				</File>
 				<File Id="157910693" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_10.wav</ShortName>
@@ -147,9 +160,17 @@
 					<ShortName>Arcade Jingle Negative 07.wav</ShortName>
 					<Path>SFX\Arcade Jingle Negative 07_77F989C0.wem</Path>
 				</File>
+				<File Id="310815046" Language="SFX">
+					<ShortName>Audio 1_02-52.wav</ShortName>
+					<Path>SFX\Audio 1_02-52_66C02B12.wem</Path>
+				</File>
 				<File Id="328297850" Language="SFX">
 					<ShortName>PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close.wav</ShortName>
 					<Path>SFX\PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem</Path>
+				</File>
+				<File Id="350250746" Language="SFX">
+					<ShortName>Audio 1_02-11.wav</ShortName>
+					<Path>SFX\Audio 1_02-11_66C02B12.wem</Path>
 				</File>
 				<File Id="351041937" Language="SFX">
 					<ShortName>428220__leoctiurs__111-kiss.wav</ShortName>
@@ -170,6 +191,14 @@
 				<File Id="443761236" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_03.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_03_66C02B12.wem</Path>
+				</File>
+				<File Id="460256459" Language="SFX">
+					<ShortName>Audio 1_02-58.wav</ShortName>
+					<Path>SFX\Audio 1_02-58_66C02B12.wem</Path>
+				</File>
+				<File Id="470329524" Language="SFX">
+					<ShortName>Audio 1_02-46.wav</ShortName>
+					<Path>SFX\Audio 1_02-46_66C02B12.wem</Path>
 				</File>
 				<File Id="477024675" Language="SFX">
 					<ShortName>EFX INT Door Bang Wood Swing Broken 01 A.wav</ShortName>
@@ -195,9 +224,17 @@
 					<ShortName>235777__lex777__kissing-smooches-01.wav</ShortName>
 					<Path>SFX\235777__lex777__kissing-smooches-01_66C02B12.wem</Path>
 				</File>
+				<File Id="535291676" Language="SFX">
+					<ShortName>Audio 1_02-43.wav</ShortName>
+					<Path>SFX\Audio 1_02-43_66C02B12.wem</Path>
+				</File>
 				<File Id="536595270" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_05.wav</ShortName>
 					<Path>SFX\MC_Wood_FS\MC_Wood_FS_05_66C02B12.wem</Path>
+				</File>
+				<File Id="557488198" Language="SFX">
+					<ShortName>Audio 1_02-56.wav</ShortName>
+					<Path>SFX\Audio 1_02-56_66C02B12.wem</Path>
 				</File>
 				<File Id="561983247" Language="SFX">
 					<ShortName>MC_Floor_FS_04.wav</ShortName>
@@ -214,6 +251,10 @@
 				<File Id="664329015" Language="SFX">
 					<ShortName>MC_Floor_FS_09.wav</ShortName>
 					<Path>SFX\MC_Floor_FS_09_66C02B12.wem</Path>
+				</File>
+				<File Id="686644501" Language="SFX">
+					<ShortName>Audio 1_02-60.wav</ShortName>
+					<Path>SFX\Audio 1_02-60_66C02B12.wem</Path>
 				</File>
 				<File Id="688350617" Language="SFX">
 					<ShortName>PM_KF_05 Pot, Panpot, Lid, Lift, Set Down, Open, Close.wav</ShortName>

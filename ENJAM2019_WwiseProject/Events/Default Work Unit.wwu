@@ -343,19 +343,10 @@
 				</Event>
 				<Event Name="FX_Couple_Stop" ID="{38453DC5-CD34-49F5-8FF0-8FDB6B9FD425}">
 					<ChildrenList>
-						<Action Name="" ID="{919744A3-6CE9-427F-8E56-A8B5D8E64F8D}" ShortID="766413970">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="2"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Kiss" ID="{8ABD85EE-7D83-4303-A26E-C15B1C8C9223}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{514F8A6D-0103-453F-B94B-54A009B00FD3}" ShortID="921506220">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Door_Open" ID="{F5C9E68F-AA7B-45F7-A039-9899F280D286}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
@@ -406,6 +397,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="FX_Man_Drink" ID="{C80DD387-4A32-4EFB-992D-7A9BF34CAE0E}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_Hey" ID="{1B2D759C-CE15-4C6F-B058-03125DADE637}">
+					<ChildrenList>
+						<Action Name="" ID="{ABCB77B8-E7B3-43E1-97DF-B523A612CA37}" ShortID="884254823">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hey" ID="{16F3E033-0A0B-42E4-82DA-B414208FAFFC}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

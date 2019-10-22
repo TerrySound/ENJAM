@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BlockingGroup : PeopleGroup
 {
-
+    
     public Collider2D blockingCollider;
 
     // Start is called before the first frame update
@@ -38,7 +38,10 @@ public class BlockingGroup : PeopleGroup
         Destroy(blockingCollider);
         //this.transform.position += new Vector3(0, 0.05f, 0.1f);
         Camera.main.GetComponent<CameraMovement>().followCharacter();
-        //AkSoundEngine.PostEvent("FX_Couple_Stop", this.gameObject);
+      
         this.GetComponent<Animator>().SetTrigger("talkToGeraldine");
+        
+        AkSoundEngine.PostEvent("VO_Hey", this.gameObject);
+      
     }
 }
