@@ -17,6 +17,8 @@ public class PlayerMovement : MonoBehaviour
     private GameObject exit;
     private float halfWidth;
 
+    public bool dancing = false;
+
     void Awake()
     {
         this.GetComponent<Rigidbody2D>().gravityScale = 0;
@@ -53,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
                 Ring();
         }
 
-        if (!phoneOut)
+        if (!phoneOut && !dancing)
         {
             actualSpeed = this.movePlayer(Input.GetAxis("Horizontal")) * 100;
             AkSoundEngine.SetRTPCValue("RTPC_MC_Position", this.transform.position.x);
@@ -123,6 +125,10 @@ public class PlayerMovement : MonoBehaviour
     {
         Debug.Log("Téléphone rangé");
         phoneOut = false;
+    }
+    void stopDancing()
+    {
+        dancing = false;
     }
 
     public void Ring()

@@ -33,5 +33,6 @@ public class DancingGroup : PeopleGroup
     {
         Debug.Log("You got moves");
         playerAnimator.SetTrigger("isDancing");
+        playerAnimator.gameObject.GetComponent<PlayerMovement>().dancing = true;
     }
 }

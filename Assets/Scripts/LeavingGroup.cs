@@ -43,6 +43,7 @@ public class LeavingGroup : PeopleGroup
         Destroy(blockingCollider);
         Destroy(this.GetComponent<BoxCollider2D>());
         playerAnimator.SetTrigger("isDancing");
+        playerAnimator.gameObject.GetComponent<PlayerMovement>().dancing = true;
         this.leaving = true;
     }
 }
