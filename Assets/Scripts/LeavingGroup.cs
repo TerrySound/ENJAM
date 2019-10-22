@@ -41,6 +41,7 @@ public class LeavingGroup : PeopleGroup
     {
         Debug.Log("To " + Mathf.Infinity + " and beyond");
         Destroy(blockingCollider);
+        Destroy(this.GetComponent<BoxCollider2D>());
         playerAnimator.SetTrigger("isDancing");
         this.leaving = true;
     }
