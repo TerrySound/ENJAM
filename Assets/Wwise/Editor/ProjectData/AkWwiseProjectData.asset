@@ -80,7 +80,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 296dcd70bed7cd4698e1de4ab13efed1
     GuidInternal: 
-    m_lastTime: -8586298466582455363
+    m_lastTime: -8586298250171823086
     List:
     - name: Amb_Downstair
       guid: 68a13fd2ebda7f48a2e21fc0ec62c5ef
@@ -283,6 +283,18 @@ MonoBehaviour:
       - ElementName: Stop_Groupe
         ObjectType: 3
       Path: Default Work Unit\Stop_Groupe
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_Hey
+      guid: 9c752d1b15ce6f4cb05803125dade637
+      id: 1525329691
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VO_Hey
+        ObjectType: 3
+      Path: Default Work Unit\VO_Hey
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
