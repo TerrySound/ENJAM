@@ -32,7 +32,7 @@ public class TalkingToKimberley : PeopleGroup
 
     public void Turn()
     {
-        this.GetComponent<Animator>().SetTrigger("talkToKimberley");
+        this.GetComponent<Animator>().SetTrigger("talktoKimberley");
     }
 
 

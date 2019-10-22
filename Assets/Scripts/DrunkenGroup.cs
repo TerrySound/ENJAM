@@ -36,6 +36,7 @@ public class DrunkenGroup : PeopleGroup
     public void UnlockPathDrunk()
     {
         blockingCollider.enabled = true;
+        Destroy(blockingCollider);
         Destroy(this.GetComponent<BoxCollider2D>());
         this.transform.position += new Vector3(0, 0.05f, 0.1f);
         AkSoundEngine.PostEvent("FX_Rot", this.gameObject);
