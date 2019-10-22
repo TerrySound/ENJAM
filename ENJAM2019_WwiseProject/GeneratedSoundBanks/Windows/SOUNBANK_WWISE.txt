@@ -16,6 +16,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3065870848	MC_HearthBeat			\Default Work Unit\MC_HearthBeat	
 	3205713061	FX_Fridge			\Default Work Unit\FX_Fridge	
 	3523512105	FX_Couple_Stop			\Default Work Unit\FX_Couple_Stop	
+	3717848113	End_Game			\Default Work Unit\End_Game	
 	3798889014	MC_Escalier_Transition			\Default Work Unit\MC_Escalier_Transition	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
