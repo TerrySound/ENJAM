@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 8773f664cf49ef40991e297458d41079
     GuidInternal: 
-    m_lastTime: -8586298226286718234
+    m_lastTime: -8586298206855969942
     List:
     - name: Reverb_Bathroom
       guid: 2d24f1560183d345857d1b1fba4a25c4
@@ -80,7 +80,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 296dcd70bed7cd4698e1de4ab13efed1
     GuidInternal: 
-    m_lastTime: -8586298250171823086
+    m_lastTime: -8586298210544644784
     List:
     - name: Amb_Downstair
       guid: 68a13fd2ebda7f48a2e21fc0ec62c5ef
@@ -103,6 +103,18 @@ MonoBehaviour:
       - ElementName: Amb_Music
         ObjectType: 3
       Path: Default Work Unit\Amb_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: End_Game
+      guid: 0461042c5b1f484ea8433ce6c5f53d6e
+      id: 3717848113
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: End_Game
+        ObjectType: 3
+      Path: Default Work Unit\End_Game
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -303,7 +315,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 84810c4c1430c445a4720a7e648cd846
     GuidInternal: 
-    m_lastTime: -8586299248609112925
+    m_lastTime: -8586298208431359001
     List:
     - name: RTPC_Clock
       guid: 91192e720718e6448fec355ff9526be8
@@ -341,6 +353,15 @@ MonoBehaviour:
       - ElementName: RTPC_SideChain_FX
         ObjectType: 13
       Path: Default Work Unit\RTPC_SideChain_FX
+    - name: RTPC_VO
+      guid: 191ebff36cb27f4eb05293d2ac1b476a
+      id: 469592262
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: RTPC_VO
+        ObjectType: 13
+      Path: Default Work Unit\RTPC_VO
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
