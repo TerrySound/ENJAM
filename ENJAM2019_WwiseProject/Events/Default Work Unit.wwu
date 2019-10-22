@@ -305,15 +305,10 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{422D2BB4-D225-4D1C-8DA0-5B7257ABD6D4}" ShortID="991555705">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
-							</PropertyList>
+						<Action Name="" ID="{40CC189D-8E2B-4C99-8D12-749F5CC2E385}" ShortID="464626182">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FX_Man_Drink" ID="{C80DD387-4A32-4EFB-992D-7A9BF34CAE0E}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+									<ObjectRef Name="Hey" ID="{16F3E033-0A0B-42E4-82DA-B414208FAFFC}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

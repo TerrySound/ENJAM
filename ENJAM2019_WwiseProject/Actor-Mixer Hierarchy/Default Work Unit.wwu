@@ -3159,6 +3159,14 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
 						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise_Meter_(Custom)" ID="{1F3F636B-AF46-488D-BA6C-3536074D6C78}" ShortID="1060585184" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">									<PluginData>
+	<GameParameter Name="RTPC_VO" ID="{F3BF1E19-B26C-4E7F-B052-93D2AC1B476A}"/>
+</PluginData>
+								</Effect>
+							</Custom>
+						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="VO" ID="{7FC2F04E-9374-4EC6-BFDE-791DA621DD63}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
 						</Reference>
@@ -3193,12 +3201,12 @@
 								</Property>
 								<Property Name="UserAuxSendVolume0" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>-14</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3317,6 +3325,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Audio 1_02-52" ID="{EC667C60-FE5C-43E2-82A5-5D3012996013}" ShortID="700850465">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>

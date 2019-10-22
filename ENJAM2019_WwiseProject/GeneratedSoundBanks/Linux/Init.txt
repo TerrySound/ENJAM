@@ -6,6 +6,7 @@ Switch	ID	Name	Switch Group			Notes
 	2058049674	Wood	Texture			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	469592262	RTPC_VO			\Default Work Unit\RTPC_VO	
 	1038960886	RTPC_SideChain_FX			\Default Work Unit\RTPC_SideChain_FX	
 	1957673199	RTPC_Clock			\Default Work Unit\RTPC_Clock	
 

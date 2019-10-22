@@ -240,12 +240,46 @@
 													</Point>
 													<Point>
 														<XPos>-12.12394</XPos>
-														<YPos>-0</YPos>
+														<YPos>0</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
 														<XPos>0</XPos>
 														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{BB47ABD5-987E-42A1-93F1-C3A56CA213B1}" ShortID="600427935">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_VO" ID="{F3BF1E19-B26C-4E7F-B052-93D2AC1B476A}" WorkUnitID="{4C0C8184-3014-45C4-A472-0A7E648CD846}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{FB8A2E77-1898-47F9-A0D8-AA93459F2559}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-30.54545</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>-25.4354</XPos>
+														<YPos>-2.98439</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-3.24895</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>

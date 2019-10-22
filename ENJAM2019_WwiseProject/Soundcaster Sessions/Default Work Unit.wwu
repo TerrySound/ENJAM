@@ -47,6 +47,10 @@
 							<GameParameterRef Name="RTPC_Music" ID="{4FC23E37-2560-49B4-B860-2D650D9AD472}"/>
 							<Value>50</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_VO" ID="{F3BF1E19-B26C-4E7F-B052-93D2AC1B476A}"/>
+							<Value>-4.59330143540669</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
