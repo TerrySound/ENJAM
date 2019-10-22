@@ -68,12 +68,12 @@ public class CameraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-            if (Input.GetKey(KeyCode.Return)) // simulate trigger
+            /*if (Input.GetKey(KeyCode.Return)) // simulate trigger
             {
                 originPosition = transform.position;
                 isSwitchingMode = true;
                 t = 0f;
-            }
+            }*/
 
             if (isSwitchingMode)
             {
@@ -228,5 +228,12 @@ public class CameraMovement : MonoBehaviour
             stickingPosition = new Vector3(exit.transform.position.x - halfScreenWidth, transform.position.y, transform.position.z); // will be updated the next update
             isRightLimit = false; // reset the slack
         }
+    }
+
+    public void followCharacter()
+    {
+        originPosition = transform.position;
+        isSwitchingMode = true;
+        t = 0f;
     }
 }

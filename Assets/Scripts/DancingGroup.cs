@@ -18,11 +18,15 @@ public class DancingGroup : PeopleGroup
     private void OnTriggerEnter2D(Collider2D other)
     {
         EventManager.OnInteract += Dance;
+        GameObject.Find("E Button Interact").GetComponent<SpriteRenderer>().enabled = true;
+        GameObject.Find("Interact").GetComponent<MeshRenderer>().enabled = true;
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         EventManager.OnInteract -= Dance;
+        GameObject.Find("E Button Interact").GetComponent<SpriteRenderer>().enabled = false;
+        GameObject.Find("Interact").GetComponent<MeshRenderer>().enabled = false;
     }
 
     public void Dance()
