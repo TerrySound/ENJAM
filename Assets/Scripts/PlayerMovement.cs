@@ -37,22 +37,14 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /* To remove in the final version */
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            foreach (GameObject o in FindObjectsOfType(typeof(GameObject)))
-            {
-                if (o.layer == LayerMask.NameToLayer("Barrier"))
-                {
-                    o.GetComponent<BoxCollider2D>().enabled =! o.GetComponent<BoxCollider2D>().enabled;
-                }
-            }
-        }
-        /*----------------------------------*/
-
         if (phoneOut && Input.GetKeyDown(KeyCode.E))    //Phone Ring Sound
         {
                 Ring();
+        }
+
+        if (dancing)
+        {
+            phoneOut = true;
         }
 
         if (!phoneOut && !dancing)
@@ -130,6 +122,7 @@ public class PlayerMovement : MonoBehaviour
     void stopDancing()
     {
         dancing = false;
+        phoneOut = false;
     }
 
     public void Ring()
