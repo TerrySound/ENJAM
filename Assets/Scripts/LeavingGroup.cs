@@ -39,6 +39,7 @@ public class LeavingGroup : PeopleGroup
 
     public void Leave()
     {
+        EventManager.canDance = false;
         Debug.Log("To " + Mathf.Infinity + " and beyond");
         Destroy(blockingCollider);
         Destroy(this.GetComponent<BoxCollider2D>());

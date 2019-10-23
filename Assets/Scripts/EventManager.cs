@@ -11,6 +11,7 @@ public class EventManager : MonoBehaviour
     public static event PhoneInteraction OnPhone;
     public delegate void TeleportInteraction();
     public static event TeleportInteraction OnTP;
+    public static bool canDance = true;
 
     // Start is called before the first frame update
     void Start()
