@@ -8,10 +8,14 @@ public class LeavingGroup : PeopleGroup
     bool leaving = false;
     public Collider2D blockingCollider;
     public GameObject otherDancer;
+
+    private Desaturator desaturator;
+    private bool used = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        desaturator = GameObject.Find("PostPross").GetComponent<Desaturator>();
     }
 
     // Update is called once per frame
@@ -46,5 +50,11 @@ public class LeavingGroup : PeopleGroup
         playerAnimator.SetTrigger("isDancing");
         playerAnimator.gameObject.GetComponent<PlayerMovement>().dancing = true;
         this.leaving = true;
+
+        if (!used)
+        {
+            desaturator.desaturateScreen();
+            used = true;
+        }
     }
 }

@@ -6,11 +6,13 @@ public class BlockingGroup : PeopleGroup
 {
     
     public Collider2D blockingCollider;
+    private Desaturator desaturator;
+    private bool used = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        desaturator = GameObject.Find("PostPross").GetComponent<Desaturator>();
     }
 
     // Update is called once per frame
@@ -38,10 +40,15 @@ public class BlockingGroup : PeopleGroup
         Destroy(blockingCollider);
         //this.transform.position += new Vector3(0, 0.05f, 0.1f);
         Camera.main.GetComponent<CameraMovement>().followCharacter();
-      
+
         this.GetComponent<Animator>().SetTrigger("talkToGeraldine");
-        
+
         AkSoundEngine.PostEvent("VO_Hey", this.gameObject);
-      
+
+        if (!used)
+        {
+            desaturator.desaturateScreen();
+            used = true;
+        }
     }
 }

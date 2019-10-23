@@ -8,10 +8,13 @@ public class DoorGroup : PeopleGroup
     public Collider2D blockingCollider;
     public GameObject porte;
 
+    private Desaturator desaturator;
+    private bool used = false;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        desaturator = GameObject.Find("PostPross").GetComponent<Desaturator>();
     }
 
     // Update is called once per frame
@@ -41,6 +44,12 @@ public class DoorGroup : PeopleGroup
             AkSoundEngine.PostEvent("FX_Couple_Stop", this.gameObject);
             porte.GetComponent<Animator>().SetTrigger("porteOpen");
             DoOnce = true;
+
+            if (!used)
+            {
+                desaturator.desaturateScreen();
+                used = true;
+            }
         }
     }
 }
