@@ -95,9 +95,11 @@
 							<ChildrenList>
 								<BlendContainer Name="Amb_Couloir" ID="{00469542-E458-40FC-B613-CB116049B296}" ShortID="86842290">
 									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-9</Value>
+												<Value>5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -110,52 +112,65 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Medium_Crowd_Distant" ID="{2CB862ED-374F-4CBE-ADBE-517B0144E701}" ShortID="996169058">
+										<RandomSequenceContainer Name="Amb_Loop" ID="{52027FA2-586A-4A1A-8B8D-9065D1E41AC5}" ShortID="64901526">
 											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="IsStreamingEnabled" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-3</Value>
-													</ValueList>
-												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Ambience" ID="{B2C9C5A2-B8EC-4629-860A-46736AF53D38}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Medium_Crowd_Distant" ID="{B055B100-782C-40E3-B9FC-D2FF5995C161}" ShortID="749795174">
-													<Language>SFX</Language>
-													<AudioFile>Medium_Crowd_Distant.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="211680842"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<PositioningInfo>
-												<Panner Name="" ID="{D5C08272-7E5A-4284-8B08-6B7BC89CF370}">
+												<Sound Name="Couloir_Sound" ID="{2A08197D-1951-4781-860C-1C677B70816E}" ShortID="493079775">
 													<PropertyList>
-														<Property Name="PanX" Type="Real64" Value="35.9351988217968"/>
-														<Property Name="PanY" Type="Real64" Value="-5.55111512312578E-17"/>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
-												</Panner>
-											</PositioningInfo>
-											<ActiveSourceList>
-												<ActiveSource Name="Medium_Crowd_Distant" ID="{B055B100-782C-40E3-B9FC-D2FF5995C161}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambience" ID="{B2C9C5A2-B8EC-4629-860A-46736AF53D38}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="268980__paulmessier__room-sound-party" ID="{A68A116A-9246-4448-8D04-927AB3D9E654}" ShortID="1073218524">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="21.0440898282695"/>
+																<Property Name="TrimEnd" Type="Real64" Value="96.698462351387"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>268980__paulmessier__room-sound-party.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="268980__paulmessier__room-sound-party" ID="{A68A116A-9246-4448-8D04-927AB3D9E654}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{BC128C04-6E22-483A-A256-6B56C8206C3A}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="40.5325443786982"/>
+												<Property Name="PanY" Type="Real64" Value="25.585023400936"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 								</BlendContainer>
 								<BlendContainer Name="Amb_LivingRoom" ID="{F636065E-BDCB-483F-BEF1-E0454A903E63}" ShortID="1001065711">
 									<ReferenceList>
@@ -229,6 +244,11 @@
 									<ChildrenList>
 										<Sound Name="Medium_Crowd_Dynamic_Close" ID="{22B23E13-C317-40E6-8621-6E89586FB0A6}" ShortID="98183499">
 											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>19</Value>
+													</ValueList>
+												</Property>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsStreamingEnabled" Type="bool">
 													<ValueList>
@@ -679,13 +699,6 @@
 									</PositioningInfo>
 								</BlendContainer>
 								<BlendContainer Name="Amb_Couloir_Up" ID="{53D5C68F-F681-4F2D-B489-897110CEF5A7}" ShortID="754802396">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-23</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
@@ -695,44 +708,56 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Medium_Crowd_Distant" ID="{036E89A6-56B4-49FC-8BCD-C580C2673A3F}" ShortID="645230562">
+										<RandomSequenceContainer Name="Couloir_Up" ID="{820F6EEB-1757-4E17-AA3B-1C06EB5DE33B}" ShortID="111676558">
 											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="IsStreamingEnabled" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
-												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Ambience" ID="{B2C9C5A2-B8EC-4629-860A-46736AF53D38}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Medium_Crowd_Distant" ID="{78403523-734D-4A21-B921-5F31B00B744A}" ShortID="211680842">
-													<Language>SFX</Language>
-													<AudioFile>Medium_Crowd_Distant.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<PositioningInfo>
-												<Panner Name="" ID="{8CF86601-FDF0-4706-BC59-28797EA15884}">
+												<Sound Name="Amb_couloir_Up" ID="{990CF55E-A15C-4319-B956-00D9631BE2AE}" ShortID="719494373">
 													<PropertyList>
-														<Property Name="PanX" Type="Real64" Value="35.9351988217968"/>
-														<Property Name="PanY" Type="Real64" Value="-5.55111512312578E-17"/>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
-												</Panner>
-											</PositioningInfo>
-											<ActiveSourceList>
-												<ActiveSource Name="Medium_Crowd_Distant" ID="{78403523-734D-4A21-B921-5F31B00B744A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="328452__soundsexciting__party-sounds" ID="{BF03E9AB-9C71-422B-B3CD-70D1C7C510E7}" ShortID="608942167">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="326.705332991849"/>
+																<Property Name="TrimEnd" Type="Real64" Value="638.616462225577"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>328452__soundsexciting__party-sounds.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="328452__soundsexciting__party-sounds" ID="{BF03E9AB-9C71-422B-B3CD-70D1C7C510E7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</BlendContainer>
 							</ChildrenList>
@@ -1792,6 +1817,11 @@
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2013,7 +2043,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>7</Value>
+												<Value>6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

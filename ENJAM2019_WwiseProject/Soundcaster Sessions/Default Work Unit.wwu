@@ -14,12 +14,20 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Amb_General" ID="{3A6A8F97-0EAB-4BDE-AD71-C0F364D4AF3E}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Amb_Downstair" ID="{D23FA168-DAEB-487F-A2E2-1FC0EC62C5EF}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="FX_Couple_Stop" ID="{38453DC5-CD34-49F5-8FF0-8FDB6B9FD425}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
 							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Amb_Couloir" ID="{00469542-E458-40FC-B613-CB116049B296}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="FX_Rot" ID="{3B6FFEE8-56EC-48FE-A04F-ED9A27AFD757}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
@@ -29,6 +37,10 @@
 							<ObjectRef Name="Kiss" ID="{2736E28E-064E-4560-83F0-5F9EAD3818BB}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
 							<Position X="2" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Amb_Couloir_Up" ID="{53D5C68F-F681-4F2D-B489-897110CEF5A7}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+							<Position X="2" Y="2"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -37,7 +49,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_MC_Position" ID="{D2C4C473-BB04-4841-BE5A-271A1282CB4C}"/>
-							<Value>6.2</Value>
+							<Value>6.8</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_SideChain_FX" ID="{01E1EC19-240B-4990-ACFF-B218849E8CFB}"/>

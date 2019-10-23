@@ -21,10 +21,6 @@
 			<ShortName>Bedroom_Tone.wav</ShortName>
 			<Path>SFX\Bedroom_Tone_C42B8C3C.wem</Path>
 		</File>
-		<File Id="211680842" Language="SFX">
-			<ShortName>Medium_Crowd_Distant.wav</ShortName>
-			<Path>SFX\Medium_Crowd_Distant_C42B8C3C.wem</Path>
-		</File>
 		<File Id="562317555" Language="SFX">
 			<ShortName>Music Export.wav</ShortName>
 			<Path>SFX\Music Export_C42B8C3C.wem</Path>
@@ -32,6 +28,10 @@
 		<File Id="575849466" Language="SFX">
 			<ShortName>Medium_Crowd_Dynamic_Close.wav</ShortName>
 			<Path>SFX\Medium_Crowd_Dynamic_Close_C42B8C3C.wem</Path>
+		</File>
+		<File Id="608942167" Language="SFX">
+			<ShortName>328452__soundsexciting__party-sounds.wav</ShortName>
+			<Path>SFX\328452__soundsexciting__party-sounds_F878C41A.wem</Path>
 		</File>
 		<File Id="665859498" Language="SFX">
 			<ShortName>Fridge.wav</ShortName>
@@ -44,6 +44,10 @@
 		<File Id="1044520065" Language="SFX">
 			<ShortName>Bathroom_Water.wav</ShortName>
 			<Path>SFX\Bathroom_Water_C42B8C3C.wem</Path>
+		</File>
+		<File Id="1073218524" Language="SFX">
+			<ShortName>268980__paulmessier__room-sound-party.wav</ShortName>
+			<Path>SFX\268980__paulmessier__room-sound-party_809D0055.wem</Path>
 		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
@@ -77,12 +81,13 @@
 				<File Id="91340931"/>
 				<File Id="153558715"/>
 				<File Id="195299223"/>
-				<File Id="211680842"/>
 				<File Id="562317555"/>
 				<File Id="575849466"/>
+				<File Id="608942167"/>
 				<File Id="665859498"/>
 				<File Id="830138180"/>
 				<File Id="1044520065"/>
+				<File Id="1073218524"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
 				<File Id="9520817" Language="SFX">

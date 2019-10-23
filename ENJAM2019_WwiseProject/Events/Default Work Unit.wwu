@@ -408,7 +408,18 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="End_Game" ID="{2C046104-1F5B-4E48-A843-3CE6C5F53D6E}"/>
+				<Event Name="End_Game" ID="{2C046104-1F5B-4E48-A843-3CE6C5F53D6E}">
+					<ChildrenList>
+						<Action Name="" ID="{DFB78A1D-F312-4B99-BFF2-D38A52C86381}" ShortID="682640258">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
