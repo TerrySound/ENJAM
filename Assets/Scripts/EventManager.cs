@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EventManager : MonoBehaviour
 {
@@ -11,7 +12,9 @@ public class EventManager : MonoBehaviour
     public static event PhoneInteraction OnPhone;
     public delegate void TeleportInteraction();
     public static event TeleportInteraction OnTP;
+    public static event Interaction OnEnd;
     public static bool canDance = true;
+    public static bool end = false;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +41,16 @@ public class EventManager : MonoBehaviour
                     OnInteract();
                 }
             }            
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            if (end)
+            {
+                if(OnEnd != null)
+                {
+                    OnEnd();
+                }
+            }
         }
     }
 

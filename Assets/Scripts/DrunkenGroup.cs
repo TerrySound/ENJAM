@@ -41,7 +41,8 @@ public class DrunkenGroup : PeopleGroup
         blockingCollider.enabled = true;
         Destroy(blockingCollider);
         Destroy(this.GetComponent<BoxCollider2D>());
-        this.transform.position += new Vector3(0, 0.05f, 0.1f);
+        this.transform.position += new Vector3(0, 0.03f, 0.1f);
+        this.phoneHour.text = "20h21";
         AkSoundEngine.PostEvent("FX_Rot", this.gameObject);
 
         if (!used)
