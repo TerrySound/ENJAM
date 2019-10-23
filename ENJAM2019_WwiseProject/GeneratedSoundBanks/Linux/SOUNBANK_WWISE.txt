@@ -30,6 +30,12 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1957673199	RTPC_Clock			\Default Work Unit\RTPC_Clock	
 	3715171847	RTPC_MC_Position			\Default Work Unit\RTPC_MC_Position	
 
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	1071169543	Modulator LFO (Custom)				
+
+Modulator Time	ID	Name			Wwise Object Path	Notes
+	767377022	Modulator Time (Custom)				
+
 Effect plug-ins	ID	Name	Type				Notes
 	471826248	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
 	1060585184	Wwise_Meter_(Custom)	Wwise Meter			
@@ -58,6 +64,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	328297850	PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_Kitchen\Kitchen_Object_01\PM_KF_04 Pot, Panpot, Lid, Lift, Set Down, Open, Close		49808
 	350250746	Audio 1_02-11	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\Audio 1_02-11_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Hey\Audio 1_02-11		13863
 	351041937	Kiss_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\428220__leoctiurs__111-kiss_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Kiss\Kisses_02\Kiss_03		754539
+	366644197	Clock_Design_END	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\Clock-Design_87E8DC8E.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\Clock_Design_END		275248
 	366933411	PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_Kitchen\Kitchen_Object_01\PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close		45107
 	418994039	Phone_Ring	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\Phone_Ring_B2125C6D.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Phone_Ring\Phone_Ring		80092
 	429146205	Kiss_02	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\239907__woodwolf__kisses_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Kiss\Kisses_02\Kiss_02		140147
@@ -74,6 +81,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	536595270	MC_Wood_FS_05	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\MC_Wood_FS\MC_Wood_FS_05_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_05		33328
 	557488198	Audio 1_02-56	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\Audio 1_02-56_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO\Hey\Audio 1_02-56		15080
 	561983247	MC_Floor_FS_04	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\MC_Floor_FS_04_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_04		11759
+	591172786	Clock_End	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\Clock_F5468CC7.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\Clock_End\Clock_End		602189
 	616251333	MC_Wood_FS_11	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\MC_Wood_FS\MC_Wood_FS_11_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Wood_FS\MC_Wood_FS_11		33183
 	631167502	Drinking_03	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\344581__vcspran__drinking-icetea-can_BD30FD1F.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Man_Drink\Man_Drinking\Drinking_03		40271
 	664329015	MC_Floor_FS_09	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\MC_Floor_FS_09_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC_Foosteps\MC_Floor_FS\MC_Floor_FS_09		11652
@@ -96,10 +104,10 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	153558715	Huge_Crowd	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\Huge_Crowd_C42B8C3C.wem	153558715.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_LivingRoom\Huge_Crowd	
 	195299223	Bedroom_Tone	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\Bedroom_Tone_C42B8C3C.wem	195299223.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_BedRoom\Bedroom_Tone	
 	252659156	Music_Intro	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\Music Export_C42B8C3C.wem	252659156.wem	\Interactive Music Hierarchy\Default Work Unit\Music\Music_Intro\Music_Intro	
-	575849466	Medium_Crowd_Dynamic_Close	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\Medium_Crowd_Dynamic_Close_C42B8C3C.wem	575849466.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_Kitchen\Medium_Crowd_Dynamic_Close	
-	608942167	Amb_couloir_Up	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\328452__soundsexciting__party-sounds_0A41E81E.wem	608942167.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_Couloir_Up\Couloir_Up\Amb_couloir_Up	
+	575849466	Medium_Crowd_Dynamic_Close	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\Medium_Crowd_Dynamic_Close_841247FC.wem	575849466.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_Kitchen\Kitchen_Amb\Medium_Crowd_Dynamic_Close	
+	608942167	Amb_couloir_Up	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\328452__soundsexciting__party-sounds_F878C41A.wem	608942167.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_Couloir_Up\Couloir_Up\Amb_couloir_Up	
 	665859498	Fridge	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\Fridge_C42B8C3C.wem	665859498.wem	\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Fridge\Fridge	
 	830138180	Clock	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\Clock_C42B8C3C.wem	830138180.wem	\Actor-Mixer Hierarchy\Default Work Unit\FX\FX_Clock\Clock	
 	1044520065	Bathroom_Water	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\Bathroom_Water_C42B8C3C.wem	1044520065.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_BathRoom\Bathroom_Water	
-	1073218524	Couloir_Sound	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\268980__paulmessier__room-sound-party_2E997AB4.wem	1073218524.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_Couloir\Amb_Loop\Couloir_Sound	
+	1073218524	Couloir_Sound	C:\Users\ELE5d5ab19ee5329\Documents\ENJAM2019\ENJAM\ENJAM2019_WwiseProject\.cache\Linux\SFX\268980__paulmessier__room-sound-party_809D0055.wem	1073218524.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Amb_General\Amb_Couloir\Amb_Loop\Couloir_Sound	
 

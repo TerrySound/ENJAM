@@ -41,6 +41,10 @@
 							<ObjectRef Name="Amb_Couloir_Up" ID="{53D5C68F-F681-4F2D-B489-897110CEF5A7}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
 							<Position X="2" Y="2"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Kitchen_Amb" ID="{5080248F-2B7D-4468-ACAB-992154BD57BA}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -49,7 +53,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_MC_Position" ID="{D2C4C473-BB04-4841-BE5A-271A1282CB4C}"/>
-							<Value>6.8</Value>
+							<Value>13.3262626262626</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_SideChain_FX" ID="{01E1EC19-240B-4990-ACFF-B218849E8CFB}"/>

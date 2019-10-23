@@ -27,7 +27,7 @@
 		</File>
 		<File Id="575849466" Language="SFX">
 			<ShortName>Medium_Crowd_Dynamic_Close.wav</ShortName>
-			<Path>SFX\Medium_Crowd_Dynamic_Close_C42B8C3C.wem</Path>
+			<Path>SFX\Medium_Crowd_Dynamic_Close_841247FC.wem</Path>
 		</File>
 		<File Id="608942167" Language="SFX">
 			<ShortName>328452__soundsexciting__party-sounds.wav</ShortName>
@@ -58,8 +58,8 @@
 			<Path>SOUNBANK_WWISE.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2060891257" Name="Amb_Downstair" ObjectPath="\Events\Default Work Unit\Amb_Downstair" DurationType="Infinite"/>
-				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="3.000000" DurationType="Infinite"/>
-				<Event Id="3717848113" Name="End_Game" ObjectPath="\Events\Default Work Unit\End_Game" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1114231687" Name="Amb_Music" ObjectPath="\Events\Default Work Unit\Amb_Music" MaxAttenuation="5.000000" DurationType="Infinite"/>
+				<Event Id="3717848113" Name="End_Game" ObjectPath="\Events\Default Work Unit\End_Game" DurationType="OneShot" DurationMin="7.417292" DurationMax="7.417292"/>
 				<Event Id="1294859063" Name="FX_Aquarium" ObjectPath="\Events\Default Work Unit\FX_Aquarium" MaxAttenuation="2.000000" DurationType="Infinite"/>
 				<Event Id="3523512105" Name="FX_Couple_Stop" ObjectPath="\Events\Default Work Unit\FX_Couple_Stop" DurationType="OneShot" DurationMin="1.464704" DurationMax="1.464704"/>
 				<Event Id="2442113491" Name="FX_FeedBack" ObjectPath="\Events\Default Work Unit\FX_FeedBack" DurationType="OneShot" DurationMin="0.732477" DurationMax="0.732477"/>
@@ -178,6 +178,10 @@
 					<ShortName>Audio 1_02-11.wav</ShortName>
 					<Path>SFX\Audio 1_02-11_66C02B12.wem</Path>
 				</File>
+				<File Id="366644197" Language="SFX">
+					<ShortName>Clock-Design.wav</ShortName>
+					<Path>SFX\Clock-Design_87E8DC8E.wem</Path>
+				</File>
 				<File Id="366933411" Language="SFX">
 					<ShortName>PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close.wav</ShortName>
 					<Path>SFX\PM_KF_06 Pot, Panpot, Lid, Lift, Set Down, Open, Close_66C02B12.wem</Path>
@@ -245,6 +249,10 @@
 				<File Id="561983247" Language="SFX">
 					<ShortName>MC_Floor_FS_04.wav</ShortName>
 					<Path>SFX\MC_Floor_FS_04_66C02B12.wem</Path>
+				</File>
+				<File Id="591172786" Language="SFX">
+					<ShortName>Clock.wav</ShortName>
+					<Path>SFX\Clock_F5468CC7.wem</Path>
 				</File>
 				<File Id="616251333" Language="SFX">
 					<ShortName>MC_Wood_FS\MC_Wood_FS_11.wav</ShortName>

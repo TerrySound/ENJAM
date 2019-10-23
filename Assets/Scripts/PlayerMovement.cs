@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (phoneOut && Input.GetKeyDown(KeyCode.E))    //Phone Ring Sound
+        if (phoneOut && Input.GetKeyDown(KeyCode.E) && !dancing)    //Phone Ring Sound
         {
                 Ring();
         }
@@ -53,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
             AkSoundEngine.SetRTPCValue("RTPC_MC_Position", this.transform.position.x);
             this.GetComponent<Animator>().SetFloat("actualSpeed", actualSpeed);
 
-            if (Input.GetKeyDown(KeyCode.R) && actualSpeed == 0f)
+            if (Input.GetKeyDown(KeyCode.R) && actualSpeed == 0f && !dancing)
             {
                 this.switchPhone();
                 AkSoundEngine.PostEvent("FX_PhoneClock", this.gameObject);
@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            if (Input.GetKeyDown(KeyCode.R))
+            if (Input.GetKeyDown(KeyCode.R) && !dancing)
             {
                 this.switchPhone();
                 AkSoundEngine.PostEvent("FX_Feedback", this.gameObject);
@@ -90,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
         if (phoneOut)
         {
             this.GetComponent<Animator>().SetBool("hasPhone", false);
-            EventManager.OnPhone += Ring;
+           // EventManager.OnPhone += Ring;
             GameObject.Find("E Button Ring").GetComponent<SpriteRenderer>().enabled = false;
             GameObject.Find("Ring").GetComponent<MeshRenderer>().enabled = false;
             GameObject.Find("Turn off").GetComponent<MeshRenderer>().enabled = false;

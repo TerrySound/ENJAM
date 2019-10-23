@@ -131,11 +131,13 @@
 											<ChildrenList>
 												<Sound Name="Couloir_Sound" ID="{2A08197D-1951-4781-860C-1C677B70816E}" ShortID="493079775">
 													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 														<Property Name="IsStreamingEnabled" Type="bool">
 															<ValueList>
 																<Value>True</Value>
 															</ValueList>
 														</Property>
+														<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -184,6 +186,7 @@
 									<ChildrenList>
 										<Sound Name="Huge_Crowd" ID="{17D6F892-101B-42A2-8B4A-32B37C818899}" ShortID="974694453">
 											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsStreamingEnabled" Type="bool">
 													<ValueList>
@@ -242,44 +245,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Medium_Crowd_Dynamic_Close" ID="{22B23E13-C317-40E6-8621-6E89586FB0A6}" ShortID="98183499">
-											<PropertyList>
-												<Property Name="Highpass" Type="int16">
-													<ValueList>
-														<Value>19</Value>
-													</ValueList>
-												</Property>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="IsStreamingEnabled" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-4</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Ambience" ID="{B2C9C5A2-B8EC-4629-860A-46736AF53D38}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Medium_Crowd_Dynamic_Close" ID="{4F5EC412-6435-4EBF-87C6-07C973D158CC}" ShortID="575849466">
-													<Language>SFX</Language>
-													<AudioFile>Medium_Crowd_Dynamic_Close.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Medium_Crowd_Dynamic_Close" ID="{4F5EC412-6435-4EBF-87C6-07C973D158CC}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<RandomSequenceContainer Name="Kitchen_Object_01" ID="{5A5EC2C2-7DFF-4FB9-B415-04F6B88CB201}" ShortID="237888584">
 											<PropertyList>
 												<Property Name="3DPosition" Type="int16" Value="1"/>
@@ -545,6 +510,76 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Kitchen_Amb" ID="{5080248F-2B7D-4468-ACAB-992154BD57BA}" ShortID="854135902">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Medium_Crowd_Dynamic_Close" ID="{22B23E13-C317-40E6-8621-6E89586FB0A6}" ShortID="98183499">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>19</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambience" ID="{B2C9C5A2-B8EC-4629-860A-46736AF53D38}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Reverb_LivingRoom" ID="{D61F5E6B-CED2-4FF5-9841-FE56A4074F20}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Medium_Crowd_Dynamic_Close" ID="{4F5EC412-6435-4EBF-87C6-07C973D158CC}" ShortID="575849466">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="7.39309213777982"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="7.39309213777982"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Medium_Crowd_Dynamic_Close.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Medium_Crowd_Dynamic_Close" ID="{4F5EC412-6435-4EBF-87C6-07C973D158CC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</BlendContainer>
 								<BlendContainer Name="Amb_BedRoom" ID="{89822636-A87D-4BB7-9DC4-F74DB09AECE6}" ShortID="645154754">
@@ -566,7 +601,6 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-18</Value>
@@ -618,6 +652,7 @@
 									<ChildrenList>
 										<Sound Name="Bathroom_Fan" ID="{3A5E0FF8-3FFC-4C2E-9417-A118A86A0D06}" ShortID="731504605">
 											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsStreamingEnabled" Type="bool">
 													<ValueList>
@@ -650,6 +685,7 @@
 										</Sound>
 										<Sound Name="Bathroom_Water" ID="{9F9841EB-1B87-45DD-9C90-DB72EB535672}" ShortID="1068374588">
 											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsStreamingEnabled" Type="bool">
 													<ValueList>
@@ -727,11 +763,13 @@
 											<ChildrenList>
 												<Sound Name="Amb_couloir_Up" ID="{990CF55E-A15C-4319-B956-00D9631BE2AE}" ShortID="719494373">
 													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 														<Property Name="IsStreamingEnabled" Type="bool">
 															<ValueList>
 																<Value>True</Value>
 															</ValueList>
 														</Property>
+														<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -823,7 +861,7 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>1.62926371909183</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>8.88058416302087</RightEdgePos>
+												<RightEdgePos>8.63272875837098</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
@@ -832,14 +870,14 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>6.80309272195123</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>9.84185203276614</RightEdgePos>
+												<RightEdgePos>10.1271275582644</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="Amb_BedRoom" ID="{89822636-A87D-4BB7-9DC4-F74DB09AECE6}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>9.00517741172098</LeftEdgePos>
+												<LeftEdgePos>9.08563973942562</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
 												<RightEdgePos>11.7732292881468</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
@@ -1159,27 +1197,6 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<Sound Name="Test" ID="{F5353D1E-B9CA-4CB0-AC9F-8F44ABD2028B}" ShortID="1020627853">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<SourcePlugin Name="Wwise Sine" ID="{BC994547-8E95-4D89-818D-60809FF3BFA2}" ShortID="255012609" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
-									<PropertyList>
-										<Property Name="SineFrequency" Type="Real32" Value="778"/>
-									</PropertyList>
-									<Language>SFX</Language>
-								</SourcePlugin>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Wwise Sine" ID="{BC994547-8E95-4D89-818D-60809FF3BFA2}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="FX" ID="{21E8C908-025C-4DEA-8FD5-A16BAE71BC8D}" ShortID="154161452">
@@ -2489,6 +2506,210 @@
 									</PropertyList>
 								</Panner>
 							</PositioningInfo>
+						</BlendContainer>
+						<Sound Name="Clock_Design_END" ID="{D2771524-F29C-49BC-9A05-C940CFAF30E6}" ShortID="344590741">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="FX" ID="{AD89EE91-B149-4A16-934E-A919914BE6AB}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clock-Design" ID="{E4982FBB-94E0-48B5-B52A-7E7DDFE81D12}" ShortID="366644197">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.62625329815303"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="13.2784940671005"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Clock-Design.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clock-Design" ID="{E4982FBB-94E0-48B5-B52A-7E7DDFE81D12}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<BlendContainer Name="Clock_End" ID="{D9AD4804-2EB6-471A-99AD-45B8A03465A1}" ShortID="153914416">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Clock_End" ID="{2E2473DF-D976-4C46-B6FA-6026C4B07E48}" ShortID="67869474">
+									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{63D78E37-304C-4378-B20B-A8F0ED512D5C}" ShortID="40822603">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorLfo Name="Modulator LFO (Custom)" ID="{8F5817FD-96C1-4B58-8BD6-3D0250619B5D}" ShortID="1071169543">
+																	<PropertyList>
+																		<Property Name="LfoFrequency" Type="Real64" Value="0.42"/>
+																	</PropertyList>
+																</ModulatorLfo>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{BEE33357-D7EB-465D-9773-5721CE265192}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>17</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>680</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{72410DBE-6E92-47F8-B736-C9BC2BB27FA4}" ShortID="439522363">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorTime Name="Modulator Time (Custom)" ID="{0CF66B4B-8402-461B-8226-731F2BAC2F32}" ShortID="767377022">
+																	<PropertyList>
+																		<Property Name="TimeModDuration" Type="Real64" Value="8"/>
+																	</PropertyList>
+																</ModulatorTime>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{611041DC-5025-4FA5-8317-86BF7EB9E52A}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0.95693</XPos>
+																<YPos>2076</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>2.28708</XPos>
+																<YPos>1463</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>2.60287</XPos>
+																<YPos>36</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>3.19617</XPos>
+																<YPos>-1804</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>4.94737</XPos>
+																<YPos>-2418</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>5.92344</XPos>
+																<YPos>-3507</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>8</XPos>
+																<YPos>-4800</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Special" ID="{F2B5E5E3-4285-4A2E-9C8A-248FC429BE80}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb_Clock" ID="{1E8AFE93-05AC-4741-8058-773B33ACAC79}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Clock" ID="{3CC71984-C0E8-40EA-A5A6-81179D556D0B}" ShortID="591172786">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="10.9857331571995"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Clock.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Clock" ID="{3CC71984-C0E8-40EA-A5A6-81179D556D0B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>

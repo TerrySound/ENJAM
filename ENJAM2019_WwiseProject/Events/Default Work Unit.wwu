@@ -213,7 +213,7 @@
 					<ChildrenList>
 						<Action Name="" ID="{B4D3635B-0DB9-4272-9E34-4F8A1E348A9A}" ShortID="390466717">
 							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -410,13 +410,57 @@
 				</Event>
 				<Event Name="End_Game" ID="{2C046104-1F5B-4E48-A843-3CE6C5F53D6E}">
 					<ChildrenList>
-						<Action Name="" ID="{DFB78A1D-F312-4B99-BFF2-D38A52C86381}" ShortID="682640258">
+						<Action Name="" ID="{BAE67637-C31D-4E12-940D-7A4168DB4D7A}" ShortID="948586856">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="3"/>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList/>
+							<ChildrenList>
+								<EventActionException Name="" ID="{E9CB24D1-BBA8-45EF-96DF-8F30E6D41E94}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Clock_Design_END" ID="{D2771524-F29C-49BC-9A05-C940CFAF30E6}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+								<EventActionException Name="" ID="{FDB820AC-FCA6-40C0-92B7-8C841AAC2D76}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Clock_End" ID="{D9AD4804-2EB6-471A-99AD-45B8A03465A1}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+								<EventActionException Name="" ID="{8BE02B79-A9C4-431D-AAC5-F401E3455BC4}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Clock_End" ID="{2E2473DF-D976-4C46-B6FA-6026C4B07E48}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+								<EventActionException Name="" ID="{E3AFF3E0-FE78-4966-9BB3-265042F1608D}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Clock_Design_END" ID="{D2771524-F29C-49BC-9A05-C940CFAF30E6}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+							</ChildrenList>
+						</Action>
+						<Action Name="" ID="{333DA125-89B8-4C17-93D5-9A6FE7E8D3BA}" ShortID="594300638">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clock_Design_END" ID="{D2771524-F29C-49BC-9A05-C940CFAF30E6}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0F31B701-C1D8-421E-8171-84738A63AC23}" ShortID="243425380">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clock_End" ID="{D9AD4804-2EB6-471A-99AD-45B8A03465A1}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
