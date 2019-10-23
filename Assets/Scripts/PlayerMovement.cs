@@ -118,6 +118,7 @@ public class PlayerMovement : MonoBehaviour
             GameObject.Find("Phone").GetComponent<MeshRenderer>().enabled = false;
             GameObject.Find("E Button Interact").GetComponent<SpriteRenderer>().enabled = false;
             GameObject.Find("NoInteract").GetComponent<MeshRenderer>().enabled = false;
+            GameObject.Find("Interact").GetComponent<MeshRenderer>().enabled = false;
             phoneOut = true;
         }
     }
