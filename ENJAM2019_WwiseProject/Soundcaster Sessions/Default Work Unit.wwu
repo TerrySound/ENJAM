@@ -45,6 +45,10 @@
 							<ObjectRef Name="Kitchen_Amb" ID="{5080248F-2B7D-4468-ACAB-992154BD57BA}" WorkUnitID="{C01F9E01-2ACE-4192-8D0F-1461EC357C16}"/>
 							<Position X="3" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="End_Game" ID="{2C046104-1F5B-4E48-A843-3CE6C5F53D6E}" WorkUnitID="{70CD6D29-D7BE-46CD-98E1-DE4AB13EFED1}"/>
+							<Position X="3" Y="2"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
