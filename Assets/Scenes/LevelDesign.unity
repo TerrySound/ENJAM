@@ -18426,7 +18426,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 20h12
+  m_text: 20:12
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a941c8e50d7965f4e8428eee46ebbf50, type: 2}
   m_sharedMaterial: {fileID: 4289458310296215990, guid: a941c8e50d7965f4e8428eee46ebbf50,
@@ -18499,7 +18499,7 @@ MonoBehaviour:
     characterCount: 5
     spriteCount: 0
     spaceCount: 0
-    wordCount: 1
+    wordCount: 2
     linkCount: 0
     lineCount: 1
     pageCount: 1

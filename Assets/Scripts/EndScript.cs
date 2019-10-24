@@ -50,7 +50,7 @@ public class EndScript : MonoBehaviour
             }
             int hour = Mathf.RoundToInt(Random.Range(0f, 23f));
             int min = Mathf.RoundToInt(Random.Range(0f, 59f));
-            this.phoneHour.text = hour + "h" + min;
+            this.phoneHour.text = hour + ":" + min;
         }
         
     }
