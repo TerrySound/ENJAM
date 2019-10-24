@@ -68,10 +68,5 @@ public class EndScript : MonoBehaviour
             AkSoundEngine.PostEvent("End_Game", this.gameObject);
             DoOnce = false;
         }
-       
-        GameObject.Find("E Button Ring").GetComponent<SpriteRenderer>().enabled = false;
-        GameObject.Find("Ring").GetComponent<MeshRenderer>().enabled = false;
-        GameObject.Find("Turn off").GetComponent<MeshRenderer>().enabled = false;
-        GameObject.Find("R Button").GetComponent<SpriteRenderer>().enabled = false;
     }
 }
