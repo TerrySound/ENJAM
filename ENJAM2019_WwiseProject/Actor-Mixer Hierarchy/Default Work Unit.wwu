@@ -2517,6 +2517,7 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
@@ -2533,7 +2534,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="FX" ID="{AD89EE91-B149-4A16-934E-A919914BE6AB}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+									<ObjectRef Name="End_Game" ID="{6E890B64-D55B-4654-8AED-56F5832DFB74}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2553,6 +2554,7 @@
 						</Sound>
 						<BlendContainer Name="Clock_End" ID="{D9AD4804-2EB6-471A-99AD-45B8A03465A1}" ShortID="153914416">
 							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
@@ -2564,7 +2566,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{731D4FB7-04AE-4DF7-829B-166CFF75E0E3}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
+									<ObjectRef Name="End_Game" ID="{6E890B64-D55B-4654-8AED-56F5832DFB74}" WorkUnitID="{64F67387-49CF-40EF-991E-297458D41079}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2656,13 +2658,13 @@
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>3.19617</XPos>
-																<YPos>-1804</YPos>
+																<XPos>3.24402</XPos>
+																<YPos>-1124</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>4.94737</XPos>
-																<YPos>-2418</YPos>
+																<XPos>4.73685</XPos>
+																<YPos>-2010</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>

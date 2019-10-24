@@ -14,6 +14,7 @@ public class EndScript : MonoBehaviour
     public TextMeshPro phoneHour;
     private bool end = false;
     private float creditsTimer = 2f;
+    bool DoOnce = true;
     
 
     // Start is called before the first frame update
@@ -63,7 +64,11 @@ public class EndScript : MonoBehaviour
     void End()
     {
         end = true;
-        AkSoundEngine.PostEvent("End_Game", this.gameObject);
+        if (DoOnce == true){
+            AkSoundEngine.PostEvent("End_Game", this.gameObject);
+            DoOnce = false;
+        }
+       
         GameObject.Find("E Button Ring").GetComponent<SpriteRenderer>().enabled = false;
         GameObject.Find("Ring").GetComponent<MeshRenderer>().enabled = false;
         GameObject.Find("Turn off").GetComponent<MeshRenderer>().enabled = false;

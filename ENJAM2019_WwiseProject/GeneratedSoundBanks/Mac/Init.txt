@@ -16,6 +16,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1685527061	MC			\Default Work Unit\Master Audio Bus\MC	
 	1802970371	FX			\Default Work Unit\Master Audio Bus\FX	
 	3064974266	Special			\Default Work Unit\Master Audio Bus\Special	
+	3717848113	End_Game			\Default Work Unit\Master Audio Bus\End_Game	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 

@@ -523,6 +523,15 @@
 								</Property>
 							</PropertyList>
 						</Bus>
+						<Bus Name="End_Game" ID="{6E890B64-D55B-4654-8AED-56F5832DFB74}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>12546</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
