@@ -10,7 +10,7 @@ public class EndScript : MonoBehaviour
     public GameObject fade;
     public float timer = 2f;
     private bool once=false;
-    public TextMeshPro credits;
+    public Canvas credits;
     public TextMeshPro phoneHour;
     private bool end = false;
     private float creditsTimer = 2f;
@@ -19,7 +19,7 @@ public class EndScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        credits.alpha = 0;
+        credits.enabled = false;
     }
 
     // Update is called once per frame
@@ -45,11 +45,6 @@ public class EndScript : MonoBehaviour
                 if(creditsTimer < 0)
                 {
                     credits.enabled = true;
-                    if(credits.alpha < 255)
-                    {
-                        credits.alpha = +1;
-                    }
-                    
                 }
             }
             int hour = Mathf.RoundToInt(Random.Range(0f, 23f));
@@ -69,5 +64,9 @@ public class EndScript : MonoBehaviour
     {
         end = true;
         AkSoundEngine.PostEvent("End_Game", this.gameObject);
+        GameObject.Find("E Button Ring").GetComponent<SpriteRenderer>().enabled = false;
+        GameObject.Find("Ring").GetComponent<MeshRenderer>().enabled = false;
+        GameObject.Find("Turn off").GetComponent<MeshRenderer>().enabled = false;
+        GameObject.Find("R Button").GetComponent<SpriteRenderer>().enabled = false;
     }
 }
