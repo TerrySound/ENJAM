@@ -45,6 +45,7 @@ public class DoorGroup : PeopleGroup
             Destroy(blockingCollider);
             //this.transform.position += new Vector3(0, 0.05f, 0.1f);
             AkSoundEngine.PostEvent("FX_Couple_Stop", this.gameObject);
+            this.phoneHour.text = "20:13";
             porte.GetComponent<Animator>().SetTrigger("porteOpen");
             DoOnce = true;
 

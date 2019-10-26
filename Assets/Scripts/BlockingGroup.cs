@@ -40,7 +40,7 @@ public class BlockingGroup : PeopleGroup
         Destroy(blockingCollider);
         //this.transform.position += new Vector3(0, 0.05f, 0.1f);
         Camera.main.GetComponent<CameraMovement>().followCharacter();
-        this.phoneHour.text = "20:13";
+        this.phoneHour.text = "20:12";
         this.GetComponent<Animator>().SetTrigger("talkToGeraldine");
 
         AkSoundEngine.PostEvent("VO_Hey", this.gameObject);

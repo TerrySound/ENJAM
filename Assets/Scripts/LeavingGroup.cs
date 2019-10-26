@@ -44,7 +44,7 @@ public class LeavingGroup : PeopleGroup
     public void Leave()
     {
         EventManager.canDance = false;
-        this.phoneHour.text = "20:17";
+        this.phoneHour.text = "20:13";
         Debug.Log("To " + Mathf.Infinity + " and beyond");
         Destroy(blockingCollider);
         Destroy(this.GetComponent<BoxCollider2D>());
